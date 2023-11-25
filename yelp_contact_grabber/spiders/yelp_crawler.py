@@ -1,11 +1,16 @@
 import scrapy
 import logging
 from pathlib import Path
+import json
 
 # Define ANSI escape codes for blue text
 BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
 
+all_links = []
+# Get all links
+# response.css(
+#     "div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)").getall()
 
 class YelpCrawlerSpider(scrapy.Spider):
     name = "yelp-crawler"
@@ -54,37 +59,24 @@ class YelpCrawlerSpider(scrapy.Spider):
         except Exception as e:
             logging.error(f"Error in start_requests: {str(e)}")
 
+
     def parse(self, response):
-        try:
-            # Start the HTML string
-            html_content = "<html><body><h1>Business Listings</h1><ul>"
+        # Extract the href attribute of each link
+        links = response.css('div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)').getall()
 
-            # Loop through each business listing
-            for business in response.css('div.arrange__09f24__LDfbs'):
-                # Extract the required elements
-                name = business.css('div.businessName__09f24__EYSZE h3 a::text').get()
-                image_url = business.css('img.css-xlzvdl::attr(src)').get()
-                rating = business.css('div.css-14g69b3::attr(aria-label)').get()
-                reviews = business.css('span.css-chan6m::text').get()
+        # Append links to the global all_links variable
+        all_links.extend(links)
 
-                # Build the HTML content for each listing
-                html_content += f"<li><h2>{name}</h2><img src='{image_url}'><p>Rating: {rating}</p><p>Reviews: {reviews}</p></li>"
+        # Generate full Yelp URLs from relative links
+        full_urls = [self.generate_yelp_url(link) for link in links]
 
-            # End the HTML string
-            html_content += "</ul></body></html>"
+        # Output the links to a JSON file
+        with open('yelp_links.json', 'w') as json_file:
+            json.dump({'links': full_urls}, json_file, indent=4)
 
-            # Write the HTML content to a file
-            page = response.url.split("/")[-2]
-            filename = f"yelp-{page}.html"
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(html_content)
+        for url in full_urls:
+            print(url)
 
-            self.log(f'Saved file {filename}')
-
-            # Follow the next page link, if it exists
-            next_page = response.css('li.next a::attr(href)').get()
-            if next_page is not None:
-                yield response.follow(next_page, self.parse)
-
-        except Exception as e:
-            logging.error(f"Error in parse: {str(e)}")
+    def generate_yelp_url(self, path):
+        base_url = "https://www.yelp.com"
+        return base_url + path
