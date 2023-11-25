@@ -6,6 +6,7 @@ from pathlib import Path
 BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
 
+
 class YelpCrawlerSpider(scrapy.Spider):
     name = "yelp-crawler"
     allowed_domains = ["yelp.com"]
@@ -13,6 +14,8 @@ class YelpCrawlerSpider(scrapy.Spider):
 
     custom_settings = {
         "LOG_LEVEL": "INFO",  # Set the log level to INFO
+        'ROBOTSTXT_OBEY': False,
+
     }
 
     def __init__(self, *args, **kwargs):
@@ -36,12 +39,13 @@ class YelpCrawlerSpider(scrapy.Spider):
         city = "Denver"
         zip_code = "80020"
         state = "co"
-        search_term =  "fitness"
+        search_term = "fitness"
         try:
             # Check if all required variables are not None
             if all([city, zip_code, search_term, state]):
                 # Construct the URL with all variables and page number
-                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={search_term.replace(' ', '+')}&start={self.page * 10}"
+                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={
+                    search_term.replace(' ', '+')}&start={self.page * 10}"
                 # Print the URL in blue text
                 print(f"{BLUE_TEXT}{url}{END_COLOR}")
                 yield scrapy.Request(url, self.parse)
@@ -52,19 +56,35 @@ class YelpCrawlerSpider(scrapy.Spider):
 
     def parse(self, response):
         try:
-            # Process the HTML content of the page here
-            html_content = response.body.decode(response.encoding)
+            # Start the HTML string
+            html_content = "<html><body><h1>Business Listings</h1><ul>"
 
-            # Save the HTML content to a file
+            # Loop through each business listing
+            for business in response.css('div.arrange__09f24__LDfbs'):
+                # Extract the required elements
+                name = business.css('div.businessName__09f24__EYSZE h3 a::text').get()
+                image_url = business.css('img.css-xlzvdl::attr(src)').get()
+                rating = business.css('div.css-14g69b3::attr(aria-label)').get()
+                reviews = business.css('span.css-chan6m::text').get()
+
+                # Build the HTML content for each listing
+                html_content += f"<li><h2>{name}</h2><img src='{image_url}'><p>Rating: {rating}</p><p>Reviews: {reviews}</p></li>"
+
+            # End the HTML string
+            html_content += "</ul></body></html>"
+
+            # Write the HTML content to a file
             page = response.url.split("/")[-2]
-            filename = f"yelp-{page}.html"  # Change the filename format as needed
-            with open(filename, "w", encoding="utf-8") as file:
-                file.write(html_content)
+            filename = f"yelp-{page}.html"
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(html_content)
 
-            self.log(f"Saved file {filename}")
+            self.log(f'Saved file {filename}')
 
-            next_page = response.css("li.next a::attr(href)").get()
+            # Follow the next page link, if it exists
+            next_page = response.css('li.next a::attr(href)').get()
             if next_page is not None:
                 yield response.follow(next_page, self.parse)
+
         except Exception as e:
             logging.error(f"Error in parse: {str(e)}")
