@@ -62,7 +62,7 @@ class YelpCrawlerSpider(scrapy.Spider):
 
     def parse(self, response):
         # Extract the href attribute of each link
-        links = response.css('div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)').getall()
+        links = response.css('[class*="businessName"] a::attr(href)').getall()
 
         # Append links to the global all_links variable
         all_links.extend(links)
