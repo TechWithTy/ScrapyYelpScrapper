@@ -9,6 +9,8 @@ from urllib.parse import urlparse, parse_qs, urlunparse
 BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
 
+num_of_pages = 0
+max_pages_to_visit = 10
 all_links = []
 half_all_links = []
 # Get all links
@@ -31,7 +33,11 @@ class YelpCrawlerSpider(scrapy.Spider):
         super(YelpCrawlerSpider, self).__init__(*args, **kwargs)
         self.data_list = []
 
-        self.temp_links = []  # Temporary list to store links from each page
+        self.temp_links = []
+        self.temp_links = []
+       
+        self.num_pages_visited = 0
+        self.max_pages_to_visit = max_pages_to_visit  # Temporary list to store links from each page
 
         self.search_terms = {
             "search_term": "fitness",
@@ -68,49 +74,38 @@ class YelpCrawlerSpider(scrapy.Spider):
             logging.error(f"Error in start_requests: {str(e)}")
 
     def parse(self, response):
-        try:  # Extract the href attribute of each link
-            links = response.css(
-                '[class*="businessName"] a::attr(href)').getall()
-            self.temp_links.extend([self.generate_yelp_url(link)
-                                    for link in links])
-
-            # Append links to the global all_links variable
+        try:
+            # Extract the href attribute of each link
+            links = response.css('[class*="businessName"] a::attr(href)').getall()
+            self.temp_links.extend([self.generate_yelp_url(link) for link in links])
             all_links.extend(self.temp_links)
-            
-            next_page_url = response.css(
-                'span.css-foyide a.next-link::attr(href)').get()
-            # Generate full Yelp URLs from relative links
-            full_urls = [self.generate_yelp_url(link) for link in links]
 
-            # Follow All Links
-            if next_page_url:
+            next_page_url = response.css('span.css-foyide a.next-link::attr(href)').get()
+
+            # Increment the number of pages visited
+            self.num_pages_visited += 1
+
+            # Check if the maximum number of pages is reached
+            if self.max_pages_to_visit > 0 and self.num_pages_visited >= self.max_pages_to_visit:
+                print("Reached the maximum number of pages to visit.")
+                return  # Stop the spider
+            elif next_page_url:
                 # Yield a new request to scrape the next page
                 yield scrapy.Request(next_page_url, self.parse)
-            else:
-                # No more pages, now extend all_links with the collected links
-                all_links.extend(self.temp_links)
-
-                # Check if there are links to follow
-
-                # Clear the temp_links list
-                self.temp_links = []
 
             # Output the links to a JSON file
             with open('yelp_links.json', 'w') as json_file:
                 json.dump({'links': all_links}, json_file, indent=4)
 
-            # for url in full_urls:
-            #     print(url)
             print(f"{BLUE_TEXT}{len(all_links)}{END_COLOR}")
+
+            if all_links:
+                yield from response.follow_all(all_links, self.parse_business_page)
+            else:
+                print("All Links Empty")
+
         except Exception as e:
             logging.error(f"Error occurred during parsing: {str(e)}")
-
-        if all_links:
-            yield from response.follow_all(all_links, self.parse_business_page)
-        else:
-            print("All Links Empty")
-            return
-
 
     def generate_yelp_url(self, path):
         base_url = "https://www.yelp.com"
