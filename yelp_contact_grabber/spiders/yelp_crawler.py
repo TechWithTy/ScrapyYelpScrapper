@@ -12,6 +12,7 @@ all_links = []
 # response.css(
 #     "div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)").getall()
 
+
 class YelpCrawlerSpider(scrapy.Spider):
     name = "yelp-crawler"
     allowed_domains = ["yelp.com"]
@@ -25,6 +26,9 @@ class YelpCrawlerSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(YelpCrawlerSpider, self).__init__(*args, **kwargs)
+
+        self.temp_links = []  # Temporary list to store links from each page
+
         self.search_terms = {
             "search_term": "fitness",
             "city_search_term": "Denver",
@@ -59,20 +63,41 @@ class YelpCrawlerSpider(scrapy.Spider):
         except Exception as e:
             logging.error(f"Error in start_requests: {str(e)}")
 
-
     def parse(self, response):
         # Extract the href attribute of each link
         links = response.css('[class*="businessName"] a::attr(href)').getall()
+        self.temp_links.extend([self.generate_yelp_url(link)
+                               for link in links])
 
         # Append links to the global all_links variable
         all_links.extend(links)
 
+        next_page_url = response.css(
+            'span.css-foyide a.next-link::attr(href)').get()
         # Generate full Yelp URLs from relative links
-        full_urls = [self.generate_yelp_url(link) for link in links]
+        full_urls = [self.generate_yelp_url(link) for link in all_links]
+
+        # Follow All Links
+        if next_page_url:
+            # Yield a new request to scrape the next page
+            yield scrapy.Request(next_page_url, self.parse)
+        else:
+            # No more pages, now extend all_links with the collected links
+            all_links.extend(self.temp_links)
+
+            # Check if there are links to follow
+            if all_links:
+                yield from response.follow_all(all_links, self.parse_business_page)
+            else:
+                print("All Links Empty")
+                return
+
+            # Clear the temp_links list
+            self.temp_links = []
 
         # Output the links to a JSON file
         with open('yelp_links.json', 'w') as json_file:
-            json.dump({'links': full_urls}, json_file, indent=4)
+            json.dump({'links': all_links}, json_file, indent=4)
 
         for url in full_urls:
             print(url)
