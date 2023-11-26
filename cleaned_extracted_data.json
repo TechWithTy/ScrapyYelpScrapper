@@ -1,136 +1,57 @@
 [
     {
-        "owner_name": "Andrew P.",
-        "business_name": "Chuze Fitness Broomfield",
-        "business_website": "chuzefitness.com/gym-locations\u2026",
-        "yelp_website": "https://www.yelp.com/biz/chuze-fitness-broomfield?osq=fitness",
-        "phone_number": "(720) 210-9723",
+        "owner_name": "Nicholetta D.",
+        "business_name": "Brickhouse Functional Fitness Windsor",
+        "business_website": "brickhouseff.com",
+        "yelp_website": "https://www.yelp.com/biz/brickhouse-functional-fitness-windsor?osq=fitness",
+        "phone_number": "(970) 460-6422",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
             "Gyms",
-            "Tanning",
-            "Trainers"
-        ]
-    },
-    {
-        "owner_name": null,
-        "business_name": "The Paul Derda Recreation Center Broomfield",
-        "business_website": "broomfield.org",
-        "yelp_website": "https://www.yelp.com/biz/the-paul-derda-recreation-center-broomfield?osq=fitness",
-        "phone_number": "(303) 460-6900",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Recreation Centers",
-            "Gyms",
-            "Swimming Pools"
-        ]
-    },
-    {
-        "owner_name": "Graem H.",
-        "business_name": "Crossfit Profectus Broomfield",
-        "business_website": "cfprofectus.com",
-        "yelp_website": "https://www.yelp.com/biz/crossfit-profectus-broomfield?osq=fitness",
-        "phone_number": "(720) 934-3103",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Interval Training Gyms"
-        ]
-    },
-    {
-        "owner_name": "Shannon D.",
-        "business_name": "Mountains Edge Fitness Boulder 2",
-        "business_website": "mountainsedgefitness.com",
-        "yelp_website": "https://www.yelp.com/biz/mountains-edge-fitness-boulder-2?osq=fitness",
-        "phone_number": "(303) 494-5000",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Gyms"
-        ]
-    },
-    {
-        "owner_name": null,
-        "business_name": "Rocky Mountain Pilates And Yoga Lafayette",
-        "business_website": "rockymountainpilatesandyoga.co\u2026",
-        "yelp_website": "https://www.yelp.com/biz/rocky-mountain-pilates-and-yoga-lafayette?osq=fitness",
-        "phone_number": "(781) 367-0862",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Pilates"
-        ]
-    },
-    {
-        "owner_name": "Stacey J.",
-        "business_name": "Orangetheory Fitness Broomfield Broomfield",
-        "business_website": "orangetheory.com/en-us/locatio\u2026",
-        "yelp_website": "https://www.yelp.com/biz/orangetheory-fitness-broomfield-broomfield?osq=fitness",
-        "phone_number": "(303) 469-4019",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Gyms",
-            "Boot Camps",
-            "Trainers"
-        ]
-    },
-    {
-        "owner_name": "Sara P.",
-        "business_name": "Powerhouse Gym Thornton Thornton",
-        "business_website": "powerhousegymthornton.com",
-        "yelp_website": "https://www.yelp.com/biz/powerhouse-gym-thornton-thornton?osq=fitness",
-        "phone_number": "(303) 280-8187",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Trainers",
-            "Gyms",
-            "Boot Camps"
-        ]
-    },
-    {
-        "owner_name": "Steve and Kelli B.",
-        "business_name": "Spenga Broomfield Broomfield",
-        "business_website": "broomfieldco.spenga.com",
-        "yelp_website": "https://www.yelp.com/biz/spenga-broomfield-broomfield?osq=fitness",
-        "phone_number": "(720) 459-7057",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
             "Yoga",
-            "Trainers",
-            "Interval Training Gyms"
-        ]
-    },
-    {
-        "owner_name": "Taylor B.",
-        "business_name": "Life Time Broomfield 2",
-        "business_website": "lifetime.life",
-        "yelp_website": "https://www.yelp.com/biz/life-time-broomfield-2?osq=fitness",
-        "phone_number": "(720) 531-8000",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "Gyms",
-            "Trainers",
-            "Yoga"
+            "Cycling Classes"
         ]
     },
     {
         "owner_name": null,
-        "business_name": "Active Lab Broomfield",
-        "business_website": "activelabfitness.com",
-        "yelp_website": "https://www.yelp.com/biz/active-lab-broomfield?osq=fitness",
-        "phone_number": "(303) 748-6922",
+        "business_name": "Centripetal Crossfit Erie",
+        "business_website": "centripetalcrossfit.com",
+        "yelp_website": "https://www.yelp.com/biz/centripetal-crossfit-erie?osq=fitness",
+        "phone_number": "(303) 717-7284",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Interval Training Gyms",
+            "Weight Loss Centers"
+        ]
+    },
+    {
+        "owner_name": "Kyle C.",
+        "business_name": "Crossfit South Denver Denver 2",
+        "business_website": "crossfitsouthdenver.com",
+        "yelp_website": "https://www.yelp.com/biz/crossfit-south-denver-denver-2?osq=fitness",
+        "phone_number": "(303) 725-6989",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
             "Gyms",
-            "Boot Camps",
+            "Weight Loss Centers",
             "Trainers"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Endorphin Central Park Denver",
+        "business_website": "myendorphin.com",
+        "yelp_website": "https://www.yelp.com/biz/endorphin-central-park-denver?osq=fitness",
+        "phone_number": "(303) 993-4041",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Gyms",
+            "Yoga",
+            "Cycling Classes"
         ]
     }
 ]
