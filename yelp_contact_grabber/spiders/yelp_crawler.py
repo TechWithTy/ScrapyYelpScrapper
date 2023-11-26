@@ -13,13 +13,13 @@ BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
 
 # has to be greater than 1 as 1 is the starting number
-max_pages_to_visit = 2
+
 all_links = []
 half_all_links = []
 # Get all links
 # response.css(
 #     "div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)").getall()
-
+outputCsvFile = True
 
 class YelpCrawlerSpider(scrapy.Spider):
     name = "yelp-crawler"
@@ -38,9 +38,9 @@ class YelpCrawlerSpider(scrapy.Spider):
 
         self.temp_links = []
         self.temp_links = []
-       
+
         self.num_pages_visited = 0
-        self.max_pages_to_visit = max_pages_to_visit  # Temporary list to store links from each page
+        self.max_pages_to_visit = 2  # Temporary list to store links from each page
 
         self.search_terms = {
             "search_term": "fitness",
@@ -55,19 +55,18 @@ class YelpCrawlerSpider(scrapy.Spider):
         self.search_terms["city_search_term"] = kwargs.get("city")
         self.search_terms["city_zip_search_term"] = kwargs.get("zip_code")
         self.search_terms["state"] = kwargs.get("state")
+        self.search_terms["max_pages"] = kwargs.get("max_pages")
+
 
     def start_requests(self):
         base_url = "https://www.yelp.com/search?"
-        city = "Denver"
-        zip_code = "80020"
-        state = "co"
-        search_term = "fitness"
+       
         try:
             # Check if all required variables are not None
-            if all([city, zip_code, search_term, state]):
+            if self.search_terms:
                 # Construct the URL with all variables and page number
-                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={
-                    search_term.replace(' ', '+')}&start={self.page * 10}"
+                url = f"{base_url}find_loc={self.search_terms["city_search_term"]}%2C+{self.search_terms["state"]}+{self.search_terms["city_zip_search_term"]}&find_desc={
+                    self.search_terms["search_term"].replace(' ', '+')}&start={self.page * 10}"
                 # Print the URL in blue text
                 print(f"{BLUE_TEXT}{url}{END_COLOR}")
                 yield scrapy.Request(url, self.parse)
@@ -199,7 +198,12 @@ class YelpCrawlerSpider(scrapy.Spider):
         except Exception as e:
                 print('Cleaning failed:', e)
                 return
+        if outputCsvFile:
+            # Convert cleaned data to a DataFrame
+            df = pd.DataFrame(cleaned_data)
 
+            # Save data to CSV
+            df.to_csv('output_data.csv', index=False)
            
 
        

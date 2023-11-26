@@ -1,57 +1,131 @@
 [
     {
-        "owner_name": "Nicholetta D.",
-        "business_name": "Brickhouse Functional Fitness Windsor",
-        "business_website": "brickhouseff.com",
-        "yelp_website": "https://www.yelp.com/biz/brickhouse-functional-fitness-windsor?osq=fitness",
-        "phone_number": "(970) 460-6422",
+        "owner_name": null,
+        "business_name": "Nancy Ace Fitness And Health Miami",
+        "business_website": "nancyacefitnessandhealth.com",
+        "yelp_website": "https://www.yelp.com/biz/nancy-ace-fitness-and-health-miami?osq=fitness",
+        "phone_number": null,
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
-            "Gyms",
-            "Yoga",
-            "Cycling Classes"
+            "Aerial Fitness",
+            "Nutritionists"
         ]
     },
     {
         "owner_name": null,
-        "business_name": "Centripetal Crossfit Erie",
-        "business_website": "centripetalcrossfit.com",
-        "yelp_website": "https://www.yelp.com/biz/centripetal-crossfit-erie?osq=fitness",
-        "phone_number": "(303) 717-7284",
+        "business_name": "Icanfitness Elite Training Miami",
+        "business_website": "icanfitnessmiami.com",
+        "yelp_website": "https://www.yelp.com/biz/icanfitness-elite-training-miami?osq=fitness",
+        "phone_number": "(954) 417-0073",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
-            "Interval Training Gyms",
-            "Weight Loss Centers"
+            "Cardio Classes"
         ]
     },
     {
-        "owner_name": "Kyle C.",
-        "business_name": "Crossfit South Denver Denver 2",
-        "business_website": "crossfitsouthdenver.com",
-        "yelp_website": "https://www.yelp.com/biz/crossfit-south-denver-denver-2?osq=fitness",
-        "phone_number": "(303) 725-6989",
+        "owner_name": null,
+        "business_name": "Duro Zone Fitness Miami Lakes",
+        "business_website": "durozonefit.com",
+        "yelp_website": "https://www.yelp.com/biz/duro-zone-fitness-miami-lakes?osq=fitness",
+        "phone_number": "(305) 621-1170",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Gyms"
+        ]
+    },
+    {
+        "owner_name": "Blink Fitness",
+        "business_name": "Blink Fitness Miramar Miramar 3",
+        "business_website": "blinkfitness.com",
+        "yelp_website": "https://www.yelp.com/biz/blink-fitness-miramar-miramar-3?osq=fitness",
+        "phone_number": "(754) 799-2002",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
             "Gyms",
-            "Weight Loss Centers",
+            "Trainers"
+        ]
+    },
+    {
+        "owner_name": "Customer Service",
+        "business_name": "Planet Fitness Miami Gardens",
+        "business_website": "planetfitness.com",
+        "yelp_website": "https://www.yelp.com/biz/planet-fitness-miami-gardens?osq=fitness",
+        "phone_number": "(305) 625-5999",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Gyms",
+            "Trainers"
+        ]
+    },
+    {
+        "owner_name": "Kervin G.",
+        "business_name": "The Mobile Striking Coach Miami Gardens",
+        "business_website": "themobilestrikingcoach.com",
+        "yelp_website": "https://www.yelp.com/biz/the-mobile-striking-coach-miami-gardens?osq=fitness",
+        "phone_number": "(786) 357-5733",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Trainers",
+            "Kickboxing",
+            "Boxing"
+        ]
+    },
+    {
+        "owner_name": "Meghan S.",
+        "business_name": "Turquoise Floating Yoga Miami 2",
+        "business_website": "turquoisefloatingyoga.com",
+        "yelp_website": "https://www.yelp.com/biz/turquoise-floating-yoga-miami-2?osq=fitness",
+        "phone_number": "(305) 349-3179",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Yoga",
+            "Paddleboarding"
+        ]
+    },
+    {
+        "owner_name": "Miguel M.",
+        "business_name": "Movement Lab Miami Lakes 2",
+        "business_website": "movementlabtraining.com",
+        "yelp_website": "https://www.yelp.com/biz/movement-lab-miami-lakes-2?osq=fitness",
+        "phone_number": "(786) 502-4472",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Gyms",
+            "Nutritionists",
             "Trainers"
         ]
     },
     {
         "owner_name": null,
-        "business_name": "Endorphin Central Park Denver",
-        "business_website": "myendorphin.com",
-        "yelp_website": "https://www.yelp.com/biz/endorphin-central-park-denver?osq=fitness",
-        "phone_number": "(303) 993-4041",
+        "business_name": "24 Hour Fitness Miami Gardens Miami Gardens",
+        "business_website": "24hourfitness.com",
+        "yelp_website": "https://www.yelp.com/biz/24-hour-fitness-miami-gardens-miami-gardens?osq=fitness",
+        "phone_number": "(305) 907-5960",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
             "Gyms",
-            "Yoga",
-            "Cycling Classes"
+            "Trainers"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Rare Breed Fitness Miami Gardens",
+        "business_website": "rarebreedcrossfit.com",
+        "yelp_website": "https://www.yelp.com/biz/rare-breed-fitness-miami-gardens?osq=fitness",
+        "phone_number": "(786) 475-7273",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Interval Training Gyms"
         ]
     }
 ]
