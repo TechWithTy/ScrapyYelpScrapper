@@ -4,13 +4,16 @@ from pathlib import Path
 import json
 import re
 from urllib.parse import urlparse, parse_qs, urlunparse
+import pandas as pd
+from utils import clean_json_data
+import streamlit as st
 
 # Define ANSI escape codes for blue text
 BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
 
-num_of_pages = 0
-max_pages_to_visit = 10
+# has to be greater than 1 as 1 is the starting number
+max_pages_to_visit = 2
 all_links = []
 half_all_links = []
 # Get all links
@@ -86,8 +89,8 @@ class YelpCrawlerSpider(scrapy.Spider):
             self.num_pages_visited += 1
 
             # Check if the maximum number of pages is reached
-            if self.max_pages_to_visit > 0 and self.num_pages_visited >= self.max_pages_to_visit:
-                print("Reached the maximum number of pages to visit.")
+            if self.max_pages_to_visit  and self.num_pages_visited >= self.max_pages_to_visit:
+                print("\033[93mReached the maximum number of pages to visit.\033[0m")
                 return  # Stop the spider
             elif next_page_url:
                 # Yield a new request to scrape the next page
@@ -185,10 +188,18 @@ class YelpCrawlerSpider(scrapy.Spider):
         print(f"Visited {response.url}")
 
     def closed(self, reason):
-        # Define a method that is called when the spider is closed
+        # Write the extracted data to a JSON file
         if hasattr(self, 'data_list'):
-            # Write the list of dictionaries to a JSON file
-            with open('extracted_data.json', 'w') as json_file:
-                json.dump(self.data_list, json_file, indent=4)
+            with open('extracted_data.json', 'w') as file:
+                json.dump(self.data_list, file, indent=4)
+        try:
+                cleaned_data = clean_json_data(self.data_list)
+                with open('cleaned_extracted_data.json', 'w') as file:
+                    json.dump(cleaned_data, file, indent=4)
+        except Exception as e:
+                print('Cleaning failed:', e)
+                return
 
-        super().closed(reason)
+           
+
+       
