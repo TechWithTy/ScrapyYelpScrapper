@@ -11,9 +11,9 @@ from geopy.geocoders import Nominatim
 
 
 if 'returned_json_file_path' not in st.session_state:
-    st.session_state['returned_json_file_path'] = None
+    st.session_state['returned_json_file_path'] = "None"
 if 'returned_csv_file_path' not in st.session_state:
-    st.session_state['returned_csv_file_path'] = None
+    st.session_state['returned_csv_file_path'] = "None"
 
 
 toggle_sidebar = st.button("Toggle Sidebar")
@@ -151,9 +151,11 @@ if toggle_sidebar or (selected_tab == "Input Form"):
 def display_results_and_links(json_file_path, csv_file_path):
 
     if toggle_sidebar or (selected_tab == "Input Form"):
+        json_file_path = st.session_state.get('returned_json_file_path')
+        csv_file_path = st.session_state.get('returned_csv_file_path')
 
-        if os.path.exists(st.session_state['returned_json_file_path']):
-            with open(  st.session_state['returned_json_file_path'], 'r') as file:
+        if os.path.exists(json_file_path):
+            with open(  json_file_path, 'r') as file:
                 data = json.load(file)
 
             # Collapsible section for results
@@ -162,43 +164,22 @@ def display_results_and_links(json_file_path, csv_file_path):
                 st.json(data)
 
             # Provide a download link for the JSON file
-            with open(  st.session_state['returned_json_file_path'], 'rb') as f:
+            with open(  json_file_path, 'rb') as f:
                 st.download_button(
                     label="Download JSON",
                     data=f,
-                    file_name=  st.session_state['returned_json_file_path'],
+                    file_name=  json_file_path,
                     mime='application/json'
                 )
     # Displaying results (inside the "Show Results" tab)
-    if toggle_sidebar or (selected_tab == "Input Form"):
-
-        if os.path.exists(st.session_state['returned_json_file_path']):
-            with open(  st.session_state['returned_json_file_path'], 'r') as file:
-                data = json.load(file)
-
-            # Collapsible section for results
-            with st.expander("View Results", expanded=False):
-                # Display raw JSON data inside the expander
-                st.json(data)
-
-            # Provide a download link for the JSON file
-            with open(  st.session_state['returned_json_file_path'], 'rb') as f:
-                st.download_button(
-                    label="Download JSON",
-                    data=f,
-                    file_name=  st.session_state['returned_json_file_path'],
-                    mime='application/json',
-                    key='download_json_show_table'
-
-                )
-
+    
     # Displaying results (inside the "Show Table" tab)
     if toggle_sidebar or (selected_tab == "Show Table"):
 
-        st.write(st.session_state['returned_json_file_path'])
-        st.write(st.session_state['returned_json_file_path'])
-        if os.path.exists(st.session_state['returned_json_file_path']):
-            with open(  st.session_state['returned_json_file_path'], 'r') as file:
+        st.write(json_file_path)
+        st.write(json_file_path)
+        if os.path.exists(json_file_path):
+            with open(  json_file_path, 'r') as file:
                 data = json.load(file)
 
             # Display JSON data as a table
