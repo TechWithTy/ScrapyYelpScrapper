@@ -9,66 +9,128 @@ from streamlit_js_eval import streamlit_js_eval, copy_to_clipboard, create_share
 from utils import get_user_location, generate_unique_filename, file_exists
 from geopy.geocoders import Nominatim
 
+geolocator = Nominatim(user_agent="YelpUserLocationID")
+
 
 if 'returned_json_file_path' not in st.session_state:
     st.session_state['returned_json_file_path'] = "None"
 if 'returned_csv_file_path' not in st.session_state:
     st.session_state['returned_csv_file_path'] = "None"
 
+with st.expander("Read Me"):
 
-toggle_sidebar = st.button("Toggle Sidebar")
+    st.container()
+    st.markdown("""
+                
+    # Yelp Scrapy Spider - Read Me
 
-geolocator = Nominatim(user_agent="YelpUserLocationID")
+    This Streamlit app allows you to run a Scrapy spider to scrape Yelp data based on your input parameters.
 
+    ## Input Form
+
+    - Fill in the search term, city, zip code, state, and maximum pages.
+    - You can also choose to run the spider with unlimited pages.
+
+    ## Running the Spider
+
+    - Click the "Run Spider" button to start the spider with the provided parameters.
+    - The spider will generate JSON and CSV files.
+
+    ## Viewing Results
+
+    - Go to the "Show Table" tab to view the scraped data as a table.
+    - You can download the JSON and CSV files for further analysis.
+
+    ## Troubleshooting
+
+    - If you encounter any issues, try refreshing the page.
+    - Make sure you have an internet connection and provide valid input.
+
+    Thank you for using the Yelp Scrapy Spider app!
+
+    [GitHub Repository](https://github.com/your-github-repo)
+
+    """)
+
+    st.write(f"User agent is _{streamlit_js_eval(
+        js_expressions='window.navigator.userAgent', want_output=True, key='UA')}_")
+
+    st.write(f"Screen width is _{streamlit_js_eval(
+        js_expressions='screen.width', want_output=True, key='SCR')}_")
+
+    st.write(f"Browser language is _{streamlit_js_eval(
+        js_expressions='window.navigator.language', want_output=True, key='LANG')}_")
+
+    st.write(f"Page location is _{streamlit_js_eval(
+        js_expressions='window.location.origin', want_output=True, key='LOC')}_")
+
+    # Copying to clipboard only works with a HTTP connection
+
+    copy_to_clipboard("Text to be copied!", "Copy something to clipboard (only on HTTPS)",
+                      "Successfully copied", component_key="CLPBRD")
+
+    # Share something using the sharing API
+    create_share_link(dict({'title': 'streamlit-js-eval', 'url': 'https://github.com/aghasemi/streamlit_js_eval',
+                            'text': "A description"}), "Share a URL (only on mobile devices)", 'Successfully shared', component_key='shdemo')
+
+    if st.checkbox("Check my location"):
+        loc = get_geolocation()
+        if loc:
+            latitude = loc['coords']['latitude']
+            longitude = loc['coords']['longitude']
+            location = geolocator.reverse(
+                (latitude, longitude), exactly_one=True)
+
+            if location:
+                address_str = str(location)
+                address_parts = address_str.split(',')
+                pulled_city = address_parts[2].strip() if len(
+                    address_parts) > 2 else 'Unknown'
+                pulled_state = address_parts[-3].strip() if len(
+                    address_parts) > 3 else 'Unknown'
+                pulled_zip_code = address_parts[-2].strip() if len(
+                    address_parts) > 2 else 'Unknown'
+
+            try:
+                st.write(f"Your coordinates are {latitude}, {longitude}")
+                st.write(f"Location: {pulled_city}, {
+                         pulled_state}, {pulled_zip_code}")
+            except:
+                st.write(f"⚠️Could Not Get Your Location")
+        else:
+            st.write("Waiting for location...")
+
+    st.container()
+
+
+toggle_sidebar = False
 loc = 0, 0
 
-st.write(f"User agent is _{streamlit_js_eval(
-    js_expressions='window.navigator.userAgent', want_output=True, key='UA')}_")
+# st.write(f"User agent is _{streamlit_js_eval(
+#     js_expressions='window.navigator.userAgent', want_output=True, key='UA')}_")
 
-st.write(f"Screen width is _{streamlit_js_eval(
-    js_expressions='screen.width', want_output=True, key='SCR')}_")
+# st.write(f"Screen width is _{streamlit_js_eval(
+#     js_expressions='screen.width', want_output=True, key='SCR')}_")
 
-st.write(f"Browser language is _{streamlit_js_eval(
-    js_expressions='window.navigator.language', want_output=True, key='LANG')}_")
+# st.write(f"Browser language is _{streamlit_js_eval(
+#     js_expressions='window.navigator.language', want_output=True, key='LANG')}_")
 
-st.write(f"Page location is _{streamlit_js_eval(
-    js_expressions='window.location.origin', want_output=True, key='LOC')}_")
+# st.write(f"Page location is _{streamlit_js_eval(
+#     js_expressions='window.location.origin', want_output=True, key='LOC')}_")
 
-# Copying to clipboard only works with a HTTP connection
+# # Copying to clipboard only works with a HTTP connection
 
-copy_to_clipboard("Text to be copied!", "Copy something to clipboard (only on HTTPS)",
-                  "Successfully copied", component_key="CLPBRD")
+# copy_to_clipboard("Text to be copied!", "Copy something to clipboard (only on HTTPS)",
+#                   "Successfully copied", component_key="CLPBRD")
 
-# Share something using the sharing API
-create_share_link(dict({'title': 'streamlit-js-eval', 'url': 'https://github.com/aghasemi/streamlit_js_eval',
-                  'text': "A description"}), "Share a URL (only on mobile devices)", 'Successfully shared', component_key='shdemo')
+# # Share something using the sharing API
+# create_share_link(dict({'title': 'streamlit-js-eval', 'url': 'https://github.com/aghasemi/streamlit_js_eval',
+#                   'text': "A description"}), "Share a URL (only on mobile devices)", 'Successfully shared', component_key='shdemo')
 
 pulled_city = None
 pulled_state = None
 pulled_zip_code = None
 
-
-if st.checkbox("Check my location"):
-    loc = get_geolocation()
-    if loc:
-        latitude = loc['coords']['latitude']
-        longitude = loc['coords']['longitude']
-        location = geolocator.reverse((latitude, longitude), exactly_one=True)
-
-        if location:
-            address_str = str(location)
-            address_parts = address_str.split(',')
-            pulled_city = address_parts[2].strip() if len(
-                address_parts) > 2 else 'Unknown'
-            pulled_state = address_parts[-3].strip() if len(
-                address_parts) > 3 else 'Unknown'
-            pulled_zip_code = address_parts[-2].strip() if len(
-                address_parts) > 2 else 'Unknown'
-
-        st.write(f"Your coordinates are {latitude}, {longitude}")
-        st.write(f"Location: {pulled_city}, {pulled_state}, {pulled_zip_code}")
-    else:
-        st.write("Waiting for location...")
 
 usZips = pd.read_csv("uszips.csv")
 
@@ -94,10 +156,13 @@ def run_scrapy_spider(search_term, city, zip_code, state, max_pages):
     # The city is typically the third element from the start
     # The state is the second last element
     # The zip code is the third last element
-
-    st.write(latitude, longitude)
-    st.write(location)
-    st.write(city, state, zip_code)
+    try: 
+        st.write(latitude, longitude)
+        st.write(location)
+        st.write(city, state, zip_code)
+    except:
+        st.write(f"⚠️Could Not Get Your Location")
+    
 
     command = [
         'scrapy', 'crawl', 'yelp-crawler',
@@ -110,7 +175,7 @@ def run_scrapy_spider(search_term, city, zip_code, state, max_pages):
     # Run the command
 
     st.write(st.session_state['returned_json_file_path'])
-
+    subprocess.run(command)
     return json_file_path, csv_file_path
 
 
@@ -135,14 +200,14 @@ if toggle_sidebar or (selected_tab == "Input Form"):
     # Maximum number value selector
     use_unlimited_pages = st.checkbox('Unlimited Pages', value=False)
     if not use_unlimited_pages:
-        max_pages = st.number_input('Max Pages', min_value=1, step=1, value=2)
+        max_pages = st.number_input('Max Pages', min_value=2, step=1, value=2)
 
     # Button to start the spider
     if st.button('Run Spider'):
         if use_unlimited_pages:
             max_pages = False
         run_scrapy_spider(search_term, city, zip_code, state, max_pages)
-     
+
         st.success('Spider run completed!')
 
 # Displaying results (inside the "Show Results" tab)
@@ -155,7 +220,7 @@ def display_results_and_links(json_file_path, csv_file_path):
         csv_file_path = st.session_state.get('returned_csv_file_path')
 
         if os.path.exists(json_file_path):
-            with open(  json_file_path, 'r') as file:
+            with open(json_file_path, 'r') as file:
                 data = json.load(file)
 
             # Collapsible section for results
@@ -164,22 +229,22 @@ def display_results_and_links(json_file_path, csv_file_path):
                 st.json(data)
 
             # Provide a download link for the JSON file
-            with open(  json_file_path, 'rb') as f:
+            with open(json_file_path, 'rb') as f:
                 st.download_button(
                     label="Download JSON",
                     data=f,
-                    file_name=  json_file_path,
+                    file_name=json_file_path,
                     mime='application/json'
                 )
     # Displaying results (inside the "Show Results" tab)
-    
+
     # Displaying results (inside the "Show Table" tab)
     if toggle_sidebar or (selected_tab == "Show Table"):
 
         st.write(json_file_path)
         st.write(json_file_path)
         if os.path.exists(json_file_path):
-            with open(  json_file_path, 'r') as file:
+            with open(json_file_path, 'r') as file:
                 data = json.load(file)
 
             # Display JSON data as a table

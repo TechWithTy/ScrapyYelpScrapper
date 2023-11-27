@@ -1,15 +1,16 @@
 [
     {
-        "owner_name": null,
-        "business_name": "Centripetal Crossfit Erie",
-        "business_website": "centripetalcrossfit.com",
-        "yelp_website": "https://www.yelp.com/biz/centripetal-crossfit-erie?osq=fitness",
-        "phone_number": "(303) 717-7284",
+        "owner_name": "Nicholetta D.",
+        "business_name": "Brickhouse Functional Fitness Windsor",
+        "business_website": "brickhouseff.com",
+        "yelp_website": "https://www.yelp.com/biz/brickhouse-functional-fitness-windsor?osq=fitness",
+        "phone_number": "(970) 460-6422",
         "review_rating": null,
         "number_of_reviews": null,
         "business_categories": [
-            "Interval Training Gyms",
-            "Weight Loss Centers"
+            "Gyms",
+            "Yoga",
+            "Cycling Classes"
         ]
     },
     {
@@ -24,6 +25,19 @@
             "Gyms",
             "Yoga",
             "Cycling Classes"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Centripetal Crossfit Erie",
+        "business_website": "centripetalcrossfit.com",
+        "yelp_website": "https://www.yelp.com/biz/centripetal-crossfit-erie?osq=fitness",
+        "phone_number": "(303) 717-7284",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "Interval Training Gyms",
+            "Weight Loss Centers"
         ]
     },
     {
