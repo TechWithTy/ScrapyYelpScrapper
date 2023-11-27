@@ -73,3 +73,7 @@ search_terms = {
     "max_pages": 5
 }
 
+page = {
+    "title": "Cyberoni LeadGen Scraper: Unleash Sales Potential with Python",
+    "description": "Cyberoni LeadGen Scraper is the ultimate Streamlit app for businesses looking to amplify their sales pipeline. Available at leadgen.cyberoni.streamlit.app, this tool offers a sophisticated scraping solution to effortlessly generate quality leads. It's engineered to navigate the web, extract valuable contact data, and organize it into actionable insights. With Cyberoni's focus on user-friendly design and robust performance, empower your sales team with a steady stream of leads. Embrace the future of lead generation with Cyberoni's advanced tech—every search a step towards unparalleled growth. Explore Cyberoni LeadGen Scraper today and transform your lead acquisition strategy."
+}

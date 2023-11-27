@@ -6,12 +6,28 @@ import os
 import requests
 # Function to trigger Scrapy spider
 from streamlit_js_eval import streamlit_js_eval, copy_to_clipboard, create_share_link, get_geolocation
-from utils import get_user_location, generate_unique_filename, file_exists
+from utils import get_user_location, generate_unique_filename, file_exists,page
 from geopy.geocoders import Nominatim
+import streamlit as st
+from PIL import Image
+
+
+st.set_page_config(
+    layout="wide",
+
+    page_title=page['title'], page_icon='assets/Scappy_Crawler.png', 
+)
+st.title('Cyberoni LeadGen Scraper: Unleash Sales Potential With Python')
+st.text(page['description'])
+image = Image.open('assets/Scappy_Crawler.png')
+
+st.image(image, caption='CyberOni Yelp Page Scraper')
 pulled_city = None
 pulled_state = None
 pulled_zip_code = None
 geolocator = Nominatim(user_agent="YelpUserLocationID")
+
+
 
 
 if 'returned_json_file_path' not in st.session_state:
@@ -24,7 +40,7 @@ with st.expander("Read Me"):
     st.container()
     st.markdown("""
                 
-    # Yelp Scrapy Spider - Read Me
+    # Cyberoni Velp Scrapy Spider - Read Me
 
     This Streamlit app allows you to run a Scrapy spider to scrape Yelp data based on your input parameters.
 
@@ -56,17 +72,33 @@ with st.expander("Read Me"):
 
     """)
 
-    st.write(f"User agent is _{streamlit_js_eval(
-        js_expressions='window.navigator.userAgent', want_output=True, key='UA')}_")
+    try:
+        user_agent = streamlit_js_eval(
+            js_expressions='window.navigator.userAgent', want_output=True, key='UA')
+        st.write(f"User agent is _{user_agent}_")
+    except Exception as e:
+        st.error(f"An error occurred while fetching user agent: {str(e)}")
 
-    st.write(f"Screen width is _{streamlit_js_eval(
-        js_expressions='screen.width', want_output=True, key='SCR')}_")
+    try:
+        screen_width = streamlit_js_eval(
+            js_expressions='screen.width', want_output=True, key='SCR')
+        st.write(f"Screen width is _{screen_width}_")
+    except Exception as e:
+        st.error(f"An error occurred while fetching screen width: {str(e)}")
 
-    st.write(f"Browser language is _{streamlit_js_eval(
-        js_expressions='window.navigator.language', want_output=True, key='LANG')}_")
+    try:
+        browser_language = streamlit_js_eval(
+            js_expressions='window.navigator.language', want_output=True, key='LANG')
+        st.write(f"Browser language is _{browser_language}_")
+    except Exception as e:
+        st.error(f"An error occurred while fetching browser language: {str(e)}")
 
-    st.write(f"Page location is _{streamlit_js_eval(
-        js_expressions='window.location.origin', want_output=True, key='LOC')}_")
+    try:
+        page_location = streamlit_js_eval(
+            js_expressions='window.location.origin', want_output=True, key='LOC')
+        st.write(f"Page location is _{page_location}_")
+    except Exception as e:
+        st.error(f"An error occurred while fetching page location: {str(e)}")
 
     # Copying to clipboard only works with a HTTP connection
 
@@ -183,7 +215,6 @@ def run_scrapy_spider(search_term, city, zip_code, state, max_pages):
 
 
 # Streamlit interface
-st.title('Yelp Scrapy Spider')
 
 # Create a button to toggle the sidebar's visibility
 
