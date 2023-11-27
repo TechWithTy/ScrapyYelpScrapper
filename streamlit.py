@@ -137,8 +137,8 @@ if st.checkbox("Check my location"):
 
             try:
                 st.write(f"Your coordinates are {latitude}, {longitude}")
-                st.write(f"Location: {pulled_city}, {
-                         pulled_state}, {pulled_zip_code}")
+                st.write(f"Location: {pulled_city}, {pulled_state}, {pulled_zip_code}")
+
             except:
                 st.write(f"⚠️Could Not Get Your Location")
     else:
