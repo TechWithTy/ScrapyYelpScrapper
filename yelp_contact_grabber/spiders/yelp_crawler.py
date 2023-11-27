@@ -5,7 +5,7 @@ import json
 import re
 from urllib.parse import urlparse, parse_qs, urlunparse
 import pandas as pd
-from utils import clean_json_data
+from utils import clean_json_data,generate_unique_filename
 import streamlit as st
 
 # Define ANSI escape codes for blue text
@@ -40,7 +40,7 @@ class YelpCrawlerSpider(scrapy.Spider):
         self.temp_links = []
 
         self.num_pages_visited = 0
-        self.max_pages_to_visit = 2  # Temporary list to store links from each page
+        self.max_pages_to_visit = False  # Temporary list to store links from each page
 
         self.search_terms = {
             "search_term": "fitness",
@@ -60,13 +60,17 @@ class YelpCrawlerSpider(scrapy.Spider):
 
     def start_requests(self):
         base_url = "https://www.yelp.com/search?"
-       
+        city = self.search_terms["city_search_term"] or "default_city"
+        zip_code = self.search_terms["city_zip_search_term"] or "default_zip_code"
+        state = self.search_terms["state"] or "default_state"
+        search_term = self.search_terms["search_term"] or "default_search_term"
+
         try:
             # Check if all required variables are not None
             if self.search_terms:
                 # Construct the URL with all variables and page number
-                url = f"{base_url}find_loc={self.search_terms["city_search_term"]}%2C+{self.search_terms["state"]}+{self.search_terms["city_zip_search_term"]}&find_desc={
-                    self.search_terms["search_term"].replace(' ', '+')}&start={self.page * 10}"
+                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={
+                   search_term.replace(' ', '+')}&start={self.page * 10}"
                 # Print the URL in blue text
                 print(f"{BLUE_TEXT}{url}{END_COLOR}")
                 yield scrapy.Request(url, self.parse)
@@ -187,23 +191,21 @@ class YelpCrawlerSpider(scrapy.Spider):
         print(f"Visited {response.url}")
 
     def closed(self, reason):
+        filename = generate_unique_filename(self.search_terms["city_search_term"], self.search_terms["search_term"])
         # Write the extracted data to a JSON file
         if hasattr(self, 'data_list'):
-            with open('extracted_data.json', 'w') as file:
+            with open(filename + ".json", 'w') as file:
                 json.dump(self.data_list, file, indent=4)
         try:
-                cleaned_data = clean_json_data(self.data_list)
-                with open('cleaned_extracted_data.json', 'w') as file:
-                    json.dump(cleaned_data, file, indent=4)
+            cleaned_data = clean_json_data(self.data_list)
+            with open("cleaned" + filename + ".json", 'w') as file:
+                json.dump(cleaned_data, file, indent=4)
         except Exception as e:
-                print('Cleaning failed:', e)
-                return
+            print('Cleaning failed:', e)
+            return
         if outputCsvFile:
             # Convert cleaned data to a DataFrame
             df = pd.DataFrame(cleaned_data)
 
             # Save data to CSV
-            df.to_csv('output_data.csv', index=False)
-           
-
-       
+            df.to_csv(filename + ".csv", index=False)
