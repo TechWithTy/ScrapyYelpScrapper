@@ -16,6 +16,8 @@ filelock==3.13.1
 geographiclib==2.0
 geopy==2.4.1
 gitdb==4.0.11
+git+https://github.com/streamlit_js_eval#egg=streamlit_js_eval
+
 GitPython==3.1.40
 hyperlink==21.0.0
 idna==3.5
