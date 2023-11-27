@@ -205,7 +205,7 @@ if st.checkbox("Check my location"):
 
 
 
-usZips = pd.read_csv("uszips.csv")
+usZips = pd.read_csv("data/datasets/uszips.csv")
 
 city_to_zipcodes = {}
 
