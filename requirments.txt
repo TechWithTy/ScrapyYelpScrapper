@@ -1,3 +1,4 @@
+python==3.9
 altair==5.1.2
 attrs==23.1.0
 Automat==22.10.0
@@ -60,7 +61,7 @@ setuptools==69.0.2
 six==1.16.0
 smmap==5.0.1
 streamlit==1.28.2
-streamlit_js_eval==0.1.5
+streamlit-js-eval==0.1.5
 tenacity==8.2.3
 tldextract==5.1.1
 toml==0.10.2
