@@ -6,6 +6,7 @@ import user_agent
 from geopy.geocoders import Nominatim
 import requests
 import re
+import uuid
 
 def get_user_location():
     try:
@@ -61,6 +62,8 @@ def generate_unique_filename( user_location, search_terms):
 
     return unique_filename
 
+
+random_uuid = uuid.uuid4()
 
 # Example usage:
 user_agent = "Mozilla/5.0"

@@ -6,10 +6,11 @@ import os
 import requests
 # Function to trigger Scrapy spider
 from streamlit_js_eval import streamlit_js_eval, copy_to_clipboard, create_share_link, get_geolocation
-from utils import get_user_location, generate_unique_filename, file_exists,page
+from utils import get_user_location, generate_unique_filename, file_exists,page,re
 from geopy.geocoders import Nominatim
 import streamlit as st
 from PIL import Image
+import uuid
 
 
 st.set_page_config(
@@ -28,6 +29,58 @@ pulled_zip_code = None
 geolocator = Nominatim(user_agent="YelpUserLocationID")
 
 
+def display_results_and_links(json_file_path, csv_file_path):
+
+   
+        if os.path.exists(json_file_path):
+            with open(json_file_path, 'r') as file:
+                data = json.load(file)
+
+            # Collapsible section for results
+            with st.expander("View Results", expanded=False):
+                # Display raw JSON data inside the expander
+                st.json(data)
+
+            # Provide a download link for the JSON file
+            with open(json_file_path, 'rb') as f:
+                st.download_button(
+                    label="Download JSON",
+                    data=f,
+                    file_name=json_file_path,
+                    mime='application/json',
+                    key = "JSON_DOWNLOAD_BUTTON" + str(uuid.uuid4())
+                )
+    # Displaying results (inside the "Show Results" tab)
+
+    # Displaying results (inside the "Show Table" tab)
+
+        st.write(json_file_path)
+        st.write(json_file_path)
+        if os.path.exists(json_file_path):
+            with open(json_file_path, 'r') as file:
+                data = json.load(file)
+
+            # Display JSON data as a table
+            df = pd.DataFrame(data)
+            st.write("JSON Table:")
+            st.write(df)
+        else:
+            st.error('No data found. Please run the function first.')
+
+        if os.path.exists(csv_file_path):
+            # Provide a download link for the CSV file
+            with open(st.session_state['returned_csv_file_path'], 'rb') as f_csv:
+                st.download_button(
+                    label="Download CSV",
+                    data=f_csv,
+                    file_name=csv_file_path,
+                    mime='text/csv',
+                    key="CSV_DOWNLOAD_BUTTON" + str(uuid.uuid4())
+                )
+        else:
+            st.warning(
+                'No CSV data found. Please run the function and generate CSV data.')
+
 
 
 if 'returned_json_file_path' not in st.session_state:
@@ -35,6 +88,10 @@ if 'returned_json_file_path' not in st.session_state:
 if 'returned_csv_file_path' not in st.session_state:
     st.session_state['returned_csv_file_path'] = "None"
 
+if st.session_state['returned_json_file_path'] != "None" and st.session_state['returned_csv_file_path'] != "None":
+    display_results_and_links(
+        st.session_state['returned_json_file_path'], st.session_state['returned_csv_file_path'])
+    
 with st.expander("Read Me"):
 
     st.container()
@@ -173,8 +230,9 @@ def run_scrapy_spider(search_term, city, zip_code, state, max_pages):
     file_name = generate_unique_filename(city, search_term)
 
     # Check if the JSON file exists
-    json_file_path = f"cleaned{file_name}.json"
-    csv_file_path = f"{generate_unique_filename(city, search_term)}.csv"
+    json_file_path = os.path.join("dumps", f"cleaned{file_name}.json")
+    csv_file_path = os.path.join("dumps", f"{generate_unique_filename(city, search_term)}.csv")
+
     csv_exists = file_exists(csv_file_path)
     json_exists = file_exists(json_file_path)
     st.write(f"JSON File Exists: {json_exists}")
@@ -209,6 +267,7 @@ def run_scrapy_spider(search_term, city, zip_code, state, max_pages):
     try:
         if(command):
             subprocess.run(command)
+            st.success('Spider run completed!')
     except:
         st.write("Please inpute all Search term , City, Zip Code , State Fields✅")
     return json_file_path, csv_file_path
@@ -242,65 +301,9 @@ if toggle_sidebar or (selected_tab == "Input Form"):
             max_pages = False
         run_scrapy_spider(search_term, city, zip_code, state, max_pages)
 
-        st.success('Spider run completed!')
+       
 
 # Displaying results (inside the "Show Results" tab)
-
-
-def display_results_and_links(json_file_path, csv_file_path):
-
-    if toggle_sidebar or (selected_tab == "Input Form"):
-        json_file_path = st.session_state.get('returned_json_file_path')
-        csv_file_path = st.session_state.get('returned_csv_file_path')
-
-        if os.path.exists(json_file_path):
-            with open(json_file_path, 'r') as file:
-                data = json.load(file)
-
-            # Collapsible section for results
-            with st.expander("View Results", expanded=False):
-                # Display raw JSON data inside the expander
-                st.json(data)
-
-            # Provide a download link for the JSON file
-            with open(json_file_path, 'rb') as f:
-                st.download_button(
-                    label="Download JSON",
-                    data=f,
-                    file_name=json_file_path,
-                    mime='application/json'
-                )
-    # Displaying results (inside the "Show Results" tab)
-
-    # Displaying results (inside the "Show Table" tab)
-    if toggle_sidebar or (selected_tab == "Show Table"):
-
-        st.write(json_file_path)
-        st.write(json_file_path)
-        if os.path.exists(json_file_path):
-            with open(json_file_path, 'r') as file:
-                data = json.load(file)
-
-            # Display JSON data as a table
-            df = pd.DataFrame(data)
-            st.write("JSON Table:")
-            st.write(df)
-        else:
-            st.error('No data found. Please run the function first.')
-    
-        if os.path.exists(csv_file_path):
-            # Provide a download link for the CSV file
-            with open(st.session_state['returned_csv_file_path'], 'rb') as f_csv:
-                st.download_button(
-                    label="Download CSV",
-                    data=f_csv,
-                    file_name=csv_file_path,
-                    mime='text/csv',
-                    key='download_csv_show_table'
-                )
-        else:
-            st.warning(
-                'No CSV data found. Please run the function and generate CSV data.')
 
 
 if st.button('Refresh'):

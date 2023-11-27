@@ -1,0 +1,4 @@
+owner_name,business_name,business_website,yelp_website,phone_number,review_rating,number_of_reviews,business_categories
+,Endorphin Central Park Denver,myendorphin.com,https://www.yelp.com/biz/endorphin-central-park-denver?osq=fitness,(303) 993-4041,,,"['Gyms', 'Yoga', 'Cycling Classes']"
+,Centripetal Crossfit Erie,centripetalcrossfit.com,https://www.yelp.com/biz/centripetal-crossfit-erie?osq=fitness,(303) 717-7284,,,"['Interval Training Gyms', 'Weight Loss Centers']"
+Kyle C.,Crossfit South Denver Denver 2,crossfitsouthdenver.com,https://www.yelp.com/biz/crossfit-south-denver-denver-2?osq=fitness,(303) 725-6989,,,"['Gyms', 'Weight Loss Centers', 'Trainers']"

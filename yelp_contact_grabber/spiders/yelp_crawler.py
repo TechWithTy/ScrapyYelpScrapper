@@ -5,9 +5,9 @@ import json
 import re
 from urllib.parse import urlparse, parse_qs, urlunparse
 import pandas as pd
-from utils import clean_json_data,generate_unique_filename
+from utils import clean_json_data,generate_unique_filename,random_uuid
 import streamlit as st
-
+import os
 # Define ANSI escape codes for blue text
 BLUE_TEXT = "\033[94m"
 END_COLOR = "\033[0m"
@@ -100,7 +100,8 @@ class YelpCrawlerSpider(scrapy.Spider):
                 yield scrapy.Request(next_page_url, self.parse)
 
             # Output the links to a JSON file
-            with open('yelp_links.json', 'w') as json_file:
+            with open(os.path.join("dumps", "yelp_links.json"), 'w') as json_file:
+
                 json.dump({'links': all_links}, json_file, indent=4)
 
             print(f"{BLUE_TEXT}{len(all_links)}{END_COLOR}")
@@ -191,21 +192,32 @@ class YelpCrawlerSpider(scrapy.Spider):
         print(f"Visited {response.url}")
 
     def closed(self, reason):
-        filename = generate_unique_filename(self.search_terms["city_search_term"], self.search_terms["search_term"])
-        # Write the extracted data to a JSON file
+        # Generate a unique filename in the "dumps" folder
+        filename = generate_unique_filename(
+            self.search_terms["city_search_term"],
+            self.search_terms["search_term"],
+            
+        )
+
+        # Write the extracted data to a JSON file in the "dumps" folder
         if hasattr(self, 'data_list'):
-            with open(filename + ".json", 'w') as file:
+            with open(os.path.join("dumps", filename + ".json"), 'w') as file:
                 json.dump(self.data_list, file, indent=4)
+
         try:
             cleaned_data = clean_json_data(self.data_list)
-            with open("cleaned" + filename + ".json", 'w') as file:
+
+            # Write the cleaned data to a JSON file in the "dumps" folder
+            with open(os.path.join("dumps", "cleaned" + filename + ".json"), 'w') as file:
                 json.dump(cleaned_data, file, indent=4)
         except Exception as e:
             print('Cleaning failed:', e)
             return
+
         if outputCsvFile:
             # Convert cleaned data to a DataFrame
             df = pd.DataFrame(cleaned_data)
 
-            # Save data to CSV
-            df.to_csv(filename + ".csv", index=False)
+            # Save data to CSV in the "dumps" folder
+            df.to_csv(os.path.join("dumps", filename + ".csv"), index=False)
+
