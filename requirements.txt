@@ -80,3 +80,4 @@ w3lib==2.1.2
 watchdog==3.0.0
 zipp==3.17.0
 zope.interface==6.1
+git+https://github.com/streamlit_js_eval#egg=streamlit_js_eval
