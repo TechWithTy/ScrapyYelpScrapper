@@ -52,7 +52,7 @@ def display_results_and_links(json_file_path, csv_file_path):
                 )
     # Displaying results (inside the "Show Results" tab)
 
-    # Displaying results (inside the "Show Table" tab)
+     # Displaying results (inside the "Show Table" tab)
 
         st.write(json_file_path)
         st.write(json_file_path)
