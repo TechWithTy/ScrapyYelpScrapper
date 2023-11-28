@@ -60,4 +60,19 @@ Contributions to ScrappyYelpScraper are welcome! Please read `CONTRIBUTING.md` f
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
 ## Acknowledgments
-*List any contributors, third-party libraries, or other resources that the project relies on.*
+
+This project would not have been possible without the valuable contributions from various individuals and the use of open-source software. We extend our gratitude to the following:
+
+### Contributors
+
+- [List of individual contributors, if any]
+
+### Third-Party Libraries
+
+- **Scrapy**: A fundamental component of our web scraping functionality is powered by Scrapy, a high-level web crawling and scraping framework for Python. Scrapy is BSD-licensed, and we are grateful for the robust foundation it provides for our data extraction needs. The Scrapy framework is developed and maintained by the Scrapy community. For more information on the Scrapy license, please visit the [Scrapy GitHub repository](https://github.com/scrapy/scrapy).
+
+- **Streamlit**: Our interactive data applications are made possible with the help of Streamlit, an open-source app framework for Machine Learning and Data Science teams. Streamlit is distributed under the Apache 2.0 license, and we appreciate its contribution to making our data visualizations more engaging and accessible. For details on Streamlit’s license, refer to the [Streamlit GitHub repository](https://github.com/streamlit/streamlit).
+
+### Resources
+
+- [Any other resources, libraries, or tools used in the project]
