@@ -41,6 +41,15 @@ Once the script is done it will output a table and have both downloadable csv an
 
 *Note: Replace `scrappy_yelp_scraper.py` with the actual name of your main script.*
 
+## Odities
+    Some Libraries have to be imported like this in requirments.txt
+    -git+https://github.com/aghasemi/streamlit_js_eval#egg=streamlit_js_eval
+
+    Pip freeze generates a file that causes a issue in streamlit
+
+    -twisted-iocpsupport==1.0.4 (remove)
+
+
 ## Configuration
 All Fields must be provided , we have included a script to input your location by pressing a button.
 
