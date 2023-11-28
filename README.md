@@ -1,5 +1,7 @@
 # ScrappyYelpScraper
 
+![Scrappy Crawler](https://i.postimg.cc/C12phFSG/Scappy-Crawler.png)
+
 ## Introduction
 ScrappyYelpScraper is a Python-based tool designed to scrape and extract data from Yelp listings. This tool is ideal for gathering information such as business names, contact details, reviews, and ratings from Yelp, providing valuable insights for market analysis, customer feedback, and competitive research.
 
