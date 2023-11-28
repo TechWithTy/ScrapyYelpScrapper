@@ -1,4 +1,4 @@
-python==3.9
+
 altair==5.1.2
 attrs==23.1.0
 Automat==22.10.0
