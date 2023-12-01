@@ -50,8 +50,7 @@ def generate_unique_filename( user_location, search_terms):
         [c if c.isalnum() else "_" for c in search_terms])
 
     # Construct the file name using the provided information
-    filename = f"{current_date}_{
-        user_location}_{search_terms}"
+    filename = f"{current_date}_{user_location}_{search_terms}"
 
     # Ensure the file name is unique in the current directory
     unique_filename = filename
