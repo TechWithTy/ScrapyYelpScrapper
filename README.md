@@ -19,6 +19,7 @@ To set up ScrappyYelpScraper, follow these steps:
 1. Clone the repository:
    git clone [repository URL]
 
+
 css
 Copy code 2. Navigate to the project directory:
 cd ScrappyYelpScraper
@@ -29,6 +30,8 @@ pip install -r requirements.txt
 
 arduino
 Copy code
+#### for headless selenium :
+    install latest version of chrome compatible with chromedriver 119.0.6045.105
 
 ## Usage
 

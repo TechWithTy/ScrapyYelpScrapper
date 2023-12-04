@@ -5,10 +5,10 @@ import json
 import re
 from urllib.parse import urlparse, parse_qs, urlunparse
 import pandas as pd
-from utils import clean_json_data,generate_unique_filename,random_uuid
+from utils import clean_json_data, generate_unique_filename, random_uuid
 import streamlit as st
 import os
-from scrapy_selenium import SeleniumRequest
+from scrapy_selenium import SeleniumRequest 
 
 # Define ANSI escape codes for blue text
 BLUE_TEXT = "\033[94m"
@@ -22,6 +22,7 @@ half_all_links = []
 # response.css(
 #     "div.businessName__09f24__EYSZE h3.css-1agk4wl a::attr(href)").getall()
 outputCsvFile = True
+
 
 class YelpCrawlerPlaywrightSpider(scrapy.Spider):
     name = "yelp-selenium"
@@ -59,7 +60,6 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
         self.search_terms["state"] = kwargs.get("state")
         self.search_terms["max_pages"] = kwargs.get("max_pages")
 
-
     def start_requests(self):
         base_url = "https://www.yelp.com/search?"
         city = self.search_terms["city_search_term"] or "default_city"
@@ -83,18 +83,22 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
     def parse(self, response):
         try:
             # Extract the href attribute of each link
-            links = response.css('[class*="businessName"] a::attr(href)').getall()
-            self.temp_links.extend([self.generate_yelp_url(link) for link in links])
+            links = response.css(
+                '[class*="businessName"] a::attr(href)').getall()
+            self.temp_links.extend(
+                [self.generate_yelp_url(link) for link in links])
             all_links.extend(self.temp_links)
 
-            next_page_url = response.css('span.css-foyide a.next-link::attr(href)').get()
+            next_page_url = response.css(
+                'span.css-foyide a.next-link::attr(href)').get()
 
             # Increment the number of pages visited
             self.num_pages_visited += 1
 
             # Check if the maximum number of pages is reached
-            if self.max_pages_to_visit  and self.num_pages_visited >= self.max_pages_to_visit:
-                print("\033[93mReached the maximum number of pages to visit.\033[0m")
+            if self.max_pages_to_visit and self.num_pages_visited >= self.max_pages_to_visit:
+                print(
+                    "\033[93mReached the maximum number of pages to visit.\033[0m")
                 return  # Stop the spider
             elif next_page_url:
                 # Yield a new request to scrape the next page
@@ -108,7 +112,12 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
             print(f"{BLUE_TEXT}{len(all_links)}{END_COLOR}")
 
             if all_links:
-                yield from SeleniumRequest(all_links, self.parse_business_page, meta={"playwright": True, "playwright_include_page": True})
+                business_data = []
+                for link in all_links:
+                    business_data.append(SeleniumRequest(
+                        url=link, callback=self.parse_business_page))
+
+                yield from business_data
             else:
                 print("All Links Empty")
 
@@ -146,20 +155,21 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
             "//p[text()='Business website']/following-sibling::p/a/text()").get()
         business_yelp_website = current_url
 
-
         # Extracting the phone number
         # Looking for a text node 'Phone number' and then extracting the phone number
         phone_number = response.xpath(
             "//p[text()='Phone number']/following-sibling::p/text()").get()
-        owner_name = response.xpath("//p[text()='Business owner information']/following-sibling::div//p/text()").get()
-        business_review_highlights = response.xpath("//div[contains(@class, 'css-1hqozct')]//p/span/text()").getall()
+        owner_name = response.xpath(
+            "//p[text()='Business owner information']/following-sibling::div//p/text()").get()
+        business_review_highlights = response.xpath(
+            "//div[contains(@class, 'css-1hqozct')]//p/span/text()").getall()
 
     # Extracting the role of the person
-        
 
         # Extracting review information
         # Using regular expressions to extract the rating and number of reviews
-        review_info = response.css('div.arrange-unit__09f24__rqHTg span.css-1p9ibgf::text').getall()
+        review_info = response.css(
+            'div.arrange-unit__09f24__rqHTg span.css-1p9ibgf::text').getall()
         review_rating = next((re.findall(r"\d+\.\d+", info)
                              for info in review_info if re.search(r"\d+\.\d+", info)), None)
         number_of_reviews = next((re.findall(r"\d+ reviews", info)
@@ -181,7 +191,6 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
             'business_categories': business_category,
         }
 
-
         self.data_list.append(extracted_data)
         # Yielding the data
         yield extracted_data
@@ -197,7 +206,7 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
         filename = generate_unique_filename(
             self.search_terms["city_search_term"],
             self.search_terms["search_term"],
-            
+
         )
 
         # Write the extracted data to a JSON file in the "dumps" folder
@@ -221,4 +230,3 @@ class YelpCrawlerPlaywrightSpider(scrapy.Spider):
 
             # Save data to CSV in the "dumps" folder
             df.to_csv(os.path.join("dumps", filename + ".csv"), index=False)
-
