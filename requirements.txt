@@ -19,7 +19,7 @@ gitdb==4.0.11
 
 GitPython==3.1.40
 hyperlink==21.0.0
-idna==3.5
+idna==3.7
 importlib-metadata==6.8.0
 incremental==22.10.0
 itemadapter==0.8.0
