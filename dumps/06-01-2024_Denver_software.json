@@ -1,0 +1,554 @@
+[
+    {
+        "owner_name": null,
+        "business_name": "Techno Fix Colorado Aurora",
+        "business_website": null,
+        "yelp_website": "https://www.yelp.com/biz/techno-fix-colorado-aurora?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(719) 299-9211",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [
+            "IT Services & Computer Repair",
+            "Electronics Repair"
+        ],
+        "reviews": []
+    },
+    {
+        "owner_name": "Kokeb E.",
+        "business_name": "Expert Societies Digital Marketing Aurora",
+        "business_website": "expertsocieties.com",
+        "yelp_website": "https://www.yelp.com/biz/expert-societies-digital-marketing-aurora?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 353-1911",
+        "review_rating": 5.0,
+        "number_of_reviews": 1,
+        "business_categories": [
+            "Web Design",
+            "Marketing",
+            "Advertising"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Caleb B.",
+        "business_name": "Fallen Apples Mac Repair Denver 2",
+        "business_website": "fallenapplesmacrepair.com",
+        "yelp_website": "https://www.yelp.com/biz/fallen-apples-mac-repair-denver-2?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 324-3000",
+        "review_rating": 4.9,
+        "number_of_reviews": 53,
+        "business_categories": [
+            "Electronics Repair",
+            "IT Services & Computer Repair"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Jason T.",
+        "business_name": "Fyresite Denver 2",
+        "business_website": "fyresite.com",
+        "yelp_website": "https://www.yelp.com/biz/fyresite-denver-2?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(888) 221-6509",
+        "review_rating": 5.0,
+        "number_of_reviews": 3,
+        "business_categories": [
+            "Software Development",
+            "Web Design"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Ryan K.",
+        "business_name": "Tek Ease Denver",
+        "business_website": "tek-ease.com",
+        "yelp_website": "https://www.yelp.com/biz/tek-ease-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 888-0727",
+        "review_rating": 4.7,
+        "number_of_reviews": 60,
+        "business_categories": [
+            "IT Services & Computer Repair"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Herosmyth Denver",
+        "business_website": "herosmyth.com",
+        "yelp_website": "https://www.yelp.com/biz/herosmyth-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 515-2418",
+        "review_rating": 5.0,
+        "number_of_reviews": 1,
+        "business_categories": [
+            "Web Design",
+            "Marketing",
+            "Graphic Design"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Vasif A.",
+        "business_name": "Caspicom Computer Repair Services Aurora",
+        "business_website": "pcrepaircompany.com",
+        "yelp_website": "https://www.yelp.com/biz/caspicom-computer-repair-services-aurora?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 841-8694",
+        "review_rating": 4.8,
+        "number_of_reviews": 12,
+        "business_categories": [
+            "IT Services & Computer Repair"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Jay A.",
+        "business_name": "Knowware International Inc Denver",
+        "business_website": "qimacros.com",
+        "yelp_website": "https://www.yelp.com/biz/knowware-international-inc-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 756-9144",
+        "review_rating": 5.0,
+        "number_of_reviews": 2,
+        "business_categories": [
+            "Software Development"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Tom T.",
+        "business_name": "Wireless Image Denver",
+        "business_website": "wirelessimage.net",
+        "yelp_website": "https://www.yelp.com/biz/wireless-image-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 702-3369",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    },
+    {
+        "owner_name": "Michael R.",
+        "business_name": "Computer System Services Littleton",
+        "business_website": "computersystemservice.com",
+        "yelp_website": "https://www.yelp.com/biz/computer-system-services-littleton?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 317-5454",
+        "review_rating": 5.0,
+        "number_of_reviews": 9,
+        "business_categories": [
+            "IT Services & Computer Repair",
+            "Home Theatre Installation",
+            "Home Network Installation"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ]
+    }
+]
