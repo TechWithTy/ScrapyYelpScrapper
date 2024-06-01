@@ -211,6 +211,22 @@ class YelpCrawlerSpider(scrapy.Spider):
         reviews_string = "\n".join([f"User: {review['user_name']}, Location: {review['user_location']}, Date: {review['review_date']}, Rating: {review['rating']}, Review: {review['review_text']}" +
                                 (f", Reply from {review['owner_reply']['owner_name']} on {review['owner_reply']['owner_reply_date']}: {review['owner_reply']['owner_reply_text']}" if 'owner_reply' in review else "")
                                 for review in extracted_reviews])
+        
+        google_maps_url = None
+        address = None
+        work_hours = []
+
+        try:
+            google_maps_url = response.xpath('//a[@href]/@href[contains(., "maps.googleapis.com/maps/api/staticmap")]/@href').get()
+            address = ' '.join(response.xpath('//address//text()').extract()).strip()
+            hours_rows = response.xpath('//table[contains(@class, "hours-table__09f24__KR8wh")]//tr')
+            for row in hours_rows:
+                day = row.xpath('.//th/p/text()').get()
+                hours = row.xpath('.//td/ul/li/p/text()').get()
+                if day and hours:
+                    work_hours.append(f"{day}: {hours}")
+        except Exception as e:
+            self.logger.error(f"Error extracting Google Maps URL, address, or work hours: {e}")
         extracted_data = {
             'owner_name': owner_name,
             'business_name': business_name,
@@ -222,6 +238,9 @@ class YelpCrawlerSpider(scrapy.Spider):
             'number_of_reviews': number_of_reviews,
             'business_categories': business_categories,
             'reviews': extracted_reviews,
+             'google_maps_url': google_maps_url,
+            'address': address,
+            'work_hours': work_hours,
 
         }
 

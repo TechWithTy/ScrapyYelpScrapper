@@ -1,19 +1,5 @@
 [
     {
-        "owner_name": null,
-        "business_name": "Techno Fix Colorado Aurora",
-        "business_website": null,
-        "yelp_website": "https://www.yelp.com/biz/techno-fix-colorado-aurora?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(719) 299-9211",
-        "review_rating": null,
-        "number_of_reviews": null,
-        "business_categories": [
-            "IT Services & Computer Repair",
-            "Electronics Repair"
-        ],
-        "reviews": []
-    },
-    {
         "owner_name": "Kokeb E.",
         "business_name": "Expert Societies Digital Marketing Aurora",
         "business_website": "expertsocieties.com",
@@ -34,91 +20,42 @@
                 "rating": "5 star rating",
                 "review_text": null
             }
+        ],
+        "google_maps_url": null,
+        "address": "2600 S Parker Rd Ste 3-234 Aurora, CO 80014",
+        "work_hours": [
+            "Mon: 8:00 AM - 5:00 PM",
+            "Tue: 8:00 AM - 5:00 PM",
+            "Wed: 8:00 AM - 5:00 PM",
+            "Thu: 8:00 AM - 5:00 PM",
+            "Fri: 8:00 AM - 5:00 PM",
+            "Sat: Closed",
+            "Sun: Closed"
         ]
     },
     {
-        "owner_name": "Caleb B.",
-        "business_name": "Fallen Apples Mac Repair Denver 2",
-        "business_website": "fallenapplesmacrepair.com",
-        "yelp_website": "https://www.yelp.com/biz/fallen-apples-mac-repair-denver-2?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(720) 324-3000",
-        "review_rating": 4.9,
-        "number_of_reviews": 53,
+        "owner_name": null,
+        "business_name": "Techno Fix Colorado Aurora",
+        "business_website": null,
+        "yelp_website": "https://www.yelp.com/biz/techno-fix-colorado-aurora?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(719) 299-9211",
+        "review_rating": null,
+        "number_of_reviews": null,
         "business_categories": [
-            "Electronics Repair",
-            "IT Services & Computer Repair"
+            "IT Services & Computer Repair",
+            "Electronics Repair"
         ],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            }
+        "reviews": [],
+        "google_maps_url": null,
+        "address": "Aurora, CO 80010",
+        "work_hours": [
+            "Mon: 8:00 AM - 10:00 PM",
+            "Tue: 8:00 AM - 10:00 PM",
+            "Wed: 8:00 AM - 10:00 PM",
+            "Thu: 8:00 AM - 10:00 PM",
+            "Fri: 8:00 AM - 10:00 PM",
+            "Sat: 8:00 AM - 10:00 PM",
+            "Sun: Closed"
         ]
     },
     {
@@ -155,19 +92,28 @@
                 "rating": "5 star rating",
                 "review_text": null
             }
+        ],
+        "google_maps_url": null,
+        "address": "1062 Delaware St Denver, CO 80204",
+        "work_hours": [
+            "Mon: 9:00 AM - 6:00 PM",
+            "Tue: 9:00 AM - 6:00 PM",
+            "Wed: 9:00 AM - 6:00 PM",
+            "Thu: 9:00 AM - 6:00 PM",
+            "Fri: 9:00 AM - 6:00 PM",
+            "Sat: Closed",
+            "Sun: Closed"
         ]
     },
     {
-        "owner_name": "Ryan K.",
-        "business_name": "Tek Ease Denver",
-        "business_website": "tek-ease.com",
-        "yelp_website": "https://www.yelp.com/biz/tek-ease-denver?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(303) 888-0727",
-        "review_rating": 4.7,
-        "number_of_reviews": 60,
-        "business_categories": [
-            "IT Services & Computer Repair"
-        ],
+        "owner_name": "Adam R.",
+        "business_name": "Mac Outlet Englewood",
+        "business_website": "macoutlet.com",
+        "yelp_website": "https://www.yelp.com/biz/mac-outlet-englewood?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 282-0069",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [],
         "reviews": [
             {
                 "user_name": null,
@@ -239,141 +185,17 @@
                 "rating": "5 star rating",
                 "review_text": null
             }
-        ]
-    },
-    {
-        "owner_name": null,
-        "business_name": "Herosmyth Denver",
-        "business_website": "herosmyth.com",
-        "yelp_website": "https://www.yelp.com/biz/herosmyth-denver?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(720) 515-2418",
-        "review_rating": 5.0,
-        "number_of_reviews": 1,
-        "business_categories": [
-            "Web Design",
-            "Marketing",
-            "Graphic Design"
         ],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            }
-        ]
-    },
-    {
-        "owner_name": "Vasif A.",
-        "business_name": "Caspicom Computer Repair Services Aurora",
-        "business_website": "pcrepaircompany.com",
-        "yelp_website": "https://www.yelp.com/biz/caspicom-computer-repair-services-aurora?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(720) 841-8694",
-        "review_rating": 4.8,
-        "number_of_reviews": 12,
-        "business_categories": [
-            "IT Services & Computer Repair"
-        ],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "2 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            }
-        ]
-    },
-    {
-        "owner_name": "Jay A.",
-        "business_name": "Knowware International Inc Denver",
-        "business_website": "qimacros.com",
-        "yelp_website": "https://www.yelp.com/biz/knowware-international-inc-denver?osq=software&override_cta=Request+a+consultation",
-        "phone_number": "(303) 756-9144",
-        "review_rating": 5.0,
-        "number_of_reviews": 2,
-        "business_categories": [
-            "Software Development"
-        ],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": "5 star rating",
-                "review_text": null
-            }
+        "google_maps_url": null,
+        "address": "111 W Floyd Ave Englewood, CO 80110",
+        "work_hours": [
+            "Mon: 10:00 AM - 6:00 PM",
+            "Tue: 10:00 AM - 6:00 PM",
+            "Wed: 10:00 AM - 6:00 PM",
+            "Thu: 10:00 AM - 6:00 PM",
+            "Fri: 10:00 AM - 6:00 PM",
+            "Sat: 10:00 AM - 5:00 PM",
+            "Sun: Closed"
         ]
     },
     {
@@ -470,6 +292,256 @@
                 "rating": "5 star rating",
                 "review_text": null
             }
+        ],
+        "google_maps_url": null,
+        "address": "1740 Federal Blvd Ste 2 Denver, CO 80204",
+        "work_hours": [
+            "Mon: 10:00 AM - 6:00 PM",
+            "Tue: 10:00 AM - 6:00 PM",
+            "Wed: 10:00 AM - 6:00 PM",
+            "Thu: 10:00 AM - 6:00 PM",
+            "Fri: 10:00 AM - 6:00 PM",
+            "Sat: 10:00 AM - 6:00 PM",
+            "Sun: Closed"
+        ]
+    },
+    {
+        "owner_name": "Caleb B.",
+        "business_name": "Fallen Apples Mac Repair Denver 2",
+        "business_website": "fallenapplesmacrepair.com",
+        "yelp_website": "https://www.yelp.com/biz/fallen-apples-mac-repair-denver-2?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 324-3000",
+        "review_rating": 4.9,
+        "number_of_reviews": 53,
+        "business_categories": [
+            "Electronics Repair",
+            "IT Services & Computer Repair"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "google_maps_url": null,
+        "address": "12022 Melody Dr Denver, CO 80234",
+        "work_hours": [
+            "Mon: 9:00 AM - 5:00 PM",
+            "Tue: 9:00 AM - 5:00 PM",
+            "Wed: 9:00 AM - 5:00 PM",
+            "Thu: 9:00 AM - 5:00 PM",
+            "Fri: 9:00 AM - 5:00 PM",
+            "Sat: Closed",
+            "Sun: Closed"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Herosmyth Denver",
+        "business_website": "herosmyth.com",
+        "yelp_website": "https://www.yelp.com/biz/herosmyth-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(720) 515-2418",
+        "review_rating": 5.0,
+        "number_of_reviews": 1,
+        "business_categories": [
+            "Web Design",
+            "Marketing",
+            "Graphic Design"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "google_maps_url": null,
+        "address": "6035 E Colfax Ave Denver, CO 80220",
+        "work_hours": [
+            "Mon: 9:00 AM - 5:00 PM",
+            "Tue: 9:00 AM - 5:00 PM",
+            "Wed: 9:00 AM - 5:00 PM",
+            "Thu: 9:00 AM - 5:00 PM",
+            "Fri: 9:00 AM - 5:00 PM",
+            "Sat: Closed",
+            "Sun: Closed"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Caspicom Computer Repair Services Aurora",
+        "business_website": null,
+        "yelp_website": "https://www.yelp.com/biz/caspicom-computer-repair-services-aurora?osq=software&override_cta=Request+a+consultation",
+        "phone_number": null,
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": [],
+        "reviews": [],
+        "google_maps_url": null,
+        "address": "",
+        "work_hours": []
+    },
+    {
+        "owner_name": "Ryan K.",
+        "business_name": "Tek Ease Denver",
+        "business_website": "tek-ease.com",
+        "yelp_website": "https://www.yelp.com/biz/tek-ease-denver?osq=software&override_cta=Request+a+consultation",
+        "phone_number": "(303) 888-0727",
+        "review_rating": 4.7,
+        "number_of_reviews": 60,
+        "business_categories": [
+            "IT Services & Computer Repair"
+        ],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "google_maps_url": null,
+        "address": "2367 E Kentucky Ave Denver, CO 80209",
+        "work_hours": [
+            "Mon: 8:00 AM - 5:00 PM",
+            "Tue: 8:00 AM - 5:00 PM",
+            "Wed: 8:00 AM - 5:00 PM",
+            "Thu: 8:00 AM - 5:00 PM",
+            "Fri: 8:00 AM - 5:00 PM",
+            "Sat: 9:00 AM - 5:00 PM",
+            "Sun: 9:00 AM - 5:00 PM"
         ]
     },
     {
@@ -549,6 +621,17 @@
                 "rating": "5 star rating",
                 "review_text": null
             }
+        ],
+        "google_maps_url": null,
+        "address": "4 W Dry Creek Cir Ste 100 Littleton, CO 80120",
+        "work_hours": [
+            "Mon: 8:00 AM - 9:00 PM",
+            "Tue: 8:00 AM - 9:00 PM",
+            "Wed: 8:00 AM - 9:00 PM",
+            "Thu: 8:00 AM - 9:00 PM",
+            "Fri: 8:00 AM - 9:00 PM",
+            "Sat: 8:00 AM - 9:00 PM",
+            "Sun: 8:00 AM - 9:00 PM"
         ]
     }
 ]
