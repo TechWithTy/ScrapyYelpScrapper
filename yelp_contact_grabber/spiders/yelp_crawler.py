@@ -238,7 +238,6 @@ class YelpCrawlerSpider(scrapy.Spider):
             'number_of_reviews': number_of_reviews,
             'business_categories': business_categories,
             'reviews': extracted_reviews,
-             'google_maps_url': google_maps_url,
             'address': address,
             'work_hours': work_hours,
 
