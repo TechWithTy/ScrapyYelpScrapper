@@ -165,7 +165,8 @@ class YelpCrawlerSpider(scrapy.Spider):
 
         # Extracting the business category
         # Using broader CSS selectors and text content to identify the category
-        business_category = response.css('span.css-1xfc281 a::text').getall()
+        business_category = response.xpath('//span[contains(@class, "y-css-1o34y7f")]/a/text()').getall()
+      
 
         extracted_data = {
             'owner_name': owner_name,
