@@ -8,6 +8,7 @@ import requests
 import re
 import uuid
 
+
 def get_user_location():
     try:
         response = requests.get("https://ipinfo.io/json")
@@ -16,7 +17,7 @@ def get_user_location():
         return location
     except Exception as e:
         return "Unknown"
-    
+
 
 def clean_json_data(data_list: List[Dict]) -> List[Dict]:
     # Convert the list of dictionaries to a Pandas DataFrame
@@ -34,12 +35,14 @@ def clean_json_data(data_list: List[Dict]) -> List[Dict]:
 def file_exists(file_path):
     return os.path.exists(file_path)
 
+
 def sanitize_for_filename(input_string):
     # Remove characters that are not safe for filenames
     sanitized_string = re.sub(r'[\\/:"*?<>|]+', '', input_string)
     return sanitized_string
 
-def generate_unique_filename( user_location, search_terms):
+
+def generate_unique_filename(user_location, search_terms):
     # Get the current date in the format: month-day-year
     search_terms = sanitize_for_filename(search_terms)
     user_location = sanitize_for_filename(user_location)
@@ -50,8 +53,7 @@ def generate_unique_filename( user_location, search_terms):
         [c if c.isalnum() else "_" for c in search_terms])
 
     # Construct the file name using the provided information
-    filename = f"{current_date}_{
-        user_location}_{search_terms}"
+    filename = f"{current_date}_{ user_location}_{search_terms}"
 
     # Ensure the file name is unique in the current directory
     unique_filename = filename

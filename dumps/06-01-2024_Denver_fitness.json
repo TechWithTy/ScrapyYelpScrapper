@@ -1,0 +1,102 @@
+[
+    {
+        "owner_name": "Taylor B.",
+        "business_name": "Life Time Broomfield 2",
+        "business_website": "lifetime.life",
+        "yelp_website": "https://www.yelp.com/biz/life-time-broomfield-2?osq=fitness",
+        "phone_number": "(720) 531-8000",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "The Fitness Edge Lafayette",
+        "business_website": "thefitnessedgeco.com",
+        "yelp_website": "https://www.yelp.com/biz/the-fitness-edge-lafayette?osq=fitness",
+        "phone_number": "(303) 588-3998",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": "Andrew P.",
+        "business_name": "Chuze Fitness Broomfield",
+        "business_website": "chuzefitness.com/gym-locations\u2026",
+        "yelp_website": "https://www.yelp.com/biz/chuze-fitness-broomfield?osq=fitness",
+        "phone_number": "(720) 210-9723",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": "Lindsey O.",
+        "business_name": "Pure Barre Westminster",
+        "business_website": "purebarre.com",
+        "yelp_website": "https://www.yelp.com/biz/pure-barre-westminster?osq=fitness",
+        "phone_number": "(720) 633-6398",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "The Paul Derda Recreation Center Broomfield",
+        "business_website": "broomfield.org",
+        "yelp_website": "https://www.yelp.com/biz/the-paul-derda-recreation-center-broomfield?osq=fitness",
+        "phone_number": "(303) 460-6900",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": "Mike and Beata P.",
+        "business_name": "Lightenup Lifestyle Broomfield 3",
+        "business_website": "lightenuplifestyle.com",
+        "yelp_website": "https://www.yelp.com/biz/lightenup-lifestyle-broomfield-3?osq=fitness",
+        "phone_number": "(720) 744-2789",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "Rocky Mountain Pilates And Yoga Lafayette",
+        "business_website": "rockymountainpilatesandyoga.co\u2026",
+        "yelp_website": "https://www.yelp.com/biz/rocky-mountain-pilates-and-yoga-lafayette?osq=fitness",
+        "phone_number": "(781) 367-0862",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "Active Lab Broomfield",
+        "business_website": "activelabfitness.com",
+        "yelp_website": "https://www.yelp.com/biz/active-lab-broomfield?osq=fitness",
+        "phone_number": "(303) 748-6922",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": "Steve and Kelli B.",
+        "business_name": "Spenga Broomfield Broomfield",
+        "business_website": "broomfieldco.spenga.com",
+        "yelp_website": "https://www.yelp.com/biz/spenga-broomfield-broomfield?osq=fitness",
+        "phone_number": "(720) 459-7057",
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "Orangetheory Fitness Broomfield Broomfield",
+        "business_website": null,
+        "yelp_website": "https://www.yelp.com/biz/orangetheory-fitness-broomfield-broomfield?osq=fitness",
+        "phone_number": null,
+        "review_rating": null,
+        "number_of_reviews": null,
+        "business_categories": []
+    }
+]

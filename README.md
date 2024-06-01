@@ -19,16 +19,14 @@ To set up ScrappyYelpScraper, follow these steps:
 1. Clone the repository:
    git clone [repository URL]
 
-css
-Copy code 2. Navigate to the project directory:
+2. Navigate to the project directory:
 cd ScrappyYelpScraper
 
-markdown
-Copy code 3. Install the required dependencies:
+3. Install the required dependencies:
 pip install -r requirements.txt
 
 arduino
-Copy code
+
 
 ## Usage
 
