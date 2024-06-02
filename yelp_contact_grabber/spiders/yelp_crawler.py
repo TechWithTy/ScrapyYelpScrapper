@@ -69,8 +69,7 @@ class YelpCrawlerSpider(scrapy.Spider):
             # Check if all required variables are not None
             if self.search_terms:
                 # Construct the URL with all variables and page number
-                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={
-                    search_term.replace(' ', '+')}&start={self.page * 10}"
+                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={search_term.replace(' ', '+')}&start={self.page * 10}"
                 # Print the URL in blue text
                 print(f"{BLUE_TEXT}{url}{END_COLOR}")
                 yield scrapy.Request(url, self.parse)
