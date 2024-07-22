@@ -1,12 +1,25 @@
 [
     {
         "owner_name": null,
+        "business_name": "Fit36 Lowry Denver 4",
+        "business_website": null,
+        "yelp_website": "https://www.yelp.com/biz/fit36-lowry-denver-4?osq=fitness",
+        "phone_number": null,
+        "review_rating": 0,
+        "number_of_reviews": 0,
+        "business_categories": [],
+        "reviews": [],
+        "address": "",
+        "work_hours": []
+    },
+    {
+        "owner_name": null,
         "business_name": "Chuze Fitness Aurora",
         "business_website": "chuzefitness.com/gym-locations\u2026",
         "yelp_website": "https://www.yelp.com/biz/chuze-fitness-aurora?osq=fitness",
         "phone_number": "(720) 716-2434",
-        "review_rating": 0,
-        "number_of_reviews": 59,
+        "review_rating": 3.9,
+        "number_of_reviews": 62,
         "business_categories": [],
         "reviews": [
             {
@@ -69,7 +82,7 @@
                 "user_name": "Chuy F.",
                 "user_location": "San Francisco, CA",
                 "review_date": "Apr 3, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "The customer service is incredible. They truly make you feel welcomed anytime you come in.  Love this location in Aurora CO. ",
                 "reactions": {
                     "Helpful": 0,
@@ -82,7 +95,7 @@
                 "user_name": "Jonathan S.",
                 "user_location": "Aurora, CO",
                 "review_date": "Jul 4, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I got my sick pump in, thats all that matters tbhh, idk what everyone tripps about just go lift some solid ass weights and you'll be good",
                 "reactions": {
                     "Helpful": 0,
@@ -95,7 +108,7 @@
                 "user_name": "Blu M.",
                 "user_location": "Denver, CO",
                 "review_date": "May 28, 2024",
-                "rating": "4 star rating",
+                "rating": 4,
                 "review_text": "Recently moved back to Aurora and needed to switch to the local Chuze Fitness. They charge a $10 fee to switch your main gym, which is a bit annoying but it's not terrible. The gym was very clean, and the staff were friendly. It was a bit crowded and so I couldn't get access to certain machines, so I think I'll come back at a better time. There were some machines missing that the other Chuze fitness location had. I would say overall this is a good gym, and I would give it another star if they had a bit more machines.",
                 "reactions": {
                     "Helpful": 0,
@@ -108,7 +121,7 @@
                 "user_name": "Alyssa M.",
                 "user_location": "Colorado Springs, CO",
                 "review_date": "Jun 28, 2024",
-                "rating": "3 star rating",
+                "rating": 3,
                 "review_text": "I really enjoy how clean the gym is. Lots of new equipment and not too busy in the mornings. Afternoons are WAY too busy for me, but that's all gyms. When I signed up, the staff was helpful and for the most part, informative. I've been going here for a few weeks now and tan occasionally. I went to ask to tan (like I normally do) and I was told to go print a ticket? Ok first time. Then was met with condescension when I asked what to do with the ticket. Patience, kindness and a LITTLE bit of instruction really helps. This was the taller gentleman with the glasses and long hair. Maybe he's not used to being in a customer service industry but I didn't appreciate the flippant attitude. I definitely gave back the vibe I got. Other than than, decent gym and most of the employees seem kind and greet you when you enter and exit.",
                 "reactions": {
                     "Helpful": 1,
@@ -121,7 +134,7 @@
                 "user_name": "Lourdes T.",
                 "user_location": "Rancho Santa Margarita, CA",
                 "review_date": "Apr 1, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "All I can say is positive things about my experience at Chuze. We tried the 7 Day Trial as we were visiting on vacation. We enjoyed 4/7 days! The customer service at the counter was phenomenal. This gym was very welcoming and answered all our questions. Great equipment and it's a clean gym. If I lived in this area I would definitely make this my home gym!",
                 "reactions": {
                     "Helpful": 0,
@@ -134,7 +147,7 @@
                 "user_name": "Johnny V.",
                 "user_location": "Denver, CO",
                 "review_date": "Jun 17, 2024",
-                "rating": "2 star rating",
+                "rating": 2,
                 "review_text": "Packed. Not enough racks and free weight space for my liking. I typically have to change my entire program the minute I walk in the door.",
                 "reactions": {
                     "Helpful": 0,
@@ -147,7 +160,7 @@
                 "user_name": "Max A.",
                 "user_location": "Littleton, CO",
                 "review_date": "Feb 12, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Very friendly and hospitable environment. I've never had anything get in my way of working out as hard or as long as I have wanted here. Steam room is usually open which isn't something that I've experienced at every gym. Lockers in the locker room have an odd shape and too many of them are built for people 6'3\" and above. Staff sometimes forget to tell me goodbye but I'll give them a solid 90%. I don't actually care if they tell me goodbye though. Have yet to experience a physically dirty environment there. Thanks CHUZ!",
                 "reactions": {
                     "Helpful": 0,
@@ -160,7 +173,7 @@
                 "user_name": "Lon H.",
                 "user_location": "Colorado Springs, CO",
                 "review_date": "Mar 3, 2024",
-                "rating": "3 star rating",
+                "rating": 3,
                 "review_text": "On two occasions I have suggested that they should put sanitizing wipes in the locker room.  I requested it because the lockers here never get cleaned by the staff members.  Having sanitizing wipes in here will allow for the patrons to clean their lockers.   They have several wipe dispensers in the gym area; plenty enough they could put one in each locker room.  Attached photo is locker #86 in the men's locker room.  Been dirty like this for two months now.",
                 "reactions": {
                     "Helpful": 0,
@@ -173,7 +186,7 @@
                 "user_name": "Julieta G.",
                 "user_location": "Northeast, Denver, CO",
                 "review_date": "Dec 21, 2023",
-                "rating": "2 star rating",
+                "rating": 2,
                 "review_text": "the gym overall is really big and has a lot to offer! Too bad I wasn't really able to enjoy the full potential of the gym because the staff is super busy rushing everyone out. They don't allow anyone on massage chairs after 10 (they close at 11) Night shift overall just sucks the morning crew definitely beats the attitude!",
                 "reactions": {
                     "Helpful": 0,
@@ -186,7 +199,7 @@
                 "user_name": "Goat O.",
                 "user_location": "Stellingen, Hamburg, Germany",
                 "review_date": "Aug 28, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "This gym is very spacious; they have multiple varieties of strength equipment, and although not all of them are great, overall they are amazing. The gym also has over 10 squat racks and a lot of open space. The bad thing is that the dumbbells only go up to 100, but it's not bad overall. It's probably the best gym I've been to. Also, there's only two benches for the bench press, and around 5-8, it gets really packed, and the benches are always full.",
                 "reactions": {
                     "Helpful": 0,
@@ -194,6 +207,30 @@
                     "Love this": 0,
                     "Oh no": 0
                 }
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
             },
             {
                 "user_name": null,
@@ -549,7 +586,7 @@
         "business_website": "twstfitness.com",
         "yelp_website": "https://www.yelp.com/biz/twst-fitness-aurora?osq=fitness",
         "phone_number": "(720) 237-1206",
-        "review_rating": 0,
+        "review_rating": 3.0,
         "number_of_reviews": 53,
         "business_categories": [],
         "reviews": [
@@ -613,7 +650,7 @@
                 "user_name": "Andrea F.",
                 "user_location": "Pico, Santa Monica, CA",
                 "review_date": "Feb 1, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I would absolutely recommend TWST fitness to anyone who wants to try or continue Pilates! I attended a Lagree class through ClassPass and really enjoyed my experience. The class was challenging (I was shaking most of the time) but the instructor, Lauren, was great and super helpful! I've been to different Pilates studios, not all of which I would return to, but I'm considering getting a membership to TWST. ",
                 "reactions": {
                     "Helpful": 0,
@@ -626,7 +663,7 @@
                 "user_name": "Sommer S.",
                 "user_location": "Denver, CO",
                 "review_date": "Feb 27, 2023",
-                "rating": "1 star rating",
+                "rating": 1,
                 "review_text": "This place is downright dangerous! Do NOT go. We were using the aerial yoga harnesses and my friend's harness broke and she fell to the ground! Thank God we weren't doing anything upside down! Then, the owner used profanity at us and insulted us as we tried to leave the class early because we were freaked out after what happened. Very unprofessional and unsafe!",
                 "reactions": {
                     "Helpful": 2,
@@ -1000,21 +1037,77 @@
         ]
     },
     {
-        "owner_name": null,
-        "business_name": "Orangetheory Fitness Central Park Denver",
-        "business_website": "orangetheory.com/en-us/locatio\u2026",
-        "yelp_website": "https://www.yelp.com/biz/orangetheory-fitness-central-park-denver?osq=fitness",
-        "phone_number": "(303) 388-3600",
-        "review_rating": 0,
-        "number_of_reviews": 57,
+        "owner_name": "joe M.",
+        "business_name": "Colorados Pro Gym Aurora",
+        "business_website": "coprogym.com",
+        "yelp_website": "https://www.yelp.com/biz/colorados-pro-gym-aurora?osq=fitness",
+        "phone_number": "(303) 671-9586",
+        "review_rating": 4.5,
+        "number_of_reviews": 65,
         "business_categories": [],
         "reviews": [
             {
-                "user_name": "Jenee G.",
-                "user_location": "Northeast, Denver, CO",
-                "review_date": "Feb 5, 2024",
-                "rating": "1 star rating",
-                "review_text": "I cannot speak to other locations but this one is poorly managed. I would not recommend this location. The old receptionist is extremely rude.",
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": "Stone C.",
+                "user_location": "Orange Park, FL",
+                "review_date": "Mar 18, 2024",
+                "rating": 5,
+                "review_text": "Colorado pro gym has an amazing set up with even better equipment, The environment and atmosphere is very welcoming. Love to see places like this still exist although the parking lot is atrocious the gym is spectacular!!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -1023,50 +1116,89 @@
                 }
             },
             {
-                "user_name": "Lauren R.",
+                "user_name": "Adam R.",
+                "user_location": "Orange Park, FL",
+                "review_date": "Feb 21, 2024",
+                "rating": 1,
+                "review_text": "I've been to a lot of gyms in my life and I will say I like the aesthetic of this gym however for the monthly price they want they need better costumer service the worker \"Deb\" always seems to have an attitude and comes across very condescending not very friendly at all, and there is never parking in the parking lot, i hope this gym improves i will not be coming back.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ute L.",
                 "user_location": "Denver, CO",
-                "review_date": "Jan 21, 2023",
-                "rating": "5 star rating",
-                "review_text": "Just joined a couple of months ago and I'm hooked. I'm the kind of person who struggles to get into a regular workout routine and these are highly motivating. The coaches are awesome and very encouraging; also super knowledgeable when it comes to making modifications for folks at different fitness levels or with limitations. I will say the music is crazy loud and I sometimes struggle with hearing/understanding the coaches' directions but I just follow along and still get a great workout.",
+                "review_date": "Sep 5, 2022",
+                "rating": 5,
+                "review_text": "Never ever have I gone to a gym where the staff and clients are so friendly. It's small and you pretty much see the same people over and over, so there is a neighborhood vibe. ",
                 "reactions": {
-                    "Helpful": 0,
+                    "Helpful": 4,
                     "Thanks": 0,
                     "Love this": 0,
                     "Oh no": 0
                 }
             },
             {
-                "user_name": "Brian K.",
-                "user_location": "Northeast, Denver, CO",
-                "review_date": "May 6, 2022",
-                "rating": "5 star rating",
-                "review_text": "Love this place.  Initially I thought it was just a ladies workout place but after my first class in April 2018 I have been hooked. ",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Nancy C.",
+                "user_name": "Katie H.",
                 "user_location": "Denver, CO",
-                "review_date": "Nov 24, 2019",
-                "rating": "4 star rating",
-                "review_text": "Orangetheory is like the McDonald's of HIIT workouts: consistent and dependable across studios, regardless of location.  OTF Stapleton is no exception.  I used to come here every once in a while after work to wait out the traffic, and I knew I could count on getting the same workout as if I were at my home studio.  OTF Stapleton is now my home studio since we moved, so I've had a chance to try out classes on different days and at different times of the day. ",
+                "review_date": "Nov 10, 2022",
+                "rating": 5,
+                "review_text": "this place is so fun! and life changing. if you wanna get in shape and at the same time have a few laughs then this is the place for you! down 30 pounds this year and building muscle. love seeing gym family as often as i can. beautiful people!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
-                    "Love this": 1,
+                    "Love this": 0,
                     "Oh no": 0
                 }
             },
             {
-                "user_name": "Andrew B.",
+                "user_name": "Ashley G.",
+                "user_location": "Kearney, NE",
+                "review_date": "Jun 14, 2019",
+                "rating": 5,
+                "review_text": "Down to business gym with members of all kinds. The trainers here are some of the most friendly individuals I've ever met. I was able to complete powerlifting programming without anyone batting an eye. It's a no rules but respect kind of a gym. Endless machines and attachments and weights to keep things interesting. No resistance bands but understandable since those tend to get destroyed after constant use.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ted R.",
+                "user_location": "Amsterdam, The Netherlands",
+                "review_date": "Mar 19, 2018",
+                "rating": 5,
+                "review_text": "Straight forward gritty gym",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Annie B.",
+                "user_location": "Denver, CO",
+                "review_date": "Dec 27, 2020",
+                "rating": 4,
+                "review_text": "First off I'll start with the good, this gym is pretty decent, yeah it's old ,but it gets the job done! I've been going here for about 4 months now since I have moved here, I like how this gym is pretty laid-back and chill, the trainers/staff are friendly. I like how they have a variety of strength equipment and a few cardio machines. I'm into powerlifting and training here is not \"too bad\". Here are some issues that I have encountered so far, a few men have complained about me deadlifting. The guy at the front desk approached me about the complaint said he didn't mind at all and he doesn't have a problem with me doing it but that it was his job to tell me about the complaint, which took me by surprise that these two older men complained, if it bothers you so much put some headphones on! What do you expect?it's a gym and I'm here to workout and lift some heavy weights! I've witnessed other guys bigger than me and lift more weight and they slam it down and harder than I do, so just be aware that some men will complain about you lifting some heavy weights! Another annoying thing is a lot of guys will put their bags/phone/water bottle/hoodies on this specific machine as if it's a locker of some sort, the nice rogue hyper reverse machine, as if it's not there for people to use? I've had to use it while it had other people's sh** on it or if they're nearby I will ask them nicely to move it. I just thought that was funny to add in lol. The hours are limited, which sucks, it would be nice if it was 24hrs or had longer hours. BEWARE: No one ever wipes down equipment after they're done using it. MOST people don't wear their masks or they have one on but have it under their chin or don't wear it correctly at all!! Despite my complaints and it being old and the machines are a little outdated, it's a decent gym and will get the job done!",
+                "reactions": {
+                    "Helpful": 2,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Cristina A.",
                 "user_location": "Aurora, CO",
-                "review_date": "Jan 26, 2023",
-                "rating": "2 star rating",
-                "review_text": "Classes are fun but very repetitive, very cardio heavy which is good but running is free and treadmills are the staple to any low cost gym. Also when I called to cancel my membership whoever I spoke to made it seem like it was done and she would send me some form to fill out. Fast forward 2 months I noticed I was still being charged so I debated it with my card company and got my refund and was told they'd notify OTF of my subscription cancelation. Now 4 month later I was still being charged and having to jump through hoops to get it canceled.",
+                "review_date": "May 26, 2019",
+                "rating": 5,
+                "review_text": "My second home! Tons of equipment, straight to the point kind of gym. Wouldn't train anywhere else.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -1075,11 +1207,11 @@
                 }
             },
             {
-                "user_name": "Erika B.",
-                "user_location": "Denver, CO",
-                "review_date": "Mar 30, 2022",
-                "rating": "1 star rating",
-                "review_text": "They choose money over safety!",
+                "user_name": "Russell M.",
+                "user_location": "Musashimurayama, Japan",
+                "review_date": "Oct 29, 2018",
+                "rating": 5,
+                "review_text": "I love this gym. It's a old school heavy lifting get it done kind of place. The people that workout there are also what makes the place. You will quickly become apart of the gym family. There are machines here you haven't seen in years. The older machines are so much better then the new stuff out there. Come on by, and see our for yourself.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -1088,24 +1220,11 @@
                 }
             },
             {
-                "user_name": "Tiffany N.",
+                "user_name": "T T.",
                 "user_location": "Denver, CO",
-                "review_date": "Mar 27, 2019",
-                "rating": "5 star rating",
-                "review_text": "I am here to tell you that I was basically dragged to Orange Theory by a very good friend that I trust who promised I would really like it and I doubted her the entire way. I thought:",
-                "reactions": {
-                    "Helpful": 16,
-                    "Thanks": 0,
-                    "Love this": 13,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Bridget M.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 24, 2020",
-                "rating": "5 star rating",
-                "review_text": "Rejoined OTF after five years and am very impressed with how organized they are. This location is doing a great job spacing everyone out at every other station and providing sanitation wipes during each transition. Working out in a mask is manageable - running takes some getting used to but absolutely doable. They also provided a free body scan and a complimentary comparison in 12 weeks. I signed up for 8 classes/month and am already considering increasing my membership.",
+                "review_date": "Dec 3, 2020",
+                "rating": 5,
+                "review_text": "This is by far the best gym in the Denver metro area. I'm saying this because of the knowledge and the staff at the gym is unlike any other gym. The people that have been going here have been members for decades they produce pro athletes competition bodybuilders and physique athletes every single day. The owner is by far the most knowledgeable individual when it comes to weight training/Injury recovery in the business.  You'll never go wrong here, everybody will motivate you to get to your goal including other members.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -1114,30 +1233,12 @@
                 }
             },
             {
-                "user_name": "Amanda E.",
-                "user_location": "Denver, CO",
-                "review_date": "Mar 11, 2016",
-                "rating": "4 star rating",
-                "review_text": "After having done Crossfit for four years, I was looking for a more cardio intensive workout that incorporated functional resistance training.  While I miss having the option to lift SOME heavier weight (a la Crossfit), OT is exactly the type of thing I was looking for.  ",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Meghan C.",
-                "user_location": "Denver, CO",
-                "review_date": "Feb 26, 2018",
-                "rating": "4 star rating",
-                "review_text": "I was definitely intimidated by Orangetheory, but my coworker insisted I give their free class a try and I am glad I did. The instructors in the room are friendly, motivating, and thoughtful. Halfway through my first class, I felt a bit faint and I must have looked even worse than I felt because the instructor immediately came over to check on me. He told me to take it slow and brought me an electrolyte drink. It tasted awful but it did the trick and I was able to finish the class. ",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
             },
             {
                 "user_name": null,
@@ -1516,1079 +1617,15 @@
                 "reactions": {}
             }
         ],
-        "address": "7349 East 29th Avenue Denver, CO 80238",
-        "work_hours": []
-    },
-    {
-        "owner_name": null,
-        "business_name": "Fit36 Lowry Denver 4",
-        "business_website": "fit36.com/lowry",
-        "yelp_website": "https://www.yelp.com/biz/fit36-lowry-denver-4?osq=fitness",
-        "phone_number": "(720) 508-4550",
-        "review_rating": 0,
-        "number_of_reviews": 50,
-        "business_categories": [],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": "Marina H.",
-                "user_location": "Denver, CO",
-                "review_date": "Mar 18, 2020",
-                "rating": "5 star rating",
-                "review_text": "Great, dynamic workouts, friendly and professional staff, well-maintained equipment, fun energy, provides a sense of community, and the manager (Tom) is very personable and knows his stuff - he is an awesome trainer, leader, and communicator. Thanks for the killer gains!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Tanner P.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 30, 2017",
-                "rating": "4 star rating",
-                "review_text": "FIT36 Lowry is truly inspirational. The workouts are straightforward yet creative, thoughtful and effective. The movements are healthy and embody proper techniques.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            }
-        ],
-        "address": "101 Ulster Ct Ste 104 Denver, CO 80230",
+        "address": "1961 S Havana St Aurora, CO 80014",
         "work_hours": [
-            "Mon: 5:15 AM - 6:15 PM",
-            "Tue: 5:30 AM - 6:15 PM",
-            "Wed: 5:15 AM - 6:15 PM",
-            "Thu: 5:30 AM - 6:15 PM",
-            "Fri: 5:15 AM - 5:15 PM",
-            "Sat: 8:00 AM - 12:00 PM",
-            "Sun: 9:00 AM - 11:00 AM"
-        ]
-    },
-    {
-        "owner_name": null,
-        "business_name": "Central Park Recreation Center Denver",
-        "business_website": "denvergov.org",
-        "yelp_website": "https://www.yelp.com/biz/central-park-recreation-center-denver?osq=fitness",
-        "phone_number": "(720) 865-0750",
-        "review_rating": 0,
-        "number_of_reviews": 71,
-        "business_categories": [],
-        "reviews": [
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": "Gail G.",
-                "user_location": "Westerville, OH",
-                "review_date": "Jan 27, 2024",
-                "rating": "2 star rating",
-                "review_text": "First, it is a regional recreation center, fairly new and is not supporting the fastest growing sport currently in the USA.  It claims to have \"pickleball\" courts, but it doesn't.  What it offers are stickers for a poor substitute for permanent lines.  What the rec center provides is dangerous.  I've been playing for years and I can evaluate what is safe for me.  I was going for a ball and the sticker indicating the bounds moved under my foot.  In a fast paced game, it is dangerous to have anything you could slip, slide, or trip on while moving.  The department did call me back , which I appreciated.  The representative did say that what the department provided did passed its safety committee .  As I slipped, I had a very different opinion from the committee.  If at one time the stickers worked, then they either need to be replaced or maintained better.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Peter M.",
-                "user_location": "Denver, CO",
-                "review_date": "Jan 27, 2024",
-                "rating": "5 star rating",
-                "review_text": "Very nice facility with tons of programs - classes and leagues for adults and kids.  Nice basketball facility, pool, friendly staff, ample parking.  Very busy, most days.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Glenn V.",
-                "user_location": "Denver, CO",
-                "review_date": "Apr 18, 2023",
-                "rating": "5 star rating",
-                "review_text": "Grandkids had a blast, good way to spend spring break with them. Also they were tired out after that, lol",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Kris G.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 29, 2023",
-                "rating": "5 star rating",
-                "review_text": "This is a great gym and recreation center. They have tons of weight equipment. They have plenty of treadmills, elliptical machines, and stationary  bicycles. They have a lazy river which is fun to water walk or float on. They also have a good lap pool as well. The rec center is centrally located in Central Park and has lots of free parking. Best of all if you are over age 60 and live in Denver it is free! They do have cardio classes as well. It is very clean and has nice locker rooms and showers. Great place to work out I highly recommend it.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Robert L.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 8, 2021",
-                "rating": "1 star rating",
-                "review_text": "We tried an Aqua Aerobics class last week. No one in the class was under 50 and many of us were much older. The instructor was a very young, athletic man who did nothing but fast dance type moves on the deck and expected the class to follow in the water. None of us have bodies that can do that and he was not in touch with the class. It was like a performance. Disgusted. Will not come back if he is the regular instructor. ",
-                "reactions": {
-                    "Helpful": 2,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Annette M.",
-                "user_location": "Denver, CO",
-                "review_date": "Feb 12, 2018",
-                "rating": "5 star rating",
-                "review_text": "Excellent rec center. Very affordable for the entire family. Busy, but never overly crowded. Staff does a great job keeping this place clean. Plenty of variety in classes to change things up. Beautiful views of the front range, Central Park and Colorado sunsets from the full glass cardio area. Nice pool, large basketball gym with open gym hours, and cozy weight room on the lower level. ",
-                "reactions": {
-                    "Helpful": 13,
-                    "Thanks": 0,
-                    "Love this": 8,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Tammy M.",
-                "user_location": "Port St. Lucie, FL",
-                "review_date": "Jun 3, 2019",
-                "rating": "5 star rating",
-                "review_text": "This place is pretty great! For like $5/pp you can spend all day here. It ranges from 3'6\" at the lazy river to 5 feet at the wave pool.  then there is also 2 kitty pools and a lap pool with looks to be 4 lanes that are 4 feet deep. The facility is new so still pretty. Lockers too and you can bring your own lock! There's also a season pass if you are going to go a lot. Totally worth it for $135. They have at least 6 guards in at a time so your kiddos are safe.",
-                "reactions": {
-                    "Helpful": 2,
-                    "Thanks": 0,
-                    "Love this": 2,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Karl G.",
-                "user_location": "Southeast, Denver, CO",
-                "review_date": "Aug 20, 2021",
-                "rating": "1 star rating",
-                "review_text": "The lifeguards here are so strict. No pool noodles, they kicked kids out for a second offense running. Kids MUST be close by parents at all times when the pool is only 3ft 6 inches. The lifeguards scream at these children's it's upsetting",
-                "reactions": {
-                    "Helpful": 2,
-                    "Thanks": 0,
-                    "Love this": 1,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ali H.",
-                "user_location": "Kansas City, MO",
-                "review_date": "Jul 30, 2021",
-                "rating": "5 star rating",
-                "review_text": "Since reopening after Covid, it has been even more lovely to come back and work out. The staff are so friendly and seem happy to have people back. I love love love love going into the cardio room and not being bombarded by music and TVs. Honestly, keep it all off, sell the TVs. People bring their own entertainment. No one is interested in what's on tv. It's awesome. So glad to be back!",
-                "reactions": {
-                    "Helpful": 3,
-                    "Thanks": 0,
-                    "Love this": 1,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Abby S.",
-                "user_location": "Denver, CO",
-                "review_date": "Nov 20, 2019",
-                "rating": "4 star rating",
-                "review_text": "I've started attending Saturday spin class with Luz (Luz Cannons) and really enjoy it! Not your typical HIIT class and it is a full hour, but I particularly enjoy Luz's random collection of music -- everything from Blur to Mark Ronson to Lizzo. She has a really nice voice so when she sings along I'm not totally annoyed, as I might be with other spin instructors. ",
-                "reactions": {
-                    "Helpful": 8,
-                    "Thanks": 0,
-                    "Love this": 6,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            }
-        ],
-        "address": "9651 E Martin Luther King Junior Blvd Denver, CO 80238",
-        "work_hours": [
-            "Mon: 5:30 AM - 9:00 PM",
-            "Tue: 5:30 AM - 9:00 PM",
-            "Wed: 5:30 AM - 9:00 PM",
-            "Thu: 5:30 AM - 9:00 PM",
-            "Fri: 5:30 AM - 8:00 PM",
-            "Sat: 8:00 AM - 5:00 PM",
-            "Sun: 8:00 AM - 5:00 PM"
+            "Mon: 5:00 AM - 10:00 PM",
+            "Tue: 5:00 AM - 10:00 PM",
+            "Wed: 5:00 AM - 10:00 PM",
+            "Thu: 5:00 AM - 10:00 PM",
+            "Fri: 5:00 AM - 8:00 PM",
+            "Sat: 7:00 AM - 5:00 PM",
+            "Sun: 7:00 AM - 5:00 PM"
         ]
     },
     {
@@ -2597,7 +1634,7 @@
         "business_website": "anschutzwellness.com",
         "yelp_website": "https://www.yelp.com/biz/cu-anschutz-health-and-wellness-center-aurora?osq=fitness",
         "phone_number": "(303) 724-9355",
-        "review_rating": 0,
+        "review_rating": 4.8,
         "number_of_reviews": 76,
         "business_categories": [],
         "reviews": [
@@ -2669,7 +1706,7 @@
                 "user_name": "Patricia M.",
                 "user_location": "Mar Lee, Denver, CO",
                 "review_date": "Feb 17, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Great facilities, the University does a great job at maintaining equipment and  facilities and sends timely communication/updates to members.  I personally use the massage and acupuncture loyalty program services. It makes sense financially and they do provide results. It is an enjoyable way of keeping health in check and it saves on potential future financial investments in healthcare in my humble opinion.  With acupuncture I have noticed immediate relief to my specific problems, Dee is very attentive to detail and always offers to maximize services that make me feel extremely relaxed. Highly recommend services, coming from a healthcare professional in the dental field, I truly believe in prevention. This health center is the destination!!",
                 "reactions": {
                     "Helpful": 0,
@@ -2682,7 +1719,7 @@
                 "user_name": "Rupal W.",
                 "user_location": "Saint Louis, MO",
                 "review_date": "Aug 4, 2023",
-                "rating": "3 star rating",
+                "rating": 3,
                 "review_text": "I really like my trainer here and the place is usually not crowded so that's a plus but there are some serious issues with this gym that leave a lot to be desired, especially given the price point. ",
                 "reactions": {
                     "Helpful": 0,
@@ -2695,7 +1732,7 @@
                 "user_name": "Vanessa P.",
                 "user_location": "Northeast, Denver, CO",
                 "review_date": "Jan 6, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Amazing amenities that feels like a spa or high end sports club. The hot tub, heated therapy pool, sauna and steam room can not be beat!",
                 "reactions": {
                     "Helpful": 0,
@@ -2708,7 +1745,7 @@
                 "user_name": "Jesse G.",
                 "user_location": "Aurora, CO",
                 "review_date": "Sep 11, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Very polite staff. Big enough weights section. A TON of cardio machines. Pool is small but clean and warm. Just renewed.",
                 "reactions": {
                     "Helpful": 0,
@@ -2721,7 +1758,7 @@
                 "user_name": "Julie E.",
                 "user_location": "San Diego, CA",
                 "review_date": "Jul 16, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Paige is a master in her craft. Her massages are exactly what I need every time I go. The actual massage is so therapeutic and relaxing and then my body feels so much heakthier afterwards. I struggle with shoulder and hamstring problems and she is able to address them through massage and cupping. I highly recommend getting a massage at AWHC.",
                 "reactions": {
                     "Helpful": 0,
@@ -2734,7 +1771,7 @@
                 "user_name": "Kindra W.",
                 "user_location": "Northeast, Denver, CO",
                 "review_date": "Jul 6, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I love the classes! The instructors are knowledgeable and energetic! I also love the hot tub!",
                 "reactions": {
                     "Helpful": 0,
@@ -2747,7 +1784,7 @@
                 "user_name": "Jelsy M.",
                 "user_location": "Southwest, Denver, CO",
                 "review_date": "Jul 6, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "This gym offers excellent classes and amenities (pool, hot tub, sauna, steam room)! I work full time, so I appreciate that the classes fit my schedule. I also really enjoyed getting a body scan to learn more about my fitness progress!",
                 "reactions": {
                     "Helpful": 0,
@@ -2760,7 +1797,7 @@
                 "user_name": "Brenda L.",
                 "user_location": "Rancho Palos Verdes, CA",
                 "review_date": "Mar 6, 2014",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "As Selena Gomez would say: \"I la love you like a love song baby!\"",
                 "reactions": {
                     "Helpful": 11,
@@ -2773,7 +1810,7 @@
                 "user_name": "Lauren R.",
                 "user_location": "Denver, CO",
                 "review_date": "Jul 8, 2018",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I'm really surprised to see some negative reviews. I've been coming here for about 2 months and I've had a very positive experience. The facility is super nice and kept clean and well functioning. I love having the towel service so I can have a hand towel during my workout and a bath towel in the locker room. Amenities in the locker room are awesome (soap, shampoo, lotion, etc) and staff are always very friendly. ",
                 "reactions": {
                     "Helpful": 0,
@@ -2786,7 +1823,7 @@
                 "user_name": "Crystal B.",
                 "user_location": "Irving, TX",
                 "review_date": "Nov 4, 2021",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Surprisingly well equipped and open. Never too crowded, and have always seen gym-goers wearing masks properly.",
                 "reactions": {
                     "Helpful": 0,
@@ -3273,11 +2310,651 @@
     },
     {
         "owner_name": null,
+        "business_name": "Central Park Recreation Center Denver",
+        "business_website": "denvergov.org",
+        "yelp_website": "https://www.yelp.com/biz/central-park-recreation-center-denver?osq=fitness",
+        "phone_number": "(720) 865-0750",
+        "review_rating": 3.8,
+        "number_of_reviews": 71,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": "Gail G.",
+                "user_location": "Westerville, OH",
+                "review_date": "Jan 27, 2024",
+                "rating": 2,
+                "review_text": "First, it is a regional recreation center, fairly new and is not supporting the fastest growing sport currently in the USA.  It claims to have \"pickleball\" courts, but it doesn't.  What it offers are stickers for a poor substitute for permanent lines.  What the rec center provides is dangerous.  I've been playing for years and I can evaluate what is safe for me.  I was going for a ball and the sticker indicating the bounds moved under my foot.  In a fast paced game, it is dangerous to have anything you could slip, slide, or trip on while moving.  The department did call me back , which I appreciated.  The representative did say that what the department provided did passed its safety committee .  As I slipped, I had a very different opinion from the committee.  If at one time the stickers worked, then they either need to be replaced or maintained better.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Peter M.",
+                "user_location": "Denver, CO",
+                "review_date": "Jan 27, 2024",
+                "rating": 5,
+                "review_text": "Very nice facility with tons of programs - classes and leagues for adults and kids.  Nice basketball facility, pool, friendly staff, ample parking.  Very busy, most days.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Glenn V.",
+                "user_location": "Denver, CO",
+                "review_date": "Apr 18, 2023",
+                "rating": 5,
+                "review_text": "Grandkids had a blast, good way to spend spring break with them. Also they were tired out after that, lol",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Kris G.",
+                "user_location": "Denver, CO",
+                "review_date": "Sep 29, 2023",
+                "rating": 5,
+                "review_text": "This is a great gym and recreation center. They have tons of weight equipment. They have plenty of treadmills, elliptical machines, and stationary  bicycles. They have a lazy river which is fun to water walk or float on. They also have a good lap pool as well. The rec center is centrally located in Central Park and has lots of free parking. Best of all if you are over age 60 and live in Denver it is free! They do have cardio classes as well. It is very clean and has nice locker rooms and showers. Great place to work out I highly recommend it.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Robert L.",
+                "user_location": "Denver, CO",
+                "review_date": "Sep 8, 2021",
+                "rating": 1,
+                "review_text": "We tried an Aqua Aerobics class last week. No one in the class was under 50 and many of us were much older. The instructor was a very young, athletic man who did nothing but fast dance type moves on the deck and expected the class to follow in the water. None of us have bodies that can do that and he was not in touch with the class. It was like a performance. Disgusted. Will not come back if he is the regular instructor. ",
+                "reactions": {
+                    "Helpful": 2,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Annette M.",
+                "user_location": "Denver, CO",
+                "review_date": "Feb 12, 2018",
+                "rating": 5,
+                "review_text": "Excellent rec center. Very affordable for the entire family. Busy, but never overly crowded. Staff does a great job keeping this place clean. Plenty of variety in classes to change things up. Beautiful views of the front range, Central Park and Colorado sunsets from the full glass cardio area. Nice pool, large basketball gym with open gym hours, and cozy weight room on the lower level. ",
+                "reactions": {
+                    "Helpful": 13,
+                    "Thanks": 0,
+                    "Love this": 8,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Tammy M.",
+                "user_location": "Port St. Lucie, FL",
+                "review_date": "Jun 3, 2019",
+                "rating": 5,
+                "review_text": "This place is pretty great! For like $5/pp you can spend all day here. It ranges from 3'6\" at the lazy river to 5 feet at the wave pool.  then there is also 2 kitty pools and a lap pool with looks to be 4 lanes that are 4 feet deep. The facility is new so still pretty. Lockers too and you can bring your own lock! There's also a season pass if you are going to go a lot. Totally worth it for $135. They have at least 6 guards in at a time so your kiddos are safe.",
+                "reactions": {
+                    "Helpful": 2,
+                    "Thanks": 0,
+                    "Love this": 2,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Karl G.",
+                "user_location": "Southeast, Denver, CO",
+                "review_date": "Aug 20, 2021",
+                "rating": 1,
+                "review_text": "The lifeguards here are so strict. No pool noodles, they kicked kids out for a second offense running. Kids MUST be close by parents at all times when the pool is only 3ft 6 inches. The lifeguards scream at these children's it's upsetting",
+                "reactions": {
+                    "Helpful": 2,
+                    "Thanks": 0,
+                    "Love this": 1,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ali H.",
+                "user_location": "Kansas City, MO",
+                "review_date": "Jul 30, 2021",
+                "rating": 5,
+                "review_text": "Since reopening after Covid, it has been even more lovely to come back and work out. The staff are so friendly and seem happy to have people back. I love love love love going into the cardio room and not being bombarded by music and TVs. Honestly, keep it all off, sell the TVs. People bring their own entertainment. No one is interested in what's on tv. It's awesome. So glad to be back!",
+                "reactions": {
+                    "Helpful": 3,
+                    "Thanks": 0,
+                    "Love this": 1,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Abby S.",
+                "user_location": "Denver, CO",
+                "review_date": "Nov 20, 2019",
+                "rating": 4,
+                "review_text": "I've started attending Saturday spin class with Luz (Luz Cannons) and really enjoy it! Not your typical HIIT class and it is a full hour, but I particularly enjoy Luz's random collection of music -- everything from Blur to Mark Ronson to Lizzo. She has a really nice voice so when she sings along I'm not totally annoyed, as I might be with other spin instructors. ",
+                "reactions": {
+                    "Helpful": 8,
+                    "Thanks": 0,
+                    "Love this": 6,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            }
+        ],
+        "address": "9651 E Martin Luther King Junior Blvd Denver, CO 80238",
+        "work_hours": [
+            "Mon: 5:30 AM - 9:00 PM",
+            "Tue: 5:30 AM - 9:00 PM",
+            "Wed: 5:30 AM - 9:00 PM",
+            "Thu: 5:30 AM - 9:00 PM",
+            "Fri: 5:30 AM - 8:00 PM",
+            "Sat: 8:00 AM - 5:00 PM",
+            "Sun: 8:00 AM - 5:00 PM"
+        ]
+    },
+    {
+        "owner_name": null,
         "business_name": "Trufusion Denver Denver",
         "business_website": "trufusion.com",
         "yelp_website": "https://www.yelp.com/biz/trufusion-denver-denver?osq=fitness",
         "phone_number": "(303) 999-0655",
-        "review_rating": 0,
+        "review_rating": 4.1,
         "number_of_reviews": 75,
         "business_categories": [],
         "reviews": [
@@ -3341,7 +3018,7 @@
                 "user_name": "Sheila P.",
                 "user_location": "Denver, CO",
                 "review_date": "Oct 31, 2023",
-                "rating": "4 star rating",
+                "rating": 4,
                 "review_text": "TruFusion offers a fantastic fitness experience with a wide variety of classes, top-notch facilities, and a great overall vibe. ",
                 "reactions": {
                     "Helpful": 0,
@@ -3354,7 +3031,7 @@
                 "user_name": "Jessie Elizabeth J.",
                 "user_location": "Chicago, IL",
                 "review_date": "Apr 26, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I'm someone who used to think of the gym as a torture chamber that I avoided for a lifetime due to anxiety and self-conscious ineptitude. So when I say I now actively look forward to planning my week around my workouts at Trufusion, I want that sentiment to hold real weight to whoever is reading this and has had gym anxiety themselves. ",
                 "reactions": {
                     "Helpful": 0,
@@ -3367,7 +3044,7 @@
                 "user_name": "Shannon H.",
                 "user_location": "Denver, CO",
                 "review_date": "Oct 27, 2023",
-                "rating": "4 star rating",
+                "rating": 4,
                 "review_text": "Trufusion in Denver stands out as a premier fitness studio, offering a diverse array of workout classes in a contemporary, upscale setting. With an impressive range of options, from serene Yin yoga, and Chakra Flow yoga to dynamic power vinyasa, cardio dance, pilates, cycling, TRX, Barre, Kettle Bell and more, Trufusion caters to various fitness preferences. My favorite class so far has been Cardio Dance, the class felt very inclusive and energetic, the teacher was entusiastic and motivating and made the entire experience really fun! ",
                 "reactions": {
                     "Helpful": 0,
@@ -3380,7 +3057,7 @@
                 "user_name": "Joelle L.",
                 "user_location": "Denver, CO",
                 "review_date": "Feb 21, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "As evidenced by a lot of check ins in a short period of time at TruFusion, I have decided to join this nearby gym and now come here a lot. Always be ready for a fun and challenging work out each time you're here, the instructors are great at finding new ways to push everyone and there is SO MUCH variety in classes you can take. I have nothing but positive things to say about the staff and instructors who have done a great job making me feel welcome and accommodated as I've gotten back into working out. ",
                 "reactions": {
                     "Helpful": 0,
@@ -3393,7 +3070,7 @@
                 "user_name": "Florence V.",
                 "user_location": "Aurora, CO",
                 "review_date": "Dec 2, 2022",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "My friend talked me into coming to the Trigger Point Recovery Yoga class and after reading the description, I was sure I was going to die, but since I said I would go, I did. Well, that Trigger Point Recovery class is my FAVORITE!! Yes, it seems intense to be at 100\u00b0F and 40% humidity but at that heat, your muscles relax and you can stretch more. You also foam roll and then stretch again. This is EXACTLY what my body needs. I do wish it was offered at other times besides 1015a on Mon and Thurs because it's hard to get to if you have a typical 8a-5p schedule.  ",
                 "reactions": {
                     "Helpful": 0,
@@ -3406,7 +3083,7 @@
                 "user_name": "Sarah A.",
                 "user_location": "Alexandria, VA",
                 "review_date": "Aug 31, 2021",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "This place is a gem. And they know how to solve problems! There have been issues with my account, times I've been late to class (they gave me free equipment rental for the day and let me try a different class), or even locked myself out of my locker and the TruFusion team has handled each situation in the best ways. ",
                 "reactions": {
                     "Helpful": 0,
@@ -3419,7 +3096,7 @@
                 "user_name": "Kelsey Y.",
                 "user_location": "Los Angeles, CA",
                 "review_date": "Jul 13, 2023",
-                "rating": "2 star rating",
+                "rating": 2,
                 "review_text": "I'm a Trufusion member at another out of state location so I was very eager to give the Denver location a shot while I was in town. I have to say this is one of the more mediocre boutique fitness studios I've ever been to. I booked a drop-in spot in the Vibe Ride class for $30 (a little steep for almost 0 amenities). ",
                 "reactions": {
                     "Helpful": 1,
@@ -3432,7 +3109,7 @@
                 "user_name": "Carly W.",
                 "user_location": "Denver, CO",
                 "review_date": "Aug 11, 2021",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "After get a true VIP experience during Yelp's Elite Week, I was beyond excited to check out more of what TruFusion Denver had to offer. So I got myself on the calendar for Tawny's Sunday Vibe Ride and redeemed my introductory unlimited offer. ",
                 "reactions": {
                     "Helpful": 31,
@@ -3445,7 +3122,7 @@
                 "user_name": "Danny M.",
                 "user_location": "Washington, DC",
                 "review_date": "Jul 8, 2021",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I am a TruFusion convert. I moved to Denver looking for a place to do hot mat Pilates. Surprisingly, I couldn't find a lot of options and really stumbled upon TruFusion from a Yelp Instagram post. I want something affordable, good schedule, mix of men and women, heated rooms and music. TruFusion had it all.",
                 "reactions": {
                     "Helpful": 1,
@@ -3458,7 +3135,7 @@
                 "user_name": "Jeff B.",
                 "user_location": "Southwest, Denver, CO",
                 "review_date": "Apr 13, 2023",
-                "rating": "1 star rating",
+                "rating": 1,
                 "review_text": "THIS PLACE IS SHADY AF. I canceled my membership online on the exact date they told me (two weeks before the renewal date which is also shady) and they still charged me $160! This place is cheap as hell they charge $3 to use a towel when youre paying $160/month. Save your money and go somewhere that doesnt try to lead you in a wild goose chase just to cancel your membership.",
                 "reactions": {
                     "Helpful": 1,
@@ -3944,77 +3621,21 @@
         ]
     },
     {
-        "owner_name": "joe M.",
-        "business_name": "Colorados Pro Gym Aurora",
-        "business_website": "coprogym.com",
-        "yelp_website": "https://www.yelp.com/biz/colorados-pro-gym-aurora?osq=fitness",
-        "phone_number": "(303) 671-9586",
-        "review_rating": 0,
-        "number_of_reviews": 65,
+        "owner_name": null,
+        "business_name": "Orangetheory Fitness Central Park Denver",
+        "business_website": "orangetheory.com/en-us/locatio\u2026",
+        "yelp_website": "https://www.yelp.com/biz/orangetheory-fitness-central-park-denver?osq=fitness",
+        "phone_number": "(303) 388-3600",
+        "review_rating": 3.6,
+        "number_of_reviews": 57,
         "business_categories": [],
         "reviews": [
             {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
-            },
-            {
-                "user_name": "Stone C.",
-                "user_location": "Orange Park, FL",
-                "review_date": "Mar 18, 2024",
-                "rating": "5 star rating",
-                "review_text": "Colorado pro gym has an amazing set up with even better equipment, The environment and atmosphere is very welcoming. Love to see places like this still exist although the parking lot is atrocious the gym is spectacular!!",
+                "user_name": "Jenee G.",
+                "user_location": "Northeast, Denver, CO",
+                "review_date": "Feb 5, 2024",
+                "rating": 1,
+                "review_text": "I cannot speak to other locations but this one is poorly managed. I would not recommend this location. The old receptionist is extremely rude.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -4023,89 +3644,50 @@
                 }
             },
             {
-                "user_name": "Adam R.",
-                "user_location": "Orange Park, FL",
-                "review_date": "Feb 21, 2024",
-                "rating": "1 star rating",
-                "review_text": "I've been to a lot of gyms in my life and I will say I like the aesthetic of this gym however for the monthly price they want they need better costumer service the worker \"Deb\" always seems to have an attitude and comes across very condescending not very friendly at all, and there is never parking in the parking lot, i hope this gym improves i will not be coming back.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ute L.",
+                "user_name": "Lauren R.",
                 "user_location": "Denver, CO",
-                "review_date": "Sep 5, 2022",
-                "rating": "5 star rating",
-                "review_text": "Never ever have I gone to a gym where the staff and clients are so friendly. It's small and you pretty much see the same people over and over, so there is a neighborhood vibe. ",
+                "review_date": "Jan 21, 2023",
+                "rating": 5,
+                "review_text": "Just joined a couple of months ago and I'm hooked. I'm the kind of person who struggles to get into a regular workout routine and these are highly motivating. The coaches are awesome and very encouraging; also super knowledgeable when it comes to making modifications for folks at different fitness levels or with limitations. I will say the music is crazy loud and I sometimes struggle with hearing/understanding the coaches' directions but I just follow along and still get a great workout.",
                 "reactions": {
-                    "Helpful": 4,
+                    "Helpful": 0,
                     "Thanks": 0,
                     "Love this": 0,
                     "Oh no": 0
                 }
             },
             {
-                "user_name": "Katie H.",
+                "user_name": "Brian K.",
+                "user_location": "Northeast, Denver, CO",
+                "review_date": "May 6, 2022",
+                "rating": 5,
+                "review_text": "Love this place.  Initially I thought it was just a ladies workout place but after my first class in April 2018 I have been hooked. ",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Nancy C.",
                 "user_location": "Denver, CO",
-                "review_date": "Nov 10, 2022",
-                "rating": "5 star rating",
-                "review_text": "this place is so fun! and life changing. if you wanna get in shape and at the same time have a few laughs then this is the place for you! down 30 pounds this year and building muscle. love seeing gym family as often as i can. beautiful people!",
+                "review_date": "Nov 24, 2019",
+                "rating": 4,
+                "review_text": "Orangetheory is like the McDonald's of HIIT workouts: consistent and dependable across studios, regardless of location.  OTF Stapleton is no exception.  I used to come here every once in a while after work to wait out the traffic, and I knew I could count on getting the same workout as if I were at my home studio.  OTF Stapleton is now my home studio since we moved, so I've had a chance to try out classes on different days and at different times of the day. ",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
-                    "Love this": 0,
+                    "Love this": 1,
                     "Oh no": 0
                 }
             },
             {
-                "user_name": "Ashley G.",
-                "user_location": "Kearney, NE",
-                "review_date": "Jun 14, 2019",
-                "rating": "5 star rating",
-                "review_text": "Down to business gym with members of all kinds. The trainers here are some of the most friendly individuals I've ever met. I was able to complete powerlifting programming without anyone batting an eye. It's a no rules but respect kind of a gym. Endless machines and attachments and weights to keep things interesting. No resistance bands but understandable since those tend to get destroyed after constant use.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ted R.",
-                "user_location": "Amsterdam, The Netherlands",
-                "review_date": "Mar 19, 2018",
-                "rating": "5 star rating",
-                "review_text": "Straight forward gritty gym",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Annie B.",
-                "user_location": "Denver, CO",
-                "review_date": "Dec 27, 2020",
-                "rating": "4 star rating",
-                "review_text": "First off I'll start with the good, this gym is pretty decent, yeah it's old ,but it gets the job done! I've been going here for about 4 months now since I have moved here, I like how this gym is pretty laid-back and chill, the trainers/staff are friendly. I like how they have a variety of strength equipment and a few cardio machines. I'm into powerlifting and training here is not \"too bad\". Here are some issues that I have encountered so far, a few men have complained about me deadlifting. The guy at the front desk approached me about the complaint said he didn't mind at all and he doesn't have a problem with me doing it but that it was his job to tell me about the complaint, which took me by surprise that these two older men complained, if it bothers you so much put some headphones on! What do you expect?it's a gym and I'm here to workout and lift some heavy weights! I've witnessed other guys bigger than me and lift more weight and they slam it down and harder than I do, so just be aware that some men will complain about you lifting some heavy weights! Another annoying thing is a lot of guys will put their bags/phone/water bottle/hoodies on this specific machine as if it's a locker of some sort, the nice rogue hyper reverse machine, as if it's not there for people to use? I've had to use it while it had other people's sh** on it or if they're nearby I will ask them nicely to move it. I just thought that was funny to add in lol. The hours are limited, which sucks, it would be nice if it was 24hrs or had longer hours. BEWARE: No one ever wipes down equipment after they're done using it. MOST people don't wear their masks or they have one on but have it under their chin or don't wear it correctly at all!! Despite my complaints and it being old and the machines are a little outdated, it's a decent gym and will get the job done!",
-                "reactions": {
-                    "Helpful": 2,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Cristina A.",
+                "user_name": "Andrew B.",
                 "user_location": "Aurora, CO",
-                "review_date": "May 26, 2019",
-                "rating": "5 star rating",
-                "review_text": "My second home! Tons of equipment, straight to the point kind of gym. Wouldn't train anywhere else.",
+                "review_date": "Jan 26, 2023",
+                "rating": 2,
+                "review_text": "Classes are fun but very repetitive, very cardio heavy which is good but running is free and treadmills are the staple to any low cost gym. Also when I called to cancel my membership whoever I spoke to made it seem like it was done and she would send me some form to fill out. Fast forward 2 months I noticed I was still being charged so I debated it with my card company and got my refund and was told they'd notify OTF of my subscription cancelation. Now 4 month later I was still being charged and having to jump through hoops to get it canceled.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -4114,24 +3696,11 @@
                 }
             },
             {
-                "user_name": "Russell M.",
-                "user_location": "Musashimurayama, Japan",
-                "review_date": "Oct 29, 2018",
-                "rating": "5 star rating",
-                "review_text": "I love this gym. It's a old school heavy lifting get it done kind of place. The people that workout there are also what makes the place. You will quickly become apart of the gym family. There are machines here you haven't seen in years. The older machines are so much better then the new stuff out there. Come on by, and see our for yourself.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "T T.",
+                "user_name": "Erika B.",
                 "user_location": "Denver, CO",
-                "review_date": "Dec 3, 2020",
-                "rating": "5 star rating",
-                "review_text": "This is by far the best gym in the Denver metro area. I'm saying this because of the knowledge and the staff at the gym is unlike any other gym. The people that have been going here have been members for decades they produce pro athletes competition bodybuilders and physique athletes every single day. The owner is by far the most knowledgeable individual when it comes to weight training/Injury recovery in the business.  You'll never go wrong here, everybody will motivate you to get to your goal including other members.",
+                "review_date": "Mar 30, 2022",
+                "rating": 1,
+                "review_text": "They choose money over safety!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -4140,12 +3709,56 @@
                 }
             },
             {
-                "user_name": null,
-                "user_location": null,
-                "review_date": null,
-                "rating": null,
-                "review_text": null,
-                "reactions": {}
+                "user_name": "Tiffany N.",
+                "user_location": "Denver, CO",
+                "review_date": "Mar 27, 2019",
+                "rating": 5,
+                "review_text": "I am here to tell you that I was basically dragged to Orange Theory by a very good friend that I trust who promised I would really like it and I doubted her the entire way. I thought:",
+                "reactions": {
+                    "Helpful": 16,
+                    "Thanks": 0,
+                    "Love this": 13,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Bridget M.",
+                "user_location": "Denver, CO",
+                "review_date": "Sep 24, 2020",
+                "rating": 5,
+                "review_text": "Rejoined OTF after five years and am very impressed with how organized they are. This location is doing a great job spacing everyone out at every other station and providing sanitation wipes during each transition. Working out in a mask is manageable - running takes some getting used to but absolutely doable. They also provided a free body scan and a complimentary comparison in 12 weeks. I signed up for 8 classes/month and am already considering increasing my membership.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Amanda E.",
+                "user_location": "Denver, CO",
+                "review_date": "Mar 11, 2016",
+                "rating": 4,
+                "review_text": "After having done Crossfit for four years, I was looking for a more cardio intensive workout that incorporated functional resistance training.  While I miss having the option to lift SOME heavier weight (a la Crossfit), OT is exactly the type of thing I was looking for.  ",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Meghan C.",
+                "user_location": "Denver, CO",
+                "review_date": "Feb 26, 2018",
+                "rating": 4,
+                "review_text": "I was definitely intimidated by Orangetheory, but my coworker insisted I give their free class a try and I am glad I did. The instructors in the room are friendly, motivating, and thoughtful. Halfway through my first class, I felt a bit faint and I must have looked even worse than I felt because the instructor immediately came over to check on me. He told me to take it slow and brought me an electrolyte drink. It tasted awful but it did the trick and I was able to finish the class. ",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
             },
             {
                 "user_name": null,
@@ -4524,16 +4137,8 @@
                 "reactions": {}
             }
         ],
-        "address": "1961 S Havana St Aurora, CO 80014",
-        "work_hours": [
-            "Mon: 5:00 AM - 10:00 PM",
-            "Tue: 5:00 AM - 10:00 PM",
-            "Wed: 5:00 AM - 10:00 PM",
-            "Thu: 5:00 AM - 10:00 PM",
-            "Fri: 5:00 AM - 8:00 PM",
-            "Sat: 7:00 AM - 5:00 PM",
-            "Sun: 7:00 AM - 5:00 PM"
-        ]
+        "address": "7349 East 29th Avenue Denver, CO 80238",
+        "work_hours": []
     },
     {
         "owner_name": null,
@@ -4541,15 +4146,15 @@
         "business_website": "lagreeluxe.com/booking/central\u2026",
         "yelp_website": "https://www.yelp.com/biz/lagree-luxe-central-park-denver?osq=fitness",
         "phone_number": "(303) 377-0982",
-        "review_rating": 0,
-        "number_of_reviews": 56,
+        "review_rating": 4.9,
+        "number_of_reviews": 58,
         "business_categories": [],
         "reviews": [
             {
                 "user_name": "Karin H.",
                 "user_location": "Denver, CO",
                 "review_date": "Mar 15, 2024",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I am so fortunate to workout at Lagree Luxe.",
                 "reactions": {
                     "Helpful": 0,
@@ -4562,7 +4167,7 @@
                 "user_name": "Noelle G.",
                 "user_location": "Los Angeles, CA",
                 "review_date": "Feb 10, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I love Lagree Luxe in Central Park! It is my all time favorite studio. I go at least 4x time a week and my body loves it! All instructors are AMAZING, warm, and welcoming. They sure do challenge you, but still make it fun and motivating. I truly look forward to attending class and seeing quick results. LAGREE LUXE does not disappoint!  (:",
                 "reactions": {
                     "Helpful": 0,
@@ -4575,7 +4180,7 @@
                 "user_name": "Krislyn W.",
                 "user_location": "Aurora, CO",
                 "review_date": "Feb 8, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Such a great workout! My favorite workout studio here! The instructors are great and the studio is super welcoming.",
                 "reactions": {
                     "Helpful": 0,
@@ -4588,7 +4193,7 @@
                 "user_name": "Ellie W.",
                 "user_location": "Denver, CO",
                 "review_date": "Feb 12, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Favorite work out in Denver - it's Pilates on steroids, 45 mins classes that leave you feeling awesome. I love that I can physical feel the changes class to class. Central Park location has a ton of parking availability!",
                 "reactions": {
                     "Helpful": 0,
@@ -4601,7 +4206,7 @@
                 "user_name": "Kristin L.",
                 "user_location": "Santa Fe, NM",
                 "review_date": "Feb 14, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Love this studio space and location.  Todays instructor, Perin leads well paced classes and always offers modifications while keeping everyone motivated.  Really enjoy her classes.",
                 "reactions": {
                     "Helpful": 0,
@@ -4614,7 +4219,7 @@
                 "user_name": "Nancy C.",
                 "user_location": "Denver, CO",
                 "review_date": "Nov 20, 2020",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "After a year of taking classes at Pilates Evolution Central Park, I felt this place deserves an updated review.  In my last review, I mentioned that the classes are pricey.  Their teacher to student ratio now with COVID precautions is 1:8, rather than the 1:12 before.  However, most classes are not full except for the Saturday and Sunday morning classes, so there are usually fewer than 8 students per class with the same pre-COVID prices.  Pretty sweet, IMO. ",
                 "reactions": {
                     "Helpful": 2,
@@ -4627,7 +4232,7 @@
                 "user_name": "Luisa R.",
                 "user_location": "Northeast, Denver, CO",
                 "review_date": "Jun 24, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Been going here for a while. Close to hitting my 100th class. If you like high intensity, low impact, quick work outs- this is the place to go!  Also I always enjoy the music they play.",
                 "reactions": {
                     "Helpful": 0,
@@ -4640,7 +4245,7 @@
                 "user_name": "Camilla H.",
                 "user_location": "Denver, CO",
                 "review_date": "Feb 13, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I've been going to this studio for a few years now and am so glad I \"forced\" myself to finally start working out! The instructors are fabulous and the workout is HARD - but in a good way. And there are always suggestions to modify if you need things to be a bit easier, or if you have injuries. I feel stronger than ever! Highly recommend.",
                 "reactions": {
                     "Helpful": 0,
@@ -4653,7 +4258,7 @@
                 "user_name": "Krista M.",
                 "user_location": "Northeast, Denver, CO",
                 "review_date": "Feb 8, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Love the classes and instructors here.  The 45-minute non-sweaty (but effective) classes are easy for me to fit into my daily schedule and the reservation system forces me to commit to my regular morning Lagree classes.  This combo, including the welcoming and friendly instructors, has made it easy for me to make working out a regular part of my schedule (a first for me!).",
                 "reactions": {
                     "Helpful": 0,
@@ -4666,7 +4271,7 @@
                 "user_name": "Jamie B.",
                 "user_location": "Denver, CO",
                 "review_date": "Jan 29, 2018",
-                "rating": "4 star rating",
+                "rating": 4,
                 "review_text": "I came on a ClassPass and enjoyed my experience. I love using the reformer and found it to be a pretty good workout. ",
                 "reactions": {
                     "Helpful": 4,
@@ -4674,6 +4279,22 @@
                     "Love this": 3,
                     "Oh no": 0
                 }
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null,
+                "reactions": {}
             },
             {
                 "user_name": null,
@@ -5053,7 +4674,7 @@
         "business_website": "myendorphin.com",
         "yelp_website": "https://www.yelp.com/biz/endorphin-central-park-denver?osq=fitness",
         "phone_number": "(303) 993-4041",
-        "review_rating": 0,
+        "review_rating": 5.0,
         "number_of_reviews": 58,
         "business_categories": [],
         "reviews": [
@@ -5117,7 +4738,7 @@
                 "user_name": "Billy B.",
                 "user_location": "Denver, CO",
                 "review_date": "Sep 3, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Great locally owned gym with classes and an open gym model with key fob 24/7 entry. You can even BT your own music over loud speakers. Fave thing for me to do. ",
                 "reactions": {
                     "Helpful": 1,
@@ -5130,7 +4751,7 @@
                 "user_name": "Ryan A.",
                 "user_location": "Omaha, NE",
                 "review_date": "Jul 6, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "What makes this place so great is the owner Brandon. His knowledge of weight lifting and weight training is off the charts, yet he's created a culture at his gym that is welcoming for people of all skill level. My wife and I have been members at this gym for 5+ years now and we feel more physically fit than at any point in our lives. I can't recommend Endorphin enough.",
                 "reactions": {
                     "Helpful": 1,
@@ -5143,7 +4764,7 @@
                 "user_name": "Jonah B.",
                 "user_location": "Southwest, Denver, CO",
                 "review_date": "Jul 7, 2023",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I really love this gym!  It's low pressure, easy to work with and pushes my workouts in all the right ways.  Brandon is a great teacher and resource and makes the gym a very welcoming place for everyone.  Definitely worth checking out.",
                 "reactions": {
                     "Helpful": 0,
@@ -5156,7 +4777,7 @@
                 "user_name": "Wanda C.",
                 "user_location": "Decatur, GA",
                 "review_date": "Aug 7, 2017",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "Ahh, Endorphin. This gym franchise is my home and I am excited for new locations. The Eastbridge location is in the heart of a new shopping center/development that has a virtual ton of eateries nearby, a flower shop, Pilates, nail salon and the large parking lot borders a King Soopers, all in the heart of Stapleton.",
                 "reactions": {
                     "Helpful": 2,
@@ -5169,7 +4790,7 @@
                 "user_name": "Steffy W.",
                 "user_location": "Westerville, OH",
                 "review_date": "Oct 26, 2018",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I was just in town for work,  but man do I wish we had one of these in town! I used to do CrossFit and now I spin and lift. This is the perfect balance!",
                 "reactions": {
                     "Helpful": 1,
@@ -5182,7 +4803,7 @@
                 "user_name": "Kimberly B.",
                 "user_location": "Denver, CO",
                 "review_date": "Apr 16, 2019",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I really love this Endorphin location.  The space is clean and well-kept, and the location is part of a sizable shopping area with retail and restaurants, so there's always parking to be found!  The instructors are always energetic, knowledgeable and encouraging.  The BEST class is the Kettlebell class but it's super hard to get into as it's always full.  Pleeeeease add more Kettlebell classes Endorphin staff!!",
                 "reactions": {
                     "Helpful": 0,
@@ -5195,7 +4816,7 @@
                 "user_name": "Lyndsey M.",
                 "user_location": "Denver, CO",
                 "review_date": "Mar 22, 2018",
-                "rating": "5 star rating",
+                "rating": 5,
                 "review_text": "I have been a member of Endorphin for a couple of years and it really is more than a gym.  It's a community!  Eastbridge is one of their new locations and I love it there!  It is very clean and the bikes are well maintained.  My favorite instructor is Jessica H.  She is awesome!  She has such great energy and she literally smiles the entire class.  Her classes are very challenging yet when a new rider comes in she explains how to set up the bike and offers tons of modifications.  She also spends some time each class talking about form which I think is super important whether you are on the bike or doing a circuit.  She has classes at Lowry and Ryders also.",
                 "reactions": {
                     "Helpful": 1,

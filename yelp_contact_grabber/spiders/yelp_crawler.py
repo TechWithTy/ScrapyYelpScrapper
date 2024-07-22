@@ -180,12 +180,18 @@ class YelpCrawlerSpider(scrapy.Spider):
                 reaction_type, reaction_count = reaction.split(' (')
                 reaction_count = reaction_count.rstrip(' reactions)').strip()
                 reactions_dict[reaction_type] = int(reaction_count)
-
+            def convert_rating(rating_text):
+                if rating_text:
+                    try:
+                        return int(rating_text.split()[0])
+                    except (ValueError, IndexError):
+                        return None
+                return None
             review_data = {
                 'user_name': user_name,
                 'user_location': user_location,
                 'review_date': review_date,
-                'rating': rating,
+                'rating': convert_rating(rating),
                 'review_text': review_text,
                 'reactions': reactions_dict
 
@@ -255,17 +261,8 @@ class YelpCrawlerSpider(scrapy.Spider):
             self.logger.error(
                 f"Error extracting Google Maps URL, address, or work hours: {e}")
 
-        def convert_rating(rating_text):
-            return int(rating_text.split()[0])
 
-        ratings = []
-        for review in reviews:
-            # Extract the rating text for each review
-            # Adjust the CSS selector as needed
-            rating_text = review.css('.rating::text').get()
-            if rating_text:
-                ratings.append(convert_rating(rating_text))
-
+        ratings = [review['rating'] for review in extracted_reviews if review['rating'] is not None]
         average_rating = sum(ratings) / len(ratings) if ratings else 0
 
         extracted_data = {
