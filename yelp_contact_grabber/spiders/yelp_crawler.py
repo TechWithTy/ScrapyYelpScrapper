@@ -162,9 +162,8 @@ class YelpCrawlerSpider(scrapy.Spider):
         for review in reviews:
             user_name = review.xpath(
                           './/div[@role="region"]/@aria-label').get()
-
-            user_location = review.xpath('.//span[contains(@class, "css-") and contains(@class, "user-location")]/text()').get()
-            review_date = review.xpath('.//span[contains(@class, "css-") and contains(@class, "review-date")]/text()').get()
+            user_location = review.xpath('.//div[@data-testid="UserPassportInfoTextContainer"]//span/text()').get()
+            review_date = review.xpath('.//div[contains(@class, "arrange-unit-fill")]//span/text()').re_first(r'\w+ \d{1,2}, \d{4}')
             review_text = review.xpath('.//p[contains(@class, "comment__")]/span[contains(@class, "raw__")]/text()').get()
            
             rating = review.xpath(
