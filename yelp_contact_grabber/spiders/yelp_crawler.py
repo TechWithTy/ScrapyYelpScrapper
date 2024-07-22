@@ -157,17 +157,29 @@ class YelpCrawlerSpider(scrapy.Spider):
             '//section[@aria-label="About the Business"]//p[@data-font-weight="bold"]/text()').get()
 
         reviews = response.xpath('//ul[contains(@class, "list__")]/li')
+
         extracted_reviews = []
 
         for review in reviews:
             user_name = review.xpath(
-                          './/div[@role="region"]/@aria-label').get()
-            user_location = review.xpath('.//div[@data-testid="UserPassportInfoTextContainer"]//span/text()').get()
-            review_date = review.xpath('.//div[contains(@class, "arrange-unit-fill")]//span/text()').re_first(r'\w+ \d{1,2}, \d{4}')
-            review_text = review.xpath('.//p[contains(@class, "comment__")]/span[contains(@class, "raw__")]/text()').get()
-           
+                './/div[@role="region"]/@aria-label').get()
+            user_location = review.xpath(
+                './/div[@data-testid="UserPassportInfoTextContainer"]//span/text()').get()
+            review_date = review.xpath(
+                './/div[contains(@class, "arrange-unit-fill")]//span/text()').re_first(r'\w+ \d{1,2}, \d{4}')
+            review_text = review.xpath(
+                './/p[contains(@class, "comment__")]/span[contains(@class, "raw__")]/text()').get()
+
             rating = review.xpath(
                 './/div[contains(@aria-label, "star rating")]/@aria-label').get()
+            reactions = review.xpath(
+                './/div[@role="button"]/@aria-label').extract()
+
+            reactions_dict = {}
+            for reaction in reactions:
+                reaction_type, reaction_count = reaction.split(' (')
+                reaction_count = reaction_count.rstrip(' reactions)').strip()
+                reactions_dict[reaction_type] = int(reaction_count)
 
             review_data = {
                 'user_name': user_name,
@@ -175,6 +187,8 @@ class YelpCrawlerSpider(scrapy.Spider):
                 'review_date': review_date,
                 'rating': rating,
                 'review_text': review_text,
+                'reactions': reactions_dict
+
             }
 
             owner_reply = review.xpath(
