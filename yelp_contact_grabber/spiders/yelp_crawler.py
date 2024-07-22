@@ -154,7 +154,8 @@ class YelpCrawlerSpider(scrapy.Spider):
         phone_number = response.xpath(
             "//p[text()='Phone number']/following-sibling::p/text()").get()
         owner_name = response.xpath(
-            "//p[text()='Business owner information']/following-sibling::div//p/text()").get()
+            '//section[@aria-label="About the Business"]//p[@data-font-weight="bold"]/text()').get()
+
         reviews = response.xpath('//li[contains(@class, "y-css-1jp2syp")]')
         extracted_reviews = []
 
@@ -256,7 +257,7 @@ class YelpCrawlerSpider(scrapy.Spider):
         average_rating = sum(ratings) / len(ratings) if ratings else 0
 
         extracted_data = {
-            'owner_name': response.css('.owner-name::text').get(),
+            'owner_name':  owner_name,
             'business_name': response.css('.business-name::text').get(),
             'business_website': response.css('.business-website::text').get(),
             'yelp_website': response.url,
