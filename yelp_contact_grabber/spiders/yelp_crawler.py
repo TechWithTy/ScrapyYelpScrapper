@@ -247,7 +247,7 @@ class YelpCrawlerSpider(scrapy.Spider):
             '//div[contains(@class, "y-css-")]//p[a[contains(@href, "/map/")]]/following-sibling::p/text()').get()
         services_offered = response.xpath('//section[@aria-label="Services Offered"]//p[contains(@class, "y-css-t1npoe")]/text()').extract()
 
-        review_highlights = response.xpath('//section[@aria-label="Review Highlights"]//p[contains(@class, "y-css-1s3mozr")]/text()').extract()
+        review_highlights = response.xpath('//section[@aria-label="Review Highlights"]//p[contains(@class, "y-css-1s3mozr")]//text()').extract()
 
         amenities = response.xpath('//section[@aria-label="Amenities and More"]//div[contains(@class, "arrange-unit-fill")]//span[contains(@class, "y-css-1o34y7f")]/text()').extract()
 
