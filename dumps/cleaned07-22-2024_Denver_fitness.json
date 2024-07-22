@@ -1,0 +1,780 @@
+[
+    {
+        "owner_name": "Andrew P.",
+        "business_name": "Chuze Fitness Aurora",
+        "business_website": "chuzefitness.com/gym-locations\u2026",
+        "yelp_website": "https://www.yelp.com/biz/chuze-fitness-aurora?osq=fitness",
+        "phone_number": "(720) 716-2434",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "3 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "3 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "779 Peoria St Aurora, CO 80011",
+        "work_hours": [
+            "Mon: 4:00 AM - 12:00 AM (Next day)",
+            "Tue: 4:00 AM - 12:00 AM (Next day)",
+            "Wed: 4:00 AM - 12:00 AM (Next day)",
+            "Thu: 4:00 AM - 12:00 AM (Next day)",
+            "Fri: 4:00 AM - 10:00 PM",
+            "Sat: 6:00 AM - 8:00 PM",
+            "Sun: 6:00 AM - 8:00 PM"
+        ]
+    },
+    {
+        "owner_name": "Kerri S.",
+        "business_name": "Twst Fitness Aurora",
+        "business_website": "twstfitness.com",
+        "yelp_website": "https://www.yelp.com/biz/twst-fitness-aurora?osq=fitness",
+        "phone_number": "(720) 237-1206",
+        "review_rating": 0,
+        "number_of_reviews": 2,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "2525 Geneva St Ste 1 Aurora, CO 80010",
+        "work_hours": [
+            "Mon: 5:00 AM - 8:00 PM",
+            "Tue: 5:00 AM - 8:00 PM",
+            "Wed: 5:00 AM - 8:00 PM",
+            "Thu: 5:00 AM - 8:00 PM",
+            "Fri: 5:00 AM - 8:00 PM",
+            "Sat: 6:30 AM - 4:30 PM",
+            "Sun: 6:30 AM - 4:30 PM"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Fit36 Lowry Denver 4",
+        "business_website": "fit36.com/lowry",
+        "yelp_website": "https://www.yelp.com/biz/fit36-lowry-denver-4?osq=fitness",
+        "phone_number": "(720) 508-4550",
+        "review_rating": 0,
+        "number_of_reviews": 2,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "101 Ulster Ct Ste 104 Denver, CO 80230",
+        "work_hours": [
+            "Mon: 5:15 AM - 6:15 PM",
+            "Tue: 5:30 AM - 6:15 PM",
+            "Wed: 5:15 AM - 6:15 PM",
+            "Thu: 5:30 AM - 6:15 PM",
+            "Fri: 5:15 AM - 5:15 PM",
+            "Sat: 8:00 AM - 12:00 PM",
+            "Sun: 9:00 AM - 11:00 AM"
+        ]
+    },
+    {
+        "owner_name": "Anschutz Health and Wellness C.",
+        "business_name": "Cu Anschutz Health And Wellness Center Aurora",
+        "business_website": "anschutzwellness.com",
+        "yelp_website": "https://www.yelp.com/biz/cu-anschutz-health-and-wellness-center-aurora?osq=fitness",
+        "phone_number": "(303) 724-9355",
+        "review_rating": 0,
+        "number_of_reviews": 11,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": null,
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "3 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "12348 E Montview Blvd Aurora, CO 80045",
+        "work_hours": [
+            "Mon: 5:00 AM - 10:00 PM",
+            "Tue: 5:00 AM - 10:00 PM",
+            "Wed: 5:00 AM - 10:00 PM",
+            "Thu: 5:00 AM - 10:00 PM",
+            "Fri: 5:00 AM - 9:00 PM",
+            "Sat: 7:00 AM - 5:00 PM",
+            "Sun: 7:00 AM - 5:00 PM"
+        ]
+    },
+    {
+        "owner_name": "Allison W.",
+        "business_name": "Trufusion Denver Denver",
+        "business_website": "trufusion.com",
+        "yelp_website": "https://www.yelp.com/biz/trufusion-denver-denver?osq=fitness",
+        "phone_number": "(303) 999-0655",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "985 Albion St Ste 100 Denver, CO 80220",
+        "work_hours": [
+            "Mon: 6:00 AM - 8:30 PM",
+            "Tue: 6:00 AM - 8:30 PM",
+            "Wed: 6:00 AM - 8:30 PM",
+            "Thu: 6:00 AM - 8:30 PM",
+            "Fri: 6:00 AM - 6:30 PM",
+            "Sat: 8:00 AM - 1:00 PM",
+            "Sun: 8:30 AM - 6:30 PM"
+        ]
+    },
+    {
+        "owner_name": "joe M.",
+        "business_name": "Colorados Pro Gym Aurora",
+        "business_website": "coprogym.com",
+        "yelp_website": "https://www.yelp.com/biz/colorados-pro-gym-aurora?osq=fitness",
+        "phone_number": "(303) 671-9586",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "1961 S Havana St Aurora, CO 80014",
+        "work_hours": [
+            "Mon: 5:00 AM - 10:00 PM",
+            "Tue: 5:00 AM - 10:00 PM",
+            "Wed: 5:00 AM - 10:00 PM",
+            "Thu: 5:00 AM - 10:00 PM",
+            "Fri: 5:00 AM - 8:00 PM",
+            "Sat: 7:00 AM - 5:00 PM",
+            "Sun: 7:00 AM - 5:00 PM"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Orangetheory Fitness Central Park Denver",
+        "business_website": "orangetheory.com/en-us/locatio\u2026",
+        "yelp_website": "https://www.yelp.com/biz/orangetheory-fitness-central-park-denver?osq=fitness",
+        "phone_number": "(303) 388-3600",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "7349 East 29th Avenue Denver, CO 80238",
+        "work_hours": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "Central Park Recreation Center Denver",
+        "business_website": "denvergov.org",
+        "yelp_website": "https://www.yelp.com/biz/central-park-recreation-center-denver?osq=fitness",
+        "phone_number": "(720) 865-0750",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "2 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "1 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "9651 E Martin Luther King Junior Blvd Denver, CO 80238",
+        "work_hours": [
+            "Mon: 5:30 AM - 9:00 PM",
+            "Tue: 5:30 AM - 9:00 PM",
+            "Wed: 5:30 AM - 9:00 PM",
+            "Thu: 5:30 AM - 9:00 PM",
+            "Fri: 5:30 AM - 8:00 PM",
+            "Sat: 8:00 AM - 5:00 PM",
+            "Sun: 8:00 AM - 5:00 PM"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Lagree Luxe Central Park Denver",
+        "business_website": "lagreeluxe.com/booking/central\u2026",
+        "yelp_website": "https://www.yelp.com/biz/lagree-luxe-central-park-denver?osq=fitness",
+        "phone_number": "(303) 377-0982",
+        "review_rating": 0,
+        "number_of_reviews": 10,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "4 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "10195 E 29th Dr Ste 130 Denver, CO 80238",
+        "work_hours": []
+    },
+    {
+        "owner_name": null,
+        "business_name": "Endorphin Central Park Denver",
+        "business_website": "myendorphin.com",
+        "yelp_website": "https://www.yelp.com/biz/endorphin-central-park-denver?osq=fitness",
+        "phone_number": "(303) 993-4041",
+        "review_rating": 0,
+        "number_of_reviews": 7,
+        "business_categories": [],
+        "reviews": [
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            },
+            {
+                "user_name": null,
+                "user_location": null,
+                "review_date": null,
+                "rating": "5 star rating",
+                "review_text": null
+            }
+        ],
+        "address": "10155 E 29th Dr Ste 130 Denver, CO 80238",
+        "work_hours": [
+            "Mon: Open 24 hours",
+            "Tue: Open 24 hours",
+            "Wed: Open 24 hours",
+            "Thu: Open 24 hours",
+            "Fri: Open 24 hours",
+            "Sat: Open 24 hours",
+            "Sun: Open 24 hours"
+        ]
+    }
+]

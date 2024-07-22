@@ -69,7 +69,8 @@ class YelpCrawlerSpider(scrapy.Spider):
             # Check if all required variables are not None
             if self.search_terms:
                 # Construct the URL with all variables and page number
-                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={search_term.replace(' ', '+')}&start={self.page * 10}"
+                url = f"{base_url}find_loc={city}%2C+{state}+{zip_code}&find_desc={
+                    search_term.replace(' ', '+')}&start={self.page * 10}"
                 # Print the URL in blue text
                 print(f"{BLUE_TEXT}{url}{END_COLOR}")
                 yield scrapy.Request(url, self.parse)
@@ -158,11 +159,16 @@ class YelpCrawlerSpider(scrapy.Spider):
         extracted_reviews = []
 
         for review in reviews:
-            user_name = review.xpath('.//span[@class="fs-block css-m6anxm"]/text()').get()
-            user_location = review.xpath('.//span[@class="css-n6i4z7"]/text()').get()
-            review_date = review.xpath('.//span[@class="css-e81eai"]/text()').get()
-            review_text = review.xpath('.//span[@class="raw__373c0__3rcx7"]/text()').get()
-            rating = review.xpath('.//div[contains(@aria-label, "star rating")]/@aria-label').get()
+            user_name = review.xpath(
+                './/span[@class="fs-block css-m6anxm"]/text()').get()
+            user_location = review.xpath(
+                './/span[@class="css-n6i4z7"]/text()').get()
+            review_date = review.xpath(
+                './/span[@class="css-e81eai"]/text()').get()
+            review_text = review.xpath(
+                './/span[@class="raw__373c0__3rcx7"]/text()').get()
+            rating = review.xpath(
+                './/div[contains(@aria-label, "star rating")]/@aria-label').get()
 
             review_data = {
                 'user_name': user_name,
@@ -172,11 +178,15 @@ class YelpCrawlerSpider(scrapy.Spider):
                 'review_text': review_text,
             }
 
-            owner_reply = review.xpath('.//div[@class="margin-t3__373c0__1l90z padding-t3__373c0__2cfJV border--top__373c0__3gXLy"]')
+            owner_reply = review.xpath(
+                './/div[@class="margin-t3__373c0__1l90z padding-t3__373c0__2cfJV border--top__373c0__3gXLy"]')
             if owner_reply:
-                owner_reply_name = owner_reply.xpath('.//p[contains(@class, "css-1agk4wl")]/text()').get()
-                owner_reply_date = owner_reply.xpath('.//span[@class="css-e81eai"]/text()').get()
-                owner_reply_text = owner_reply.xpath('.//span[@class="raw__373c0__3rcx7"]/text()').get()
+                owner_reply_name = owner_reply.xpath(
+                    './/p[contains(@class, "css-1agk4wl")]/text()').get()
+                owner_reply_date = owner_reply.xpath(
+                    './/span[@class="css-e81eai"]/text()').get()
+                owner_reply_text = owner_reply.xpath(
+                    './/span[@class="raw__373c0__3rcx7"]/text()').get()
 
                 review_data['owner_reply'] = {
                     'owner_name': owner_reply_name,
@@ -185,13 +195,13 @@ class YelpCrawlerSpider(scrapy.Spider):
                 }
 
             extracted_reviews.append(review_data)
-        
+
     # Extracting the role of the person
 
         # Extracting review information
         # Using regular expressions to extract the rating and number of reviews
         review_rating_text = response.xpath(
-            '//div[contains(@class, "arrange-unit__09f24__rqHTg")]//span[contains(@class, "y-css-1o34y7f")]/text()').get()
+            '/html/body/yelp-react-root/div[1]/div[6]/div/div[1]/div[1]/main/div[3]/div/section/div[2]/div[3]/div/div[1]/div/span/div[2]/p').get()
         review_rating = None
 
         if review_rating_text and re.match(r'^\d+(\.\d+)?$', review_rating_text):
@@ -208,24 +218,57 @@ class YelpCrawlerSpider(scrapy.Spider):
         business_categories = response.xpath(
             '//span[contains(@class, "y-css-1o34y7f")]/a/text()').getall()
         reviews_string = "\n".join([f"User: {review['user_name']}, Location: {review['user_location']}, Date: {review['review_date']}, Rating: {review['rating']}, Review: {review['review_text']}" +
-                                (f", Reply from {review['owner_reply']['owner_name']} on {review['owner_reply']['owner_reply_date']}: {review['owner_reply']['owner_reply_text']}" if 'owner_reply' in review else "")
-                                for review in extracted_reviews])
-        
+                                    (f", Reply from {review['owner_reply']['owner_name']} on {review['owner_reply']['owner_reply_date']}: {
+                                     review['owner_reply']['owner_reply_text']}" if 'owner_reply' in review else "")
+                                    for review in extracted_reviews])
+
         google_maps_url = None
         address = None
         work_hours = []
 
         try:
-            google_maps_url = response.xpath('//a[@href]/@href[contains(., "maps.googleapis.com/maps/api/staticmap")]/@href').get()
-            address = ' '.join(response.xpath('//address//text()').extract()).strip()
-            hours_rows = response.xpath('//table[contains(@class, "hours-table__09f24__KR8wh")]//tr')
+            google_maps_url = response.xpath(
+                '//a[@href]/@href[contains(., "maps.googleapis.com/maps/api/staticmap")]/@href').get()
+            address = ' '.join(response.xpath(
+                '//address//text()').extract()).strip()
+            hours_rows = response.xpath(
+                '//table[contains(@class, "hours-table__09f24__KR8wh")]//tr')
             for row in hours_rows:
                 day = row.xpath('.//th/p/text()').get()
                 hours = row.xpath('.//td/ul/li/p/text()').get()
                 if day and hours:
                     work_hours.append(f"{day}: {hours}")
         except Exception as e:
-            self.logger.error(f"Error extracting Google Maps URL, address, or work hours: {e}")
+            self.logger.error(
+                f"Error extracting Google Maps URL, address, or work hours: {e}")
+
+        def convert_rating(rating_text):
+            return int(rating_text.split()[0])
+
+        ratings = []
+        for review in reviews:
+            # Extract the rating text for each review
+            # Adjust the CSS selector as needed
+            rating_text = review.css('.rating::text').get()
+            if rating_text:
+                ratings.append(convert_rating(rating_text))
+
+        average_rating = sum(ratings) / len(ratings) if ratings else 0
+
+        extracted_data = {
+            'owner_name': response.css('.owner-name::text').get(),
+            'business_name': response.css('.business-name::text').get(),
+            'business_website': response.css('.business-website::text').get(),
+            'yelp_website': response.url,
+            'phone_number': response.css('.phone-number::text').get(),
+            'review_rating': average_rating,
+            'number_of_reviews': number_of_reviews,
+            'business_categories': response.css('.business-categories::text').getall(),
+            # Adjust as needed
+            'reviews': [{'rating': rating} for rating in ratings],
+            'address': response.css('.address::text').get(),
+            'work_hours': response.css('.work-hours::text').get(),
+        }
         extracted_data = {
             'owner_name': owner_name,
             'business_name': business_name,
@@ -233,8 +276,8 @@ class YelpCrawlerSpider(scrapy.Spider):
             'business_website': business_website,
             'yelp_website': business_yelp_website,
             'phone_number': phone_number,
-            'review_rating': review_rating,
-            'number_of_reviews': number_of_reviews,
+            'review_rating':  average_rating,
+            'number_of_reviews': len(extracted_reviews),
             'business_categories': business_categories,
             'reviews': extracted_reviews,
             'address': address,
