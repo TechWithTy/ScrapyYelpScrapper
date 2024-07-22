@@ -157,7 +157,7 @@ class YelpCrawlerSpider(scrapy.Spider):
             '//section[@aria-label="About the Business"]//p[@data-font-weight="bold"]/text()').get()
 
         reviews = response.xpath('//ul[contains(@class, "list__")]/li')
-    
+
         extracted_reviews = []
 
         for review in reviews:
@@ -180,6 +180,7 @@ class YelpCrawlerSpider(scrapy.Spider):
                 reaction_type, reaction_count = reaction.split(' (')
                 reaction_count = reaction_count.rstrip(' reactions)').strip()
                 reactions_dict[reaction_type] = int(reaction_count)
+
             def convert_rating(rating_text):
                 if rating_text:
                     try:
@@ -242,7 +243,14 @@ class YelpCrawlerSpider(scrapy.Spider):
                                     for review in extracted_reviews])
 
         google_maps_url = None
-        address = None
+        business_address = response.xpath(
+            '//div[contains(@class, "y-css-")]//p[a[contains(@href, "/map/")]]/following-sibling::p/text()').get()
+        services_offered = response.xpath('//section[@aria-label="Services Offered"]//p[contains(@class, "y-css-t1npoe")]/text()').extract()
+
+        review_highlights = response.xpath('//section[@aria-label="Review Highlights"]//p[contains(@class, "y-css-1s3mozr")]/text()').extract()
+
+        amenities = response.xpath('//section[@aria-label="Amenities and More"]//div[contains(@class, "arrange-unit-fill")]//span[contains(@class, "y-css-1o34y7f")]/text()').extract()
+
         work_hours = []
 
         try:
@@ -261,8 +269,8 @@ class YelpCrawlerSpider(scrapy.Spider):
             self.logger.error(
                 f"Error extracting Google Maps URL, address, or work hours: {e}")
 
-
-        ratings = [review['rating'] for review in extracted_reviews if review['rating'] is not None]
+        ratings = [review['rating']
+                   for review in extracted_reviews if review['rating'] is not None]
         average_rating = sum(ratings) / len(ratings) if ratings else 0
 
         extracted_data = {
@@ -276,11 +284,13 @@ class YelpCrawlerSpider(scrapy.Spider):
             'business_categories': response.css('.business-categories::text').getall(),
             # Adjust as needed
             'reviews': [{'rating': rating} for rating in ratings],
+            'review_highlights': review_highlights,
+
             'address': response.css('.address::text').get(),
             'work_hours': response.css('.work-hours::text').get(),
         }
         filtered_reviews = [
-            review for review in extracted_reviews 
+            review for review in extracted_reviews
             if review['user_name'] is not None or
             review['user_location'] is not None or
             review['review_date'] is not None or
@@ -291,14 +301,18 @@ class YelpCrawlerSpider(scrapy.Spider):
         extracted_data = {
             'owner_name': owner_name,
             'business_name': business_name,
-
+            'business_address': business_address,
             'business_website': business_website,
+            'services_offered': services_offered,
+            'amenities': amenities,
+
             'yelp_website': business_yelp_website,
             'phone_number': phone_number,
             'review_rating':  average_rating,
-            'number_of_reviews': len(extracted_reviews),
-            'business_categories': business_categories,
+            'number_of_reviews': len(filtered_reviews),
             'reviews': filtered_reviews,
+            'review_highlights': review_highlights,
+            'business_categories': business_categories,
             'address': address,
             'work_hours': work_hours,
 
