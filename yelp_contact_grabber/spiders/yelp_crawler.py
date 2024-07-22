@@ -156,18 +156,17 @@ class YelpCrawlerSpider(scrapy.Spider):
         owner_name = response.xpath(
             '//section[@aria-label="About the Business"]//p[@data-font-weight="bold"]/text()').get()
 
-        reviews = response.xpath('//li[contains(@class, "y-css-1jp2syp")]')
+        reviews = response.xpath('//ul[contains(@class, "list__")]/li')
         extracted_reviews = []
 
         for review in reviews:
             user_name = review.xpath(
-                './/span[@class="fs-block css-m6anxm"]/text()').get()
-            user_location = review.xpath(
-                './/span[@class="css-n6i4z7"]/text()').get()
-            review_date = review.xpath(
-                './/span[@class="css-e81eai"]/text()').get()
-            review_text = review.xpath(
-                './/span[@class="raw__373c0__3rcx7"]/text()').get()
+                          './/div[@role="region"]/@aria-label').get()
+
+            user_location = review.xpath('.//span[contains(@class, "css-") and contains(@class, "user-location")]/text()').get()
+            review_date = review.xpath('.//span[contains(@class, "css-") and contains(@class, "review-date")]/text()').get()
+            review_text = review.xpath('.//p[contains(@class, "comment__")]/span[contains(@class, "raw__")]/text()').get()
+           
             rating = review.xpath(
                 './/div[contains(@aria-label, "star rating")]/@aria-label').get()
 
