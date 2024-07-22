@@ -157,7 +157,7 @@ class YelpCrawlerSpider(scrapy.Spider):
             '//section[@aria-label="About the Business"]//p[@data-font-weight="bold"]/text()').get()
 
         reviews = response.xpath('//ul[contains(@class, "list__")]/li')
-
+    
         extracted_reviews = []
 
         for review in reviews:
@@ -279,6 +279,15 @@ class YelpCrawlerSpider(scrapy.Spider):
             'address': response.css('.address::text').get(),
             'work_hours': response.css('.work-hours::text').get(),
         }
+        filtered_reviews = [
+            review for review in extracted_reviews 
+            if review['user_name'] is not None or
+            review['user_location'] is not None or
+            review['review_date'] is not None or
+            review['rating'] is not None or
+            review['review_text'] is not None or
+            review['reactions']
+        ]
         extracted_data = {
             'owner_name': owner_name,
             'business_name': business_name,
@@ -289,7 +298,7 @@ class YelpCrawlerSpider(scrapy.Spider):
             'review_rating':  average_rating,
             'number_of_reviews': len(extracted_reviews),
             'business_categories': business_categories,
-            'reviews': extracted_reviews,
+            'reviews': filtered_reviews,
             'address': address,
             'work_hours': work_hours,
 
