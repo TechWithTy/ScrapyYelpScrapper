@@ -245,13 +245,45 @@ class YelpCrawlerSpider(scrapy.Spider):
         google_maps_url = None
         business_address = response.xpath(
             '//div[contains(@class, "y-css-")]//p[a[contains(@href, "/map/")]]/following-sibling::p/text()').get()
-        services_offered = response.xpath('//section[@aria-label="Services Offered"]//p[contains(@class, "y-css-t1npoe")]/text()').extract()
+        services_offered = response.xpath(
+            '//section[@aria-label="Services Offered"]//p[contains(@class, "y-css-t1npoe")]/text()').extract()
 
-        review_highlights_elements = response.xpath('//section[@aria-label="Review Highlights"]//div[contains(@class, "arrange-unit-fill")]//p[contains(@class, "y-css-1s3mozr")]')
-        review_highlights = [''.join(element.xpath('.//text()').extract()).strip() for element in review_highlights_elements]
+        review_highlights_elements = response.xpath(
+            '//section[@aria-label="Review Highlights"]//div[contains(@class, "arrange-unit-fill")]//p[contains(@class, "y-css-1s3mozr")]')
+        review_highlights = [''.join(element.xpath(
+            './/text()').extract()).strip() for element in review_highlights_elements]
 
-        amenities = response.xpath('//section[@aria-label="Amenities and More"]//div[contains(@class, "arrange-unit-fill")]//span[contains(@class, "y-css-1o34y7f")]/text()').extract()
+        amenities = response.xpath(
+            '//section[@aria-label="Amenities and More"]//div[contains(@class, "arrange-unit-fill")]//span[contains(@class, "y-css-1o34y7f")]/text()').extract()
+        trending_searches = response.xpath('//div[h3[contains(text(), "Trending Searches")]]//ul/li/a').extract()
+        related_searches = response.xpath('//div[h3[contains(text(), "Related Searches")]]//ul/li/a')
+        if not related_searches:
+            self.logger.info('No related searches found')
+        else:
+            self.logger.info(f'Found {len(related_searches)} related searches')
 
+        related_searches_data = [
+            {
+                'text': search.xpath('.//p/text()').get(),
+                'url': search.xpath('.//@href').get()
+            }
+            for search in related_searches
+        ]
+        trending_searches = response.xpath('//div[h3[contains(text(), "Trending Searches")]]//ul/li/a')
+        if not trending_searches:
+            self.logger.info('No trending searches found')
+        else:
+            self.logger.info(f'Found {len(trending_searches)} trending searches')
+
+        trending_searches_data = [
+            {
+                'text': search.xpath('.//p/text()').get(),
+                'url': search.xpath('.//@href').get()
+            }
+            for search in trending_searches
+        ]
+
+            
         work_hours = []
 
         try:
@@ -316,6 +348,10 @@ class YelpCrawlerSpider(scrapy.Spider):
             'business_categories': business_categories,
             'address': address,
             'work_hours': work_hours,
+            # ?May Need to wait for content to load
+            # 'related_searches': related_searches,
+            # 'trending_searches': trending_searches
+
 
         }
 

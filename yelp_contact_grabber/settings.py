@@ -11,7 +11,12 @@ BOT_NAME = "yelp_contact_grabber"
 
 SPIDER_MODULES = ["yelp_contact_grabber.spiders"]
 NEWSPIDER_MODULE = "yelp_contact_grabber.spiders"
-
+# PROXY_LIST_PATH = 'path/to/your/proxy_list.txt'
+# ROTATING_PROXY_LIST = [
+#     'proxy1:port1',
+#     'proxy2:port2',
+#     # add more proxies as needed
+# ]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "yelp_contact_grabber (+http://www.yourdomain.com)"

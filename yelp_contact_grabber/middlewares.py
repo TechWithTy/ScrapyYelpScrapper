@@ -3,6 +3,7 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+import random
 from scrapy import signals
 
 # useful for handling different item types with a single interface
@@ -101,3 +102,20 @@ class YelpContactGrabberDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+# class CustomProxyMiddleware:
+#     @classmethod
+#     def from_crawler(cls, crawler):
+#         return cls(crawler.settings)
+
+#     def __init__(self, settings):
+#         self.proxies = self.load_proxies(settings.get('PROXY_LIST_PATH'))
+
+#     def load_proxies(self, proxy_list_path):
+#         with open(proxy_list_path, 'r') as f:
+#             return [line.strip() for line in f if line.strip()]
+
+#     def process_request(self, request, spider):
+#         if self.proxies:
+#             proxy = random.choice(self.proxies)
+#             request.meta['proxy'] = proxy

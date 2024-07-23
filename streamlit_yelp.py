@@ -286,9 +286,9 @@ if not toggle_sidebar:
 # User input fields (inside the "Input Form" tab)
 if toggle_sidebar or (selected_tab == "Input Form"):
     search_term = st.text_input('Search Term', 'fitness')
-    city = st.text_input('City', pulled_city or '')
-    zip_code = st.text_input('Zip Code', pulled_zip_code or '')
-    state = st.text_input('State', pulled_state or '')
+    city = st.text_input('City', pulled_city or 'Denver')
+    zip_code = st.text_input('Zip Code', pulled_zip_code or '80010')
+    state = st.text_input('State', pulled_state or 'Co')
 
     # Maximum number value selector
     use_unlimited_pages = st.checkbox('Unlimited Pages', value=False)
