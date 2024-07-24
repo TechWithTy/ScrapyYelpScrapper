@@ -1,25 +1,24 @@
 [
     {
-        "owner_name": "joe M.",
-        "business_name": "Colorados Pro Gym Aurora",
-        "business_address": "1961 S Havana St Aurora, CO 80014",
-        "business_website": "coprogym.com",
+        "owner_name": null,
+        "business_name": "Chuze Fitness Aurora",
+        "business_address": "779 Peoria St Aurora, CO 80011",
+        "business_website": "chuzefitness.com/gym-locations\u2026",
         "services_offered": [],
         "amenities": [
-            "Accepts Credit Cards",
-            "Bike Parking"
+            "Open to All"
         ],
-        "yelp_website": "https://www.yelp.com/biz/colorados-pro-gym-aurora?osq=fitness",
-        "phone_number": "(303) 671-9586",
-        "review_rating": 4.5,
+        "yelp_website": "https://www.yelp.com/biz/chuze-fitness-aurora?osq=fitness",
+        "phone_number": "(720) 716-2434",
+        "review_rating": 3.9,
         "number_of_reviews": 10,
         "reviews": [
             {
-                "user_name": "Stone C.",
-                "user_location": "Orange Park, FL",
-                "review_date": "Mar 18, 2024",
+                "user_name": "Chuy F.",
+                "user_location": "San Francisco, CA",
+                "review_date": "Apr 3, 2024",
                 "rating": 5,
-                "review_text": "Colorado pro gym has an amazing set up with even better equipment, The environment and atmosphere is very welcoming. Love to see places like this still exist although the parking lot is atrocious the gym is spectacular!!",
+                "review_text": "The customer service is incredible. They truly make you feel welcomed anytime you come in.  Love this location in Aurora CO. ",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -28,89 +27,11 @@
                 }
             },
             {
-                "user_name": "Adam R.",
-                "user_location": "Orange Park, FL",
-                "review_date": "Feb 21, 2024",
-                "rating": 1,
-                "review_text": "I've been to a lot of gyms in my life and I will say I like the aesthetic of this gym however for the monthly price they want they need better costumer service the worker \"Deb\" always seems to have an attitude and comes across very condescending not very friendly at all, and there is never parking in the parking lot, i hope this gym improves i will not be coming back.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ute L.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 5, 2022",
-                "rating": 5,
-                "review_text": "Never ever have I gone to a gym where the staff and clients are so friendly. It's small and you pretty much see the same people over and over, so there is a neighborhood vibe. ",
-                "reactions": {
-                    "Helpful": 4,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Katie H.",
-                "user_location": "Denver, CO",
-                "review_date": "Nov 10, 2022",
-                "rating": 5,
-                "review_text": "this place is so fun! and life changing. if you wanna get in shape and at the same time have a few laughs then this is the place for you! down 30 pounds this year and building muscle. love seeing gym family as often as i can. beautiful people!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ashley G.",
-                "user_location": "Kearney, NE",
-                "review_date": "Jun 14, 2019",
-                "rating": 5,
-                "review_text": "Down to business gym with members of all kinds. The trainers here are some of the most friendly individuals I've ever met. I was able to complete powerlifting programming without anyone batting an eye. It's a no rules but respect kind of a gym. Endless machines and attachments and weights to keep things interesting. No resistance bands but understandable since those tend to get destroyed after constant use.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Ted R.",
-                "user_location": "Amsterdam, The Netherlands",
-                "review_date": "Mar 19, 2018",
-                "rating": 5,
-                "review_text": "Straight forward gritty gym",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Annie B.",
-                "user_location": "Denver, CO",
-                "review_date": "Dec 27, 2020",
-                "rating": 4,
-                "review_text": "First off I'll start with the good, this gym is pretty decent, yeah it's old ,but it gets the job done! I've been going here for about 4 months now since I have moved here, I like how this gym is pretty laid-back and chill, the trainers/staff are friendly. I like how they have a variety of strength equipment and a few cardio machines. I'm into powerlifting and training here is not \"too bad\". Here are some issues that I have encountered so far, a few men have complained about me deadlifting. The guy at the front desk approached me about the complaint said he didn't mind at all and he doesn't have a problem with me doing it but that it was his job to tell me about the complaint, which took me by surprise that these two older men complained, if it bothers you so much put some headphones on! What do you expect?it's a gym and I'm here to workout and lift some heavy weights! I've witnessed other guys bigger than me and lift more weight and they slam it down and harder than I do, so just be aware that some men will complain about you lifting some heavy weights! Another annoying thing is a lot of guys will put their bags/phone/water bottle/hoodies on this specific machine as if it's a locker of some sort, the nice rogue hyper reverse machine, as if it's not there for people to use? I've had to use it while it had other people's sh** on it or if they're nearby I will ask them nicely to move it. I just thought that was funny to add in lol. The hours are limited, which sucks, it would be nice if it was 24hrs or had longer hours. BEWARE: No one ever wipes down equipment after they're done using it. MOST people don't wear their masks or they have one on but have it under their chin or don't wear it correctly at all!! Despite my complaints and it being old and the machines are a little outdated, it's a decent gym and will get the job done!",
-                "reactions": {
-                    "Helpful": 2,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Cristina A.",
+                "user_name": "Jonathan S.",
                 "user_location": "Aurora, CO",
-                "review_date": "May 26, 2019",
+                "review_date": "Jul 4, 2024",
                 "rating": 5,
-                "review_text": "My second home! Tons of equipment, straight to the point kind of gym. Wouldn't train anywhere else.",
+                "review_text": "I got my sick pump in, thats all that matters tbhh, idk what everyone tripps about just go lift some solid ass weights and you'll be good",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -119,24 +40,102 @@
                 }
             },
             {
-                "user_name": "Russell M.",
-                "user_location": "Musashimurayama, Japan",
-                "review_date": "Oct 29, 2018",
-                "rating": 5,
-                "review_text": "I love this gym. It's a old school heavy lifting get it done kind of place. The people that workout there are also what makes the place. You will quickly become apart of the gym family. There are machines here you haven't seen in years. The older machines are so much better then the new stuff out there. Come on by, and see our for yourself.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "T T.",
+                "user_name": "Blu M.",
                 "user_location": "Denver, CO",
-                "review_date": "Dec 3, 2020",
+                "review_date": "May 28, 2024",
+                "rating": 4,
+                "review_text": "Recently moved back to Aurora and needed to switch to the local Chuze Fitness. They charge a $10 fee to switch your main gym, which is a bit annoying but it's not terrible. The gym was very clean, and the staff were friendly. It was a bit crowded and so I couldn't get access to certain machines, so I think I'll come back at a better time. There were some machines missing that the other Chuze fitness location had. I would say overall this is a good gym, and I would give it another star if they had a bit more machines.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Alyssa M.",
+                "user_location": "Colorado Springs, CO",
+                "review_date": "Jun 28, 2024",
+                "rating": 3,
+                "review_text": "I really enjoy how clean the gym is. Lots of new equipment and not too busy in the mornings. Afternoons are WAY too busy for me, but that's all gyms. When I signed up, the staff was helpful and for the most part, informative. I've been going here for a few weeks now and tan occasionally. I went to ask to tan (like I normally do) and I was told to go print a ticket? Ok first time. Then was met with condescension when I asked what to do with the ticket. Patience, kindness and a LITTLE bit of instruction really helps. This was the taller gentleman with the glasses and long hair. Maybe he's not used to being in a customer service industry but I didn't appreciate the flippant attitude. I definitely gave back the vibe I got. Other than than, decent gym and most of the employees seem kind and greet you when you enter and exit.",
+                "reactions": {
+                    "Helpful": 1,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Lourdes T.",
+                "user_location": "Rancho Santa Margarita, CA",
+                "review_date": "Apr 1, 2024",
                 "rating": 5,
-                "review_text": "This is by far the best gym in the Denver metro area. I'm saying this because of the knowledge and the staff at the gym is unlike any other gym. The people that have been going here have been members for decades they produce pro athletes competition bodybuilders and physique athletes every single day. The owner is by far the most knowledgeable individual when it comes to weight training/Injury recovery in the business.  You'll never go wrong here, everybody will motivate you to get to your goal including other members.",
+                "review_text": "All I can say is positive things about my experience at Chuze. We tried the 7 Day Trial as we were visiting on vacation. We enjoyed 4/7 days! The customer service at the counter was phenomenal. This gym was very welcoming and answered all our questions. Great equipment and it's a clean gym. If I lived in this area I would definitely make this my home gym!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Johnny V.",
+                "user_location": "Denver, CO",
+                "review_date": "Jun 17, 2024",
+                "rating": 2,
+                "review_text": "Packed. Not enough racks and free weight space for my liking. I typically have to change my entire program the minute I walk in the door.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Max A.",
+                "user_location": "Littleton, CO",
+                "review_date": "Feb 12, 2024",
+                "rating": 5,
+                "review_text": "Very friendly and hospitable environment. I've never had anything get in my way of working out as hard or as long as I have wanted here. Steam room is usually open which isn't something that I've experienced at every gym. Lockers in the locker room have an odd shape and too many of them are built for people 6'3\" and above. Staff sometimes forget to tell me goodbye but I'll give them a solid 90%. I don't actually care if they tell me goodbye though. Have yet to experience a physically dirty environment there. Thanks CHUZ!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Lon H.",
+                "user_location": "Colorado Springs, CO",
+                "review_date": "Mar 3, 2024",
+                "rating": 3,
+                "review_text": "On two occasions I have suggested that they should put sanitizing wipes in the locker room.  I requested it because the lockers here never get cleaned by the staff members.  Having sanitizing wipes in here will allow for the patrons to clean their lockers.   They have several wipe dispensers in the gym area; plenty enough they could put one in each locker room.  Attached photo is locker #86 in the men's locker room.  Been dirty like this for two months now.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Julieta G.",
+                "user_location": "Northeast, Denver, CO",
+                "review_date": "Dec 21, 2023",
+                "rating": 2,
+                "review_text": "the gym overall is really big and has a lot to offer! Too bad I wasn't really able to enjoy the full potential of the gym because the staff is super busy rushing everyone out. They don't allow anyone on massage chairs after 10 (they close at 11) Night shift overall just sucks the morning crew definitely beats the attitude!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Goat O.",
+                "user_location": "Stellingen, Hamburg, Germany",
+                "review_date": "Aug 28, 2023",
+                "rating": 5,
+                "review_text": "This gym is very spacious; they have multiple varieties of strength equipment, and although not all of them are great, overall they are amazing. The gym also has over 10 squat racks and a lot of open space. The bad thing is that the dumbbells only go up to 100, but it's not bad overall. It's probably the best gym I've been to. Also, there's only two benches for the bench press, and around 5-8, it gets really packed, and the benches are always full.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -145,21 +144,17 @@
                 }
             }
         ],
-        "review_highlights": [
-            "\u201cThe owner is an exercise physiologist and strength athlete, and it shows in the gym he has created.\u201d in 2 reviews",
-            "\u201cYou will quickly become apart of the gym family.\u201d in 2 reviews",
-            "\u201cThis is by far the best gym in the Denver metro area.\u201d in 2 reviews"
-        ],
+        "review_highlights": [],
         "business_categories": [],
-        "address": "1961 S Havana St Aurora, CO 80014",
+        "address": "779 Peoria St Aurora, CO 80011",
         "work_hours": [
-            "Mon: 5:00 AM - 10:00 PM",
-            "Tue: 5:00 AM - 10:00 PM",
-            "Wed: 5:00 AM - 10:00 PM",
-            "Thu: 5:00 AM - 10:00 PM",
-            "Fri: 5:00 AM - 8:00 PM",
-            "Sat: 7:00 AM - 5:00 PM",
-            "Sun: 7:00 AM - 5:00 PM"
+            "Mon: 4:00 AM - 12:00 AM (Next day)",
+            "Tue: 4:00 AM - 12:00 AM (Next day)",
+            "Wed: 4:00 AM - 12:00 AM (Next day)",
+            "Thu: 4:00 AM - 12:00 AM (Next day)",
+            "Fri: 4:00 AM - 10:00 PM",
+            "Sat: 6:00 AM - 8:00 PM",
+            "Sun: 6:00 AM - 8:00 PM"
         ]
     },
     {
@@ -321,153 +316,41 @@
         "work_hours": []
     },
     {
-        "owner_name": "Anschutz Health and Wellness C.",
-        "business_name": "Cu Anschutz Health And Wellness Center Aurora",
-        "business_address": "12348 E Montview Blvd Aurora, CO 80045",
-        "business_website": "anschutzwellness.com",
-        "services_offered": [
-            "Cardio Classes",
-            "Exercise Planning",
-            "Weight Loss Programs",
-            "Cycling Classes",
-            "Water Fitness Classes",
-            "Group Fitness Training",
-            "Circuit Training Classes",
-            "Deep Tissue Massage"
-        ],
+        "owner_name": null,
+        "business_name": "Fit36 Lowry Denver 4",
+        "business_address": "101 Ulster Ct Ste 104 Denver, CO 80230",
+        "business_website": "fit36.com/lowry",
+        "services_offered": [],
         "amenities": [
-            "Walk-ins Welcome",
             "Wheelchair accessible",
-            "Accepts Credit Cards"
+            "Accepts Credit Cards",
+            "Private Lot Parking",
+            "Women-owned"
         ],
-        "yelp_website": "https://www.yelp.com/biz/cu-anschutz-health-and-wellness-center-aurora?osq=fitness",
-        "phone_number": "(303) 724-9355",
-        "review_rating": 4.8,
-        "number_of_reviews": 10,
+        "yelp_website": "https://www.yelp.com/biz/fit36-lowry-denver-4?osq=fitness",
+        "phone_number": "(720) 508-4550",
+        "review_rating": 4.5,
+        "number_of_reviews": 2,
         "reviews": [
             {
-                "user_name": "Patricia M.",
-                "user_location": "Mar Lee, Denver, CO",
-                "review_date": "Feb 17, 2024",
-                "rating": 5,
-                "review_text": "Great facilities, the University does a great job at maintaining equipment and  facilities and sends timely communication/updates to members.  I personally use the massage and acupuncture loyalty program services. It makes sense financially and they do provide results. It is an enjoyable way of keeping health in check and it saves on potential future financial investments in healthcare in my humble opinion.  With acupuncture I have noticed immediate relief to my specific problems, Dee is very attentive to detail and always offers to maximize services that make me feel extremely relaxed. Highly recommend services, coming from a healthcare professional in the dental field, I truly believe in prevention. This health center is the destination!!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Rupal W.",
-                "user_location": "Saint Louis, MO",
-                "review_date": "Aug 4, 2023",
-                "rating": 3,
-                "review_text": "I really like my trainer here and the place is usually not crowded so that's a plus but there are some serious issues with this gym that leave a lot to be desired, especially given the price point. ",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 1
-                }
-            },
-            {
-                "user_name": "Vanessa P.",
-                "user_location": "Northeast, Denver, CO",
-                "review_date": "Jan 6, 2024",
-                "rating": 5,
-                "review_text": "Amazing amenities that feels like a spa or high end sports club. The hot tub, heated therapy pool, sauna and steam room can not be beat!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Jesse G.",
-                "user_location": "Aurora, CO",
-                "review_date": "Sep 11, 2023",
-                "rating": 5,
-                "review_text": "Very polite staff. Big enough weights section. A TON of cardio machines. Pool is small but clean and warm. Just renewed.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Julie E.",
-                "user_location": "San Diego, CA",
-                "review_date": "Jul 16, 2023",
-                "rating": 5,
-                "review_text": "Paige is a master in her craft. Her massages are exactly what I need every time I go. The actual massage is so therapeutic and relaxing and then my body feels so much heakthier afterwards. I struggle with shoulder and hamstring problems and she is able to address them through massage and cupping. I highly recommend getting a massage at AWHC.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Kindra W.",
-                "user_location": "Northeast, Denver, CO",
-                "review_date": "Jul 6, 2023",
-                "rating": 5,
-                "review_text": "I love the classes! The instructors are knowledgeable and energetic! I also love the hot tub!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Jelsy M.",
-                "user_location": "Southwest, Denver, CO",
-                "review_date": "Jul 6, 2023",
-                "rating": 5,
-                "review_text": "This gym offers excellent classes and amenities (pool, hot tub, sauna, steam room)! I work full time, so I appreciate that the classes fit my schedule. I also really enjoyed getting a body scan to learn more about my fitness progress!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Brenda L.",
-                "user_location": "Rancho Palos Verdes, CA",
-                "review_date": "Mar 6, 2014",
-                "rating": 5,
-                "review_text": "As Selena Gomez would say: \"I la love you like a love song baby!\"",
-                "reactions": {
-                    "Helpful": 11,
-                    "Thanks": 0,
-                    "Love this": 6,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Lauren R.",
+                "user_name": "Marina H.",
                 "user_location": "Denver, CO",
-                "review_date": "Jul 8, 2018",
+                "review_date": "Mar 18, 2020",
                 "rating": 5,
-                "review_text": "I'm really surprised to see some negative reviews. I've been coming here for about 2 months and I've had a very positive experience. The facility is super nice and kept clean and well functioning. I love having the towel service so I can have a hand towel during my workout and a bath towel in the locker room. Amenities in the locker room are awesome (soap, shampoo, lotion, etc) and staff are always very friendly. ",
+                "review_text": "Great, dynamic workouts, friendly and professional staff, well-maintained equipment, fun energy, provides a sense of community, and the manager (Tom) is very personable and knows his stuff - he is an awesome trainer, leader, and communicator. Thanks for the killer gains!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
-                    "Love this": 1,
+                    "Love this": 0,
                     "Oh no": 0
                 }
             },
             {
-                "user_name": "Crystal B.",
-                "user_location": "Irving, TX",
-                "review_date": "Nov 4, 2021",
-                "rating": 5,
-                "review_text": "Surprisingly well equipped and open. Never too crowded, and have always seen gym-goers wearing masks properly.",
+                "user_name": "Tanner P.",
+                "user_location": "Denver, CO",
+                "review_date": "Sep 30, 2017",
+                "rating": 4,
+                "review_text": "FIT36 Lowry is truly inspirational. The workouts are straightforward yet creative, thoughtful and effective. The movements are healthy and embody proper techniques.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -476,21 +359,17 @@
                 }
             }
         ],
-        "review_highlights": [
-            "\u201cThis gym offers excellent classes and amenities (pool, hot tub, sauna, steam room)!\u201d in 10 reviews",
-            "\u201cThey have an enormous variety of equipment, an indoor track, and a fantastic selection of fitness classes.\u201d in 4 reviews",
-            "\u201cThey also have massage services that are sometimes given away as a prize in a raffle if you keep a frequent cardio gym class goer card and go to 10 cardio classes in 1 month.\u201d in 2 reviews"
-        ],
+        "review_highlights": [],
         "business_categories": [],
-        "address": "12348 E Montview Blvd Aurora, CO 80045",
+        "address": "101 Ulster Ct Ste 104 Denver, CO 80230",
         "work_hours": [
-            "Mon: 5:00 AM - 10:00 PM",
-            "Tue: 5:00 AM - 10:00 PM",
-            "Wed: 5:00 AM - 10:00 PM",
-            "Thu: 5:00 AM - 10:00 PM",
-            "Fri: 5:00 AM - 9:00 PM",
-            "Sat: 7:00 AM - 5:00 PM",
-            "Sun: 7:00 AM - 5:00 PM"
+            "Mon: 5:15 AM - 6:15 PM",
+            "Tue: 5:30 AM - 6:15 PM",
+            "Wed: 5:15 AM - 6:15 PM",
+            "Thu: 5:30 AM - 6:15 PM",
+            "Fri: 5:15 AM - 5:15 PM",
+            "Sat: 8:00 AM - 12:00 PM",
+            "Sun: 9:00 AM - 11:00 AM"
         ]
     },
     {
@@ -668,25 +547,36 @@
         ]
     },
     {
-        "owner_name": null,
-        "business_name": "Chuze Fitness Aurora",
-        "business_address": "779 Peoria St Aurora, CO 80011",
-        "business_website": "chuzefitness.com/gym-locations\u2026",
-        "services_offered": [],
-        "amenities": [
-            "Open to All"
+        "owner_name": "Anschutz Health and Wellness C.",
+        "business_name": "Cu Anschutz Health And Wellness Center Aurora",
+        "business_address": "12348 E Montview Blvd Aurora, CO 80045",
+        "business_website": "anschutzwellness.com",
+        "services_offered": [
+            "Cardio Classes",
+            "Exercise Planning",
+            "Weight Loss Programs",
+            "Cycling Classes",
+            "Water Fitness Classes",
+            "Group Fitness Training",
+            "Circuit Training Classes",
+            "Deep Tissue Massage"
         ],
-        "yelp_website": "https://www.yelp.com/biz/chuze-fitness-aurora?osq=fitness",
-        "phone_number": "(720) 716-2434",
-        "review_rating": 3.9,
+        "amenities": [
+            "Walk-ins Welcome",
+            "Wheelchair accessible",
+            "Accepts Credit Cards"
+        ],
+        "yelp_website": "https://www.yelp.com/biz/cu-anschutz-health-and-wellness-center-aurora?osq=fitness",
+        "phone_number": "(303) 724-9355",
+        "review_rating": 4.8,
         "number_of_reviews": 10,
         "reviews": [
             {
-                "user_name": "Chuy F.",
-                "user_location": "San Francisco, CA",
-                "review_date": "Apr 3, 2024",
+                "user_name": "Patricia M.",
+                "user_location": "Mar Lee, Denver, CO",
+                "review_date": "Feb 17, 2024",
                 "rating": 5,
-                "review_text": "The customer service is incredible. They truly make you feel welcomed anytime you come in.  Love this location in Aurora CO. ",
+                "review_text": "Great facilities, the University does a great job at maintaining equipment and  facilities and sends timely communication/updates to members.  I personally use the massage and acupuncture loyalty program services. It makes sense financially and they do provide results. It is an enjoyable way of keeping health in check and it saves on potential future financial investments in healthcare in my humble opinion.  With acupuncture I have noticed immediate relief to my specific problems, Dee is very attentive to detail and always offers to maximize services that make me feel extremely relaxed. Highly recommend services, coming from a healthcare professional in the dental field, I truly believe in prevention. This health center is the destination!!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -695,102 +585,24 @@
                 }
             },
             {
-                "user_name": "Jonathan S.",
-                "user_location": "Aurora, CO",
-                "review_date": "Jul 4, 2024",
-                "rating": 5,
-                "review_text": "I got my sick pump in, thats all that matters tbhh, idk what everyone tripps about just go lift some solid ass weights and you'll be good",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Blu M.",
-                "user_location": "Denver, CO",
-                "review_date": "May 28, 2024",
-                "rating": 4,
-                "review_text": "Recently moved back to Aurora and needed to switch to the local Chuze Fitness. They charge a $10 fee to switch your main gym, which is a bit annoying but it's not terrible. The gym was very clean, and the staff were friendly. It was a bit crowded and so I couldn't get access to certain machines, so I think I'll come back at a better time. There were some machines missing that the other Chuze fitness location had. I would say overall this is a good gym, and I would give it another star if they had a bit more machines.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Alyssa M.",
-                "user_location": "Colorado Springs, CO",
-                "review_date": "Jun 28, 2024",
+                "user_name": "Rupal W.",
+                "user_location": "Saint Louis, MO",
+                "review_date": "Aug 4, 2023",
                 "rating": 3,
-                "review_text": "I really enjoy how clean the gym is. Lots of new equipment and not too busy in the mornings. Afternoons are WAY too busy for me, but that's all gyms. When I signed up, the staff was helpful and for the most part, informative. I've been going here for a few weeks now and tan occasionally. I went to ask to tan (like I normally do) and I was told to go print a ticket? Ok first time. Then was met with condescension when I asked what to do with the ticket. Patience, kindness and a LITTLE bit of instruction really helps. This was the taller gentleman with the glasses and long hair. Maybe he's not used to being in a customer service industry but I didn't appreciate the flippant attitude. I definitely gave back the vibe I got. Other than than, decent gym and most of the employees seem kind and greet you when you enter and exit.",
-                "reactions": {
-                    "Helpful": 1,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Lourdes T.",
-                "user_location": "Rancho Santa Margarita, CA",
-                "review_date": "Apr 1, 2024",
-                "rating": 5,
-                "review_text": "All I can say is positive things about my experience at Chuze. We tried the 7 Day Trial as we were visiting on vacation. We enjoyed 4/7 days! The customer service at the counter was phenomenal. This gym was very welcoming and answered all our questions. Great equipment and it's a clean gym. If I lived in this area I would definitely make this my home gym!",
+                "review_text": "I really like my trainer here and the place is usually not crowded so that's a plus but there are some serious issues with this gym that leave a lot to be desired, especially given the price point. ",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
                     "Love this": 0,
-                    "Oh no": 0
+                    "Oh no": 1
                 }
             },
             {
-                "user_name": "Johnny V.",
-                "user_location": "Denver, CO",
-                "review_date": "Jun 17, 2024",
-                "rating": 2,
-                "review_text": "Packed. Not enough racks and free weight space for my liking. I typically have to change my entire program the minute I walk in the door.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Max A.",
-                "user_location": "Littleton, CO",
-                "review_date": "Feb 12, 2024",
-                "rating": 5,
-                "review_text": "Very friendly and hospitable environment. I've never had anything get in my way of working out as hard or as long as I have wanted here. Steam room is usually open which isn't something that I've experienced at every gym. Lockers in the locker room have an odd shape and too many of them are built for people 6'3\" and above. Staff sometimes forget to tell me goodbye but I'll give them a solid 90%. I don't actually care if they tell me goodbye though. Have yet to experience a physically dirty environment there. Thanks CHUZ!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Lon H.",
-                "user_location": "Colorado Springs, CO",
-                "review_date": "Mar 3, 2024",
-                "rating": 3,
-                "review_text": "On two occasions I have suggested that they should put sanitizing wipes in the locker room.  I requested it because the lockers here never get cleaned by the staff members.  Having sanitizing wipes in here will allow for the patrons to clean their lockers.   They have several wipe dispensers in the gym area; plenty enough they could put one in each locker room.  Attached photo is locker #86 in the men's locker room.  Been dirty like this for two months now.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Julieta G.",
+                "user_name": "Vanessa P.",
                 "user_location": "Northeast, Denver, CO",
-                "review_date": "Dec 21, 2023",
-                "rating": 2,
-                "review_text": "the gym overall is really big and has a lot to offer! Too bad I wasn't really able to enjoy the full potential of the gym because the staff is super busy rushing everyone out. They don't allow anyone on massage chairs after 10 (they close at 11) Night shift overall just sucks the morning crew definitely beats the attitude!",
+                "review_date": "Jan 6, 2024",
+                "rating": 5,
+                "review_text": "Amazing amenities that feels like a spa or high end sports club. The hot tub, heated therapy pool, sauna and steam room can not be beat!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -799,11 +611,89 @@
                 }
             },
             {
-                "user_name": "Goat O.",
-                "user_location": "Stellingen, Hamburg, Germany",
-                "review_date": "Aug 28, 2023",
+                "user_name": "Jesse G.",
+                "user_location": "Aurora, CO",
+                "review_date": "Sep 11, 2023",
                 "rating": 5,
-                "review_text": "This gym is very spacious; they have multiple varieties of strength equipment, and although not all of them are great, overall they are amazing. The gym also has over 10 squat racks and a lot of open space. The bad thing is that the dumbbells only go up to 100, but it's not bad overall. It's probably the best gym I've been to. Also, there's only two benches for the bench press, and around 5-8, it gets really packed, and the benches are always full.",
+                "review_text": "Very polite staff. Big enough weights section. A TON of cardio machines. Pool is small but clean and warm. Just renewed.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Julie E.",
+                "user_location": "San Diego, CA",
+                "review_date": "Jul 16, 2023",
+                "rating": 5,
+                "review_text": "Paige is a master in her craft. Her massages are exactly what I need every time I go. The actual massage is so therapeutic and relaxing and then my body feels so much heakthier afterwards. I struggle with shoulder and hamstring problems and she is able to address them through massage and cupping. I highly recommend getting a massage at AWHC.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Kindra W.",
+                "user_location": "Northeast, Denver, CO",
+                "review_date": "Jul 6, 2023",
+                "rating": 5,
+                "review_text": "I love the classes! The instructors are knowledgeable and energetic! I also love the hot tub!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Jelsy M.",
+                "user_location": "Southwest, Denver, CO",
+                "review_date": "Jul 6, 2023",
+                "rating": 5,
+                "review_text": "This gym offers excellent classes and amenities (pool, hot tub, sauna, steam room)! I work full time, so I appreciate that the classes fit my schedule. I also really enjoyed getting a body scan to learn more about my fitness progress!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Brenda L.",
+                "user_location": "Rancho Palos Verdes, CA",
+                "review_date": "Mar 6, 2014",
+                "rating": 5,
+                "review_text": "As Selena Gomez would say: \"I la love you like a love song baby!\"",
+                "reactions": {
+                    "Helpful": 11,
+                    "Thanks": 0,
+                    "Love this": 6,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Lauren R.",
+                "user_location": "Denver, CO",
+                "review_date": "Jul 8, 2018",
+                "rating": 5,
+                "review_text": "I'm really surprised to see some negative reviews. I've been coming here for about 2 months and I've had a very positive experience. The facility is super nice and kept clean and well functioning. I love having the towel service so I can have a hand towel during my workout and a bath towel in the locker room. Amenities in the locker room are awesome (soap, shampoo, lotion, etc) and staff are always very friendly. ",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 1,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Crystal B.",
+                "user_location": "Irving, TX",
+                "review_date": "Nov 4, 2021",
+                "rating": 5,
+                "review_text": "Surprisingly well equipped and open. Never too crowded, and have always seen gym-goers wearing masks properly.",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -812,45 +702,44 @@
                 }
             }
         ],
-        "review_highlights": [],
+        "review_highlights": [
+            "\u201cThis gym offers excellent classes and amenities (pool, hot tub, sauna, steam room)!\u201d in 10 reviews",
+            "\u201cThey have an enormous variety of equipment, an indoor track, and a fantastic selection of fitness classes.\u201d in 4 reviews",
+            "\u201cThey also have massage services that are sometimes given away as a prize in a raffle if you keep a frequent cardio gym class goer card and go to 10 cardio classes in 1 month.\u201d in 2 reviews"
+        ],
         "business_categories": [],
-        "address": "779 Peoria St Aurora, CO 80011",
+        "address": "12348 E Montview Blvd Aurora, CO 80045",
         "work_hours": [
-            "Mon: 4:00 AM - 12:00 AM (Next day)",
-            "Tue: 4:00 AM - 12:00 AM (Next day)",
-            "Wed: 4:00 AM - 12:00 AM (Next day)",
-            "Thu: 4:00 AM - 12:00 AM (Next day)",
-            "Fri: 4:00 AM - 10:00 PM",
-            "Sat: 6:00 AM - 8:00 PM",
-            "Sun: 6:00 AM - 8:00 PM"
+            "Mon: 5:00 AM - 10:00 PM",
+            "Tue: 5:00 AM - 10:00 PM",
+            "Wed: 5:00 AM - 10:00 PM",
+            "Thu: 5:00 AM - 10:00 PM",
+            "Fri: 5:00 AM - 9:00 PM",
+            "Sat: 7:00 AM - 5:00 PM",
+            "Sun: 7:00 AM - 5:00 PM"
         ]
     },
     {
-        "owner_name": null,
-        "business_name": "Twst Fitness Aurora",
-        "business_address": "2525 Geneva St Ste 1 Aurora, CO 80010",
-        "business_website": "twstfitness.com",
-        "services_offered": [
-            "Yoga Classes",
-            "Group Fitness Training"
-        ],
+        "owner_name": "joe M.",
+        "business_name": "Colorados Pro Gym Aurora",
+        "business_address": "1961 S Havana St Aurora, CO 80014",
+        "business_website": "coprogym.com",
+        "services_offered": [],
         "amenities": [
-            "Wheelchair accessible",
             "Accepts Credit Cards",
-            "Private Lot Parking",
-            "Women-owned"
+            "Bike Parking"
         ],
-        "yelp_website": "https://www.yelp.com/biz/twst-fitness-aurora?osq=fitness",
-        "phone_number": "(720) 237-1206",
-        "review_rating": 3.0,
-        "number_of_reviews": 2,
+        "yelp_website": "https://www.yelp.com/biz/colorados-pro-gym-aurora?osq=fitness",
+        "phone_number": "(303) 671-9586",
+        "review_rating": 4.5,
+        "number_of_reviews": 10,
         "reviews": [
             {
-                "user_name": "Andrea F.",
-                "user_location": "Pico, Santa Monica, CA",
-                "review_date": "Feb 1, 2024",
+                "user_name": "Stone C.",
+                "user_location": "Orange Park, FL",
+                "review_date": "Mar 18, 2024",
                 "rating": 5,
-                "review_text": "I would absolutely recommend TWST fitness to anyone who wants to try or continue Pilates! I attended a Lagree class through ClassPass and really enjoyed my experience. The class was challenging (I was shaking most of the time) but the instructor, Lauren, was great and super helpful! I've been to different Pilates studios, not all of which I would return to, but I'm considering getting a membership to TWST. ",
+                "review_text": "Colorado pro gym has an amazing set up with even better equipment, The environment and atmosphere is very welcoming. Love to see places like this still exist although the parking lot is atrocious the gym is spectacular!!",
                 "reactions": {
                     "Helpful": 0,
                     "Thanks": 0,
@@ -859,30 +748,138 @@
                 }
             },
             {
-                "user_name": "Sommer S.",
-                "user_location": "Denver, CO",
-                "review_date": "Feb 27, 2023",
+                "user_name": "Adam R.",
+                "user_location": "Orange Park, FL",
+                "review_date": "Feb 21, 2024",
                 "rating": 1,
-                "review_text": "This place is downright dangerous! Do NOT go. We were using the aerial yoga harnesses and my friend's harness broke and she fell to the ground! Thank God we weren't doing anything upside down! Then, the owner used profanity at us and insulted us as we tried to leave the class early because we were freaked out after what happened. Very unprofessional and unsafe!",
+                "review_text": "I've been to a lot of gyms in my life and I will say I like the aesthetic of this gym however for the monthly price they want they need better costumer service the worker \"Deb\" always seems to have an attitude and comes across very condescending not very friendly at all, and there is never parking in the parking lot, i hope this gym improves i will not be coming back.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ute L.",
+                "user_location": "Denver, CO",
+                "review_date": "Sep 5, 2022",
+                "rating": 5,
+                "review_text": "Never ever have I gone to a gym where the staff and clients are so friendly. It's small and you pretty much see the same people over and over, so there is a neighborhood vibe. ",
+                "reactions": {
+                    "Helpful": 4,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Katie H.",
+                "user_location": "Denver, CO",
+                "review_date": "Nov 10, 2022",
+                "rating": 5,
+                "review_text": "this place is so fun! and life changing. if you wanna get in shape and at the same time have a few laughs then this is the place for you! down 30 pounds this year and building muscle. love seeing gym family as often as i can. beautiful people!",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ashley G.",
+                "user_location": "Kearney, NE",
+                "review_date": "Jun 14, 2019",
+                "rating": 5,
+                "review_text": "Down to business gym with members of all kinds. The trainers here are some of the most friendly individuals I've ever met. I was able to complete powerlifting programming without anyone batting an eye. It's a no rules but respect kind of a gym. Endless machines and attachments and weights to keep things interesting. No resistance bands but understandable since those tend to get destroyed after constant use.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Ted R.",
+                "user_location": "Amsterdam, The Netherlands",
+                "review_date": "Mar 19, 2018",
+                "rating": 5,
+                "review_text": "Straight forward gritty gym",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Annie B.",
+                "user_location": "Denver, CO",
+                "review_date": "Dec 27, 2020",
+                "rating": 4,
+                "review_text": "First off I'll start with the good, this gym is pretty decent, yeah it's old ,but it gets the job done! I've been going here for about 4 months now since I have moved here, I like how this gym is pretty laid-back and chill, the trainers/staff are friendly. I like how they have a variety of strength equipment and a few cardio machines. I'm into powerlifting and training here is not \"too bad\". Here are some issues that I have encountered so far, a few men have complained about me deadlifting. The guy at the front desk approached me about the complaint said he didn't mind at all and he doesn't have a problem with me doing it but that it was his job to tell me about the complaint, which took me by surprise that these two older men complained, if it bothers you so much put some headphones on! What do you expect?it's a gym and I'm here to workout and lift some heavy weights! I've witnessed other guys bigger than me and lift more weight and they slam it down and harder than I do, so just be aware that some men will complain about you lifting some heavy weights! Another annoying thing is a lot of guys will put their bags/phone/water bottle/hoodies on this specific machine as if it's a locker of some sort, the nice rogue hyper reverse machine, as if it's not there for people to use? I've had to use it while it had other people's sh** on it or if they're nearby I will ask them nicely to move it. I just thought that was funny to add in lol. The hours are limited, which sucks, it would be nice if it was 24hrs or had longer hours. BEWARE: No one ever wipes down equipment after they're done using it. MOST people don't wear their masks or they have one on but have it under their chin or don't wear it correctly at all!! Despite my complaints and it being old and the machines are a little outdated, it's a decent gym and will get the job done!",
                 "reactions": {
                     "Helpful": 2,
                     "Thanks": 0,
                     "Love this": 0,
                     "Oh no": 0
                 }
+            },
+            {
+                "user_name": "Cristina A.",
+                "user_location": "Aurora, CO",
+                "review_date": "May 26, 2019",
+                "rating": 5,
+                "review_text": "My second home! Tons of equipment, straight to the point kind of gym. Wouldn't train anywhere else.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Russell M.",
+                "user_location": "Musashimurayama, Japan",
+                "review_date": "Oct 29, 2018",
+                "rating": 5,
+                "review_text": "I love this gym. It's a old school heavy lifting get it done kind of place. The people that workout there are also what makes the place. You will quickly become apart of the gym family. There are machines here you haven't seen in years. The older machines are so much better then the new stuff out there. Come on by, and see our for yourself.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "T T.",
+                "user_location": "Denver, CO",
+                "review_date": "Dec 3, 2020",
+                "rating": 5,
+                "review_text": "This is by far the best gym in the Denver metro area. I'm saying this because of the knowledge and the staff at the gym is unlike any other gym. The people that have been going here have been members for decades they produce pro athletes competition bodybuilders and physique athletes every single day. The owner is by far the most knowledgeable individual when it comes to weight training/Injury recovery in the business.  You'll never go wrong here, everybody will motivate you to get to your goal including other members.",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
             }
         ],
-        "review_highlights": [],
+        "review_highlights": [
+            "\u201cThe owner is an exercise physiologist and strength athlete, and it shows in the gym he has created.\u201d in 2 reviews",
+            "\u201cYou will quickly become apart of the gym family.\u201d in 2 reviews",
+            "\u201cThis is by far the best gym in the Denver metro area.\u201d in 2 reviews"
+        ],
         "business_categories": [],
-        "address": "2525 Geneva St Ste 1 Aurora, CO 80010",
+        "address": "1961 S Havana St Aurora, CO 80014",
         "work_hours": [
-            "Mon: 5:00 AM - 8:00 PM",
-            "Tue: 5:00 AM - 8:00 PM",
-            "Wed: 5:00 AM - 8:00 PM",
-            "Thu: 5:00 AM - 8:00 PM",
+            "Mon: 5:00 AM - 10:00 PM",
+            "Tue: 5:00 AM - 10:00 PM",
+            "Wed: 5:00 AM - 10:00 PM",
+            "Thu: 5:00 AM - 10:00 PM",
             "Fri: 5:00 AM - 8:00 PM",
-            "Sat: 6:30 AM - 4:30 PM",
-            "Sun: 6:30 AM - 4:30 PM"
+            "Sat: 7:00 AM - 5:00 PM",
+            "Sun: 7:00 AM - 5:00 PM"
         ]
     },
     {
@@ -1048,63 +1045,6 @@
             "Fri: 5:30 AM - 8:00 PM",
             "Sat: 8:00 AM - 5:00 PM",
             "Sun: 8:00 AM - 5:00 PM"
-        ]
-    },
-    {
-        "owner_name": null,
-        "business_name": "Fit36 Lowry Denver 4",
-        "business_address": "101 Ulster Ct Ste 104 Denver, CO 80230",
-        "business_website": "fit36.com/lowry",
-        "services_offered": [],
-        "amenities": [
-            "Wheelchair accessible",
-            "Accepts Credit Cards",
-            "Private Lot Parking",
-            "Women-owned"
-        ],
-        "yelp_website": "https://www.yelp.com/biz/fit36-lowry-denver-4?osq=fitness",
-        "phone_number": "(720) 508-4550",
-        "review_rating": 4.5,
-        "number_of_reviews": 2,
-        "reviews": [
-            {
-                "user_name": "Marina H.",
-                "user_location": "Denver, CO",
-                "review_date": "Mar 18, 2020",
-                "rating": 5,
-                "review_text": "Great, dynamic workouts, friendly and professional staff, well-maintained equipment, fun energy, provides a sense of community, and the manager (Tom) is very personable and knows his stuff - he is an awesome trainer, leader, and communicator. Thanks for the killer gains!",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            },
-            {
-                "user_name": "Tanner P.",
-                "user_location": "Denver, CO",
-                "review_date": "Sep 30, 2017",
-                "rating": 4,
-                "review_text": "FIT36 Lowry is truly inspirational. The workouts are straightforward yet creative, thoughtful and effective. The movements are healthy and embody proper techniques.",
-                "reactions": {
-                    "Helpful": 0,
-                    "Thanks": 0,
-                    "Love this": 0,
-                    "Oh no": 0
-                }
-            }
-        ],
-        "review_highlights": [],
-        "business_categories": [],
-        "address": "101 Ulster Ct Ste 104 Denver, CO 80230",
-        "work_hours": [
-            "Mon: 5:15 AM - 6:15 PM",
-            "Tue: 5:30 AM - 6:15 PM",
-            "Wed: 5:15 AM - 6:15 PM",
-            "Thu: 5:30 AM - 6:15 PM",
-            "Fri: 5:15 AM - 5:15 PM",
-            "Sat: 8:00 AM - 12:00 PM",
-            "Sun: 9:00 AM - 11:00 AM"
         ]
     },
     {
@@ -1379,6 +1319,66 @@
             "Fri: Open 24 hours",
             "Sat: Open 24 hours",
             "Sun: Open 24 hours"
+        ]
+    },
+    {
+        "owner_name": null,
+        "business_name": "Twst Fitness Aurora",
+        "business_address": "2525 Geneva St Ste 1 Aurora, CO 80010",
+        "business_website": "twstfitness.com",
+        "services_offered": [
+            "Yoga Classes",
+            "Group Fitness Training"
+        ],
+        "amenities": [
+            "Wheelchair accessible",
+            "Accepts Credit Cards",
+            "Private Lot Parking",
+            "Women-owned"
+        ],
+        "yelp_website": "https://www.yelp.com/biz/twst-fitness-aurora?osq=fitness",
+        "phone_number": "(720) 237-1206",
+        "review_rating": 3.0,
+        "number_of_reviews": 2,
+        "reviews": [
+            {
+                "user_name": "Andrea F.",
+                "user_location": "Pico, Santa Monica, CA",
+                "review_date": "Feb 1, 2024",
+                "rating": 5,
+                "review_text": "I would absolutely recommend TWST fitness to anyone who wants to try or continue Pilates! I attended a Lagree class through ClassPass and really enjoyed my experience. The class was challenging (I was shaking most of the time) but the instructor, Lauren, was great and super helpful! I've been to different Pilates studios, not all of which I would return to, but I'm considering getting a membership to TWST. ",
+                "reactions": {
+                    "Helpful": 0,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            },
+            {
+                "user_name": "Sommer S.",
+                "user_location": "Denver, CO",
+                "review_date": "Feb 27, 2023",
+                "rating": 1,
+                "review_text": "This place is downright dangerous! Do NOT go. We were using the aerial yoga harnesses and my friend's harness broke and she fell to the ground! Thank God we weren't doing anything upside down! Then, the owner used profanity at us and insulted us as we tried to leave the class early because we were freaked out after what happened. Very unprofessional and unsafe!",
+                "reactions": {
+                    "Helpful": 2,
+                    "Thanks": 0,
+                    "Love this": 0,
+                    "Oh no": 0
+                }
+            }
+        ],
+        "review_highlights": [],
+        "business_categories": [],
+        "address": "2525 Geneva St Ste 1 Aurora, CO 80010",
+        "work_hours": [
+            "Mon: 5:00 AM - 8:00 PM",
+            "Tue: 5:00 AM - 8:00 PM",
+            "Wed: 5:00 AM - 8:00 PM",
+            "Thu: 5:00 AM - 8:00 PM",
+            "Fri: 5:00 AM - 8:00 PM",
+            "Sat: 6:30 AM - 4:30 PM",
+            "Sun: 6:30 AM - 4:30 PM"
         ]
     }
 ]

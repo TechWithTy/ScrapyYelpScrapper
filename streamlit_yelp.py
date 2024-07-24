@@ -33,8 +33,10 @@ def display_results_and_links(json_file_path, csv_file_path):
     if os.path.exists(json_file_path):
         with open(json_file_path, 'r') as file:
             data = json.load(file)
+        df = pd.DataFrame(data)
         with st.expander("View Results", expanded=False):
-            st.json(data)
+            st.write("Table:")
+            st.write(df)
         with open(json_file_path, 'rb') as f:
             st.download_button(
                 label="Download JSON",
