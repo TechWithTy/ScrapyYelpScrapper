@@ -2,6 +2,9 @@
 
 ![Scrappy Crawler](https://i.postimg.cc/C12phFSG/Scappy-Crawler.png)
 
+# !https://github.com/Madi-S/Lead-Generation
+# !https://github.com/omkarcloud/google-maps-scraper
+
 ## Introduction
 
 ScrappyYelpScraper is a Python-based tool designed to scrape and extract data from Yelp listings. This tool is ideal for gathering information such as business names, contact details, reviews, and ratings from Yelp, providing valuable insights for market analysis, customer feedback, and competitive research.
@@ -32,14 +35,14 @@ arduino
 
 To start using ScrappyYelpScraper, run the main script:
 
-streamlit run streamlit_yelp.py
+**streamlit run streamlit_yelp.py**
 
 Python scrappy_yelp_scraper.py
 
 To run via the cmd
 scrapy crawl yelp-crawler -a search=[search_term] -a city=[city] -a zip_code=[zip_code] -a state=[state] -a max_pages=[max_pages]
 
-scrapy crawl yelp-crawler -a search=restaurants -a city=New York -a zip_code=10001 -a state=NY -a max_pages=5
+**scrapy crawl yelp-crawler -a search="restaurants" -a city="New York" -a zip_code="10001" -a state="NY" -a max_pages="5"**
 
 This will open a browser web interface, for the search terms needed
 

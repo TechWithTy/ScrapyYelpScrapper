@@ -259,8 +259,10 @@ class YelpCrawlerSpider(scrapy.Spider):
 
         amenities = response.xpath(
             '//section[@aria-label="Amenities and More"]//div[contains(@class, "arrange-unit-fill")]//span[contains(@class, "y-css-1o34y7f")]/text()').extract()
-        trending_searches = response.xpath('//div[h3[contains(text(), "Trending Searches")]]//ul/li/a').extract()
-        related_searches = response.xpath('//div[h3[contains(text(), "Related Searches")]]//ul/li/a')
+        trending_searches = response.xpath(
+            '//div[h3[contains(text(), "Trending Searches")]]//ul/li/a').extract()
+        related_searches = response.xpath(
+            '//div[h3[contains(text(), "Related Searches")]]//ul/li/a')
         if not related_searches:
             self.logger.info('No related searches found')
         else:
@@ -273,11 +275,13 @@ class YelpCrawlerSpider(scrapy.Spider):
             }
             for search in related_searches
         ]
-        trending_searches = response.xpath('//div[h3[contains(text(), "Trending Searches")]]//ul/li/a')
+        trending_searches = response.xpath(
+            '//div[h3[contains(text(), "Trending Searches")]]//ul/li/a')
         if not trending_searches:
             self.logger.info('No trending searches found')
         else:
-            self.logger.info(f'Found {len(trending_searches)} trending searches')
+            self.logger.info(
+                f'Found {len(trending_searches)} trending searches')
 
         trending_searches_data = [
             {
@@ -287,7 +291,6 @@ class YelpCrawlerSpider(scrapy.Spider):
             for search in trending_searches
         ]
 
-            
         work_hours = []
 
         try:
