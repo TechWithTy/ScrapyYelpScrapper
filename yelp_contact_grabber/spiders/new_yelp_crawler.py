@@ -49,7 +49,7 @@ outputCsvFile = True
 all_links = []
 
 class YelpCrawlerSpider(scrapy.Spider):
-    name = "yelp-crawler"
+    name = "new-yelp-crawler"
     allowed_domains = ["yelp.com"]
     start_urls = ["https://yelp.com"]
 
