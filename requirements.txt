@@ -47,7 +47,7 @@ pycparser==2.21
 pydeck==0.8.1b0
 PyDispatcher==2.0.7
 Pygments==2.17.2
-pyOpenSSL==23.3.0
+pyOpenSSL==24.0.0
 python-dateutil==2.8.2
 pytz==2023.3.post1
 queuelib==1.6.2
