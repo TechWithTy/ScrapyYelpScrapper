@@ -1,2 +1,12 @@
 dumps/
 *.env
+
+# Generated (do not commit)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.scrapy/
+dumps/*.json
+dumps/*.csv
+dumps/*.txt

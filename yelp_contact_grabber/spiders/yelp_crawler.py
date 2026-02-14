@@ -31,9 +31,20 @@ class YelpCrawlerSpider(scrapy.Spider):
     allowed_domains = ["yelp.com"]
     start_urls = ["https://yelp.com"]
 
+
+    handle_httpstatus_list = [403]
     custom_settings = {
         "LOG_LEVEL": "INFO",  # Set the log level to INFO
         'ROBOTSTXT_OBEY': False,
+        "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "DEFAULT_REQUEST_HEADERS": {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+            "Upgrade-Insecure-Requests": "1",
+        },
+        "COOKIES_ENABLED": True,
 
     }
 
@@ -84,6 +95,9 @@ class YelpCrawlerSpider(scrapy.Spider):
             logging.error(f"Error in start_requests: {str(e)}")
 
     def parse(self, response):
+        if response.status == 403:
+            raise RuntimeError("Yelp returned 403 (bot protection). Try running via a real browser session / Playwright, or use a proxy.")
+
         try:
             # Extract the href attribute of each link
             links = response.css(
